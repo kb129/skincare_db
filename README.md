@@ -2,9 +2,25 @@
 
 Android アプリ「肌ログ最適化」が使う商品カタログ（化粧水・乳液・ジェル・クリーム）。GitHub Pages で配信します。
 
-- データ: `public/products.json`
-- 配信 URL: <https://kb129.github.io/skincare_db/products.json>（一覧ページ: <https://kb129.github.io/skincare_db/>）
-- `main` に push すると検証のあと自動で公開されます（`.github/workflows/pages.yml`）
+- 元データ: `data/products.json`（編集するのはこのファイルだけ）
+- `main` にマージすると、検証 → 静的 API の生成（`scripts/build_api.py`）→ GitHub Pages へ公開、が自動で行われます
+- 一覧ページ: <https://kb129.github.io/skincare_db/>
+
+## API（静的ファイル）
+ベース URL: `https://kb129.github.io/skincare_db/v1/`
+
+| パス | 内容 | 用途 |
+|---|---|---|
+| `index.json` | 件数・更新日・ブランド一覧・`products.json` の SHA-256 とサイズ | アプリが起動時に最初に取得（数百バイト）。ハッシュが変わったときだけ本体を取りに行く |
+| `products.json` | 全商品（`schemaVersion`, `updatedAt`, `products[]`） | アプリが端末に保存する本体。取得後に `index.json` のハッシュで検証 |
+| `products/{id}.json` | 商品1件 | 共有リンク・Web 表示 |
+| `jan/{jan}.json` | JAN コードから商品1件（JAN がある商品のみ） | バーコード読み取り（存在しなければ 404） |
+
+設計の方針
+- **パスでバージョン管理**：互換性のない変更は `/v2/` を追加し、`/v1/` は古いアプリのために残す。`v1` の中での変更は「任意項目の追加」だけにする
+- **目次 → 本体の2段階**：GitHub Pages は約10分キャッシュされ、細かい制御ができないため、小さな目次のハッシュで更新を判定する
+- **全件1ファイル**：数百件までは1ファイル（1件あたり約1.4KB、gzip でさらに小さい）が最速。数千件を超えたら `index.json` の `files` にカテゴリ別などの分割ファイルを追加する
+- CORS は GitHub Pages が `Access-Control-Allow-Origin: *` を返すため、Web からも利用できる
 
 ## データのルール
 - **全成分はメーカー公式サイトの掲載内容をそのまま転記する。** 記憶や口コミサイト・通販サイトからの転記はしない
@@ -31,5 +47,6 @@ Android アプリ「肌ログ最適化」が使う商品カタログ（化粧水
 
 ## 検証
 ```bash
-python3 scripts/validate_catalog.py public/products.json
+python3 scripts/validate_catalog.py data/products.json
+python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 ```

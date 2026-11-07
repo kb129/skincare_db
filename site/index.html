@@ -20,7 +20,7 @@
 <main>
   <h1>肌ログ 商品カタログ</h1>
   <p class="muted">Android アプリ「肌ログ最適化」が読み込む商品データです。全成分は各メーカー公式サイトの掲載内容を転記しています。購入時はパッケージの表示も確認してください。
-  データ: <a href="products.json">products.json</a></p>
+  データ: <a href="v1/index.json">v1/index.json</a>・<a href="v1/products.json">v1/products.json</a></p>
   <input id="q" type="search" placeholder="ブランド・商品名・成分で検索">
   <p id="count" class="muted"></p>
   <div id="list"></div>
@@ -45,7 +45,7 @@ function render() {
     return d;
   }));
 }
-fetch('products.json').then(r => r.json()).then(c => { products = c.products; render(); });
+fetch('v1/products.json').then(r => r.json()).then(c => { products = c.products; render(); });
 document.getElementById('q').addEventListener('input', render);
 </script>
 </body>
