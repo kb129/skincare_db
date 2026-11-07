@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""public/products.json の形式チェック。CI と手元の両方で使う。"""
+"""data/products.json の形式チェック。CI と手元の両方で使う。"""
 import json
 import re
 import sys
@@ -15,6 +15,7 @@ def main(path: str) -> int:
     if catalog.get("schemaVersion") != 1:
         errors.append("schemaVersion must be 1")
     seen = set()
+    jans = set()
     for i, p in enumerate(catalog.get("products", [])):
         where = f"products[{i}] ({p.get('id', '?')})"
         missing = REQUIRED - p.keys()
@@ -34,8 +35,12 @@ def main(path: str) -> int:
             errors.append(f"{where}: ingredients look incomplete")
         if not p["sourceUrl"].startswith("https://"):
             errors.append(f"{where}: sourceUrl must be https")
-        if p.get("jan") is not None and not re.fullmatch(r"\d{13}", p["jan"]):
-            errors.append(f"{where}: jan must be 13 digits")
+        if p.get("jan") is not None:
+            if not re.fullmatch(r"\d{13}", p["jan"]):
+                errors.append(f"{where}: jan must be 13 digits")
+            elif p["jan"] in jans:
+                errors.append(f"{where}: duplicate jan {p['jan']}")
+            jans.add(p["jan"])
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["verifiedAt"]):
             errors.append(f"{where}: verifiedAt must be YYYY-MM-DD")
         asin = p.get("amazonAsin")
@@ -48,4 +53,4 @@ def main(path: str) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else "public/products.json"))
+    sys.exit(main(sys.argv[1] if len(sys.argv) > 1 else "data/products.json"))
