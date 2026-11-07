@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>肌ログ 商品カタログ</title>
+<style>
+  :root { --bg: #fbf8f6; --fg: #222; --muted: #666; --card: #fff; --line: #e6dfdb; --accent: #3f7a6b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161616; --fg: #eee; --muted: #aaa; --card: #222; --line: #333; --accent: #8fd3bf; } }
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; line-height: 1.6; }
+  main { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; } .muted { color: var(--muted); font-size: .9rem; }
+  input { width: 100%; box-sizing: border-box; padding: 10px; font-size: 1rem; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 8px 0; }
+  summary { cursor: pointer; font-weight: 600; } a { color: var(--accent); }
+  .ing { white-space: pre-wrap; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>肌ログ 商品カタログ</h1>
+  <p class="muted">Android アプリ「肌ログ最適化」が読み込む商品データです。全成分は各メーカー公式サイトの掲載内容を転記しています。購入時はパッケージの表示も確認してください。
+  データ: <a href="products.json">products.json</a></p>
+  <input id="q" type="search" placeholder="ブランド・商品名・成分で検索">
+  <p id="count" class="muted"></p>
+  <div id="list"></div>
+</main>
+<script>
+const label = { TONER: '化粧水', EMULSION: '乳液', GEL: 'ジェル', CREAM: 'クリーム' };
+let products = [];
+function render() {
+  const q = document.getElementById('q').value.trim();
+  const hits = products.filter(p => !q || (p.brand + p.name + p.ingredients).includes(q));
+  document.getElementById('count').textContent = `${hits.length} / ${products.length} 件`;
+  const list = document.getElementById('list');
+  list.replaceChildren(...hits.map(p => {
+    const d = document.createElement('details');
+    const s = document.createElement('summary');
+    s.textContent = `${p.brand} ${p.name}（${label[p.category]}${p.quasiDrug ? '・医薬部外品' : ''}）`;
+    const ing = document.createElement('p'); ing.className = 'ing'; ing.textContent = p.ingredients;
+    const src = document.createElement('p'); src.className = 'muted';
+    const a = document.createElement('a'); a.href = p.sourceUrl; a.textContent = '公式サイト'; a.rel = 'noopener';
+    src.append('出典: ', a, `（確認日 ${p.verifiedAt}）`);
+    d.append(s, ing, src);
+    return d;
+  }));
+}
+fetch('products.json').then(r => r.json()).then(c => { products = c.products; render(); });
+document.getElementById('q').addEventListener('input', render);
+</script>
+</body>
+</html>

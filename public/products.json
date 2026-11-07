@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-07",
+  "note": "全成分は各メーカー公式サイトの掲載内容をそのまま転記。商品の改良で変わることがあるため、購入時はパッケージの表示を確認してください。",
+  "products": [
+    {
+      "id": "curel-junshin-lotion-1",
+      "brand": "キュレル",
+      "name": "潤浸保湿 化粧水 I ややしっとり",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": "4901301236043",
+      "ingredients": "アラントイン＊、水、ＢＧ、グリセリン、ベタイン、ユーカリエキス、ＰＯＥメチルグルコシド、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
+      "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236043/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "curel-junshin-lotion-2",
+      "brand": "キュレル",
+      "name": "潤浸保湿 化粧水 II しっとり",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": "4901301236197",
+      "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、ベタイン、ユーカリエキス、ＰＯＥメチルグルコシド、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
+      "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236197/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "curel-junshin-lotion-3",
+      "brand": "キュレル",
+      "name": "潤浸保湿 化粧水 III とてもしっとり",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": "4901301236180",
+      "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、ベタイン、ＰＯＥメチルグルコシド、ユーカリエキス、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
+      "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236180/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "curel-junshin-milk",
+      "brand": "キュレル",
+      "name": "潤浸保湿 乳液",
+      "category": "EMULSION",
+      "quasiDrug": true,
+      "jan": "4901301236173",
+      "ingredients": "アラントイン＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、シュガースクワラン、ジカプリン酸ネオペンチルグリコール、ジメチコン、ステアリン酸ＰＯＥソルビタン、ＢＧ、ユーカリエキス、イソステアリン酸コレステリル、コレステロール、ステアリン酸ソルビタン、ステアロイルメチルタウリンＮａ、コハク酸、セタノール、ステアリルアルコール、パラベン　＊は「有効成分」無表示は「その他の成分」",
+      "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236173/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "curel-junshin-face-cream",
+      "brand": "キュレル",
+      "name": "潤浸保湿 フェイスクリーム",
+      "category": "CREAM",
+      "quasiDrug": true,
+      "jan": "4901301236210",
+      "ingredients": "アラントイン＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、トリシロキサン、ジメチコン、α-オレフィンオリゴマー、ＰＯＥ・ジメチコン共重合体、ユーカリエキス、硫酸Ｍｇ、ＢＧ、イソステアリルグリセリルエーテル、コハク酸、水酸化ナトリウム液、パラベン　＊は「有効成分」無表示は「その他の成分」",
+      "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236210/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "hadalabo-gokujun-lotion",
+      "brand": "肌ラボ",
+      "name": "極潤 ヒアルロン液",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": "4987241155712",
+      "ingredients": "水、BG、ペンチレングリコール、ヒアルロン酸Na、加水分解ヒアルロン酸、アセチルヒアルロン酸Na、乳酸球菌／ヒアルロン酸発酵液、DPG、PPG-10メチルグルコース、ジグリセリン、ヒドロキシエチルセルロース、EDTA-2Na、コハク酸2Na、コハク酸、フェノキシエタノール",
+      "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-lotion/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=155712"
+    },
+    {
+      "id": "hadalabo-gokujun-milk",
+      "brand": "肌ラボ",
+      "name": "極潤 ヒアルロン乳液",
+      "category": "EMULSION",
+      "quasiDrug": false,
+      "jan": "4987241127054",
+      "ingredients": "水、グリセリン、トリ（カプリル酸／カプリン酸）グリセリル、DPG、オレフィンオリゴマー、ペンチレングリコール、PPG-10メチルグルコース、ヒアルロン酸Na、加水分解ヒアルロン酸、アセチルヒアルロン酸Na、乳酸球菌／ヒアルロン酸発酵液、BG、イソステアリン酸PEG-20ソルビタン、PEG-32、PEG-6、ステアリン酸グリセリル、ジメチコン、カルボマー、プロパンジオール、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、カプリルヒドロキサム酸、TEA、EDTA-2Na、ステアリルアルコール、ベヘニルアルコール",
+      "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-milk/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=127054"
+    },
+    {
+      "id": "hadalabo-gokujun-perfect-gel",
+      "brand": "肌ラボ",
+      "name": "極潤 パーフェクトゲル",
+      "category": "GEL",
+      "quasiDrug": false,
+      "jan": "4987241202997",
+      "ingredients": "水、BG、ヒドロキシエチルウレア、グリセリン、ペンチレングリコール、ジメチコン、スクワラン、トリエチルヘキサノイン、クエン酸トリエチル、PPG-10メチルグルコース、（アクリロイルジメチルタウリンアンモニウム／VP）コポリマー、ヒアルロン酸Na、アセチルヒアルロン酸Na（スーパーヒアルロン酸）、加水分解ヒアルロン酸（ナノ化ヒアルロン酸）、ヒアルロン酸ヒドロキシプロピルトリモニウム（肌吸着型ヒアルロン酸）、加水分解ヒアルロン酸アルキル（C12-13）グリセリル（ヒアロリペア®）、ベヘニルアルコール、PEG-8、セタノール、タマリンドガム、水添ホスファチジルコリン、キサンタンガム、リン酸Na、コレステロール、リン酸2Na、パルミチン酸、ラウリルベタイン、加水分解コラーゲン、グルコシルセラミド（セラミド）、スイゼンジノリ多糖体（サクラン®）、PPG-17ブテス-17、フェノキシエタノール、コハク酸2Na、（ジメチコン／ビニルジメチコン）クロスポリマー、カンテン、EDTA-2Na、コハク酸、α-グルカン",
+      "sourceUrl": "https://jp.rohto.com/hadalabo/rich-gokujun-perfect/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=202997"
+    },
+    {
+      "id": "hadalabo-shirojun-lotion",
+      "brand": "肌ラボ",
+      "name": "白潤 薬用美白化粧水",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": "4987241157549",
+      "ingredients": "有効成分：トラネキサム酸、アラントイン\nその他の成分：加水分解ヒアルロン酸＊（ナノ化ヒアルロン酸）、ヒアルロン酸Na-2＊、ビタミンCリン酸Mg（ビタミンC誘導体）、ビタミンE、ハトムギ発酵液、ヨクイニンエキス（ハトムギエキス）、BG、POE硬化ヒマシ油、フェノキシエタノール、無水クエン酸、安息香酸塩、トリ（カプリル・カプリン酸）グリセリル、シュガースクワラン、エデト酸塩、DPG、クエン酸、クエン酸Na\n＊：2種のヒアルロン酸",
+      "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-lotion/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157549"
+    },
+    {
+      "id": "hadalabo-shirojun-milk",
+      "brand": "肌ラボ",
+      "name": "白潤 薬用美白乳液",
+      "category": "EMULSION",
+      "quasiDrug": true,
+      "jan": "4987241157587",
+      "ingredients": "有効成分：トラネキサム酸、アラントイン\nその他の成分：加水分解ヒアルロン酸＊（ナノ化ヒアルロン酸）、ヒアルロン酸Na-2＊、ビタミンCリン酸Mg（ビタミンC誘導体）、ビタミンE、ハトムギ発酵液、ヨクイニンエキス（ハトムギエキス）、α-オレフィンオリゴマー、DPG、トリオクタン酸グリセリル、1,2-ペンタンジオール、POE硬化ヒマシ油、自己乳化型モノステアリン酸グリセリル、ジグリセリン、ベヘニルアルコール、コハク酸、フェノキシエタノール、アクリル酸・メタクリル酸アルキル共重合体、安息香酸塩、キサンタンガム、エデト酸塩、BG\n＊：2種のヒアルロン酸",
+      "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-milk/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157587"
+    },
+    {
+      "id": "minon-moistcharge-lotion-1",
+      "brand": "ミノン",
+      "name": "アミノモイスト モイストチャージ ローション I しっとりタイプ",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "水、グリセリン、ＢＧ、プロパンジオール、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルリチン酸２Ｋ、ＰＥＧ－７５、メチルグルセス－２０、ベタイン、クエン酸、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、ＰＥＧ－６０水添ヒマシ油、トコフェロール、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、セテス－２０、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、フェノキシエタノール",
+      "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mlc.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "minon-moistcharge-lotion-2",
+      "brand": "ミノン",
+      "name": "アミノモイスト モイストチャージ ローション II もっとしっとりタイプ",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "水、グリセリン、ＢＧ、プロパンジオール、メチルグルセス－２０、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルリチン酸２Ｋ、ＰＥＧ－７５、キサンタンガム、クエン酸、ベタイン、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、クエン酸Ｎａ、ＰＥＧ－６０水添ヒマシ油、トコフェロール、セテス－２０、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、加水分解ヒアルロン酸、フェノキシエタノール",
+      "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mlm.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "minon-moistcharge-milk",
+      "brand": "ミノン",
+      "name": "アミノモイスト モイストチャージ ミルク",
+      "category": "EMULSION",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "水、ＢＧ、グリセリン、キシリトール、リンゴ酸ジイソステアリル、ジメチコン、アラキジルアルコール、ベヘニルアルコール、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルレチン酸ステアリル、ペンチレングリコール、ジフェニルシロキシフェニルトリメチコン、（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー、ステアリン酸グリセリル、アラキジルグルコシド、スクワラン、水添ヤシ油、カプリル酸グリセリル、水添パーム核油、カルボマー、ポリソルベート６０、キサンタンガム、水添パーム油、水酸化Ｋ、ジメチコノール、タウリン、ヒスチジンＨＣｌ、グルタミン酸、アラントイン、イソロイシン、フェニルアラニン、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、トコフェロール、レシチン、イソステアリン酸ソルビタン、 フェノキシエタノール",
+      "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mm.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "minon-moistcharge-cream",
+      "brand": "ミノン",
+      "name": "アミノモイスト モイストチャージ クリーム",
+      "category": "CREAM",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "水、グリセリン、スクワラン、ＢＧ、ＤＰＧ、トリイソステアリン、マカデミアナッツ脂肪酸フィトステリル、ベヘニルアルコール、ソルビトール、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ホホバ種子油、パルミチン酸セチル、ミツロウ、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルレチン酸ステアリル、トリ（カプリル酸／カプリン酸／ミリスチン酸／ステアリン酸）グリセリル、ワセリン、ラウロイルグルタミン酸ジ（オクチルドデシル／フィトステリル／ベヘニル）、シア脂、ダイマージリノール酸（フィトステリル／イソステアリル／セチル／ステアリル／ベヘニル）、ステアリン酸グリセリル、ジメチコン、ベヘネス－３０、水添レシチン、（ＰＣＡ／イソステアリン酸）ＰＥＧ－４０水添ヒマシ油、カルボマー、バチルアルコール、クエン酸、エチルヘキシルグリセリン、カプリル酸グリセリル、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、トコフェロール、フェノキシエタノール",
+      "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mc.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "ihada-lotion-moist",
+      "brand": "イハダ",
+      "name": "薬用うるおいローション しっとり",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": null,
+      "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール,ジプロピレングリコール, 濃グリセリン, ポリオキシエチレンメチルグルコシド,トレハロース, ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル, ポリオキシエチレン硬化ヒマシ油,ジイソステアリン酸ポリグリセリル,トリ２－エチルヘキサン酸グリセリル,クエン酸ナトリウム,クエン酸,メタリン酸ナトリウム,ピロ亜硫酸ナトリウム,ワレモコウエキス,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,ワセリン,塩化カルシウム, 塩化マグネシウム,フェノキシエタノール",
+      "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "ihada-lotion-very-moist",
+      "brand": "イハダ",
+      "name": "薬用うるおいローション とてもしっとり",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": null,
+      "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール, 濃グリセリン,ジプロピレングリコール,１，３－プロパンジオール, ポリオキシエチレンメチルグルコシド,トレハロース, ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル, ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,トリメチルグリシン, ポリオキシエチレン硬化ヒマシ油,ジイソステアリン酸ポリグリセリル,トリ２－エチルヘキサン酸グリセリル,クエン酸ナトリウム, クエン酸, メタリン酸ナトリウム,ピロ亜硫酸ナトリウム,ワレモコウエキス,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,ワセリン, 塩化カルシウム, 塩化マグネシウム,フェノキシエタノール",
+      "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "ihada-emulsion",
+      "brand": "イハダ",
+      "name": "薬用うるおいエマルジョン",
+      "category": "EMULSION",
+      "quasiDrug": true,
+      "jan": null,
+      "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール, 濃グリセリン,α－オレフィンオリゴマー,ジプロピレングリコール,トリ２－エチルヘキサン酸グリセリル,ワセリン, イソステアリン酸ポリオキシエチレングリセリル,モノステアリン酸ポリオキシエチレングリセリル, ベヘニルアルコール, 架橋型Ｎ，Ｎ－ジメチルアクリルアミド－２－アクリルアミド－２－メチルプロパンスルホン酸ナトリウム共重合体, バチルアルコール, ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,キサンタンガム,クエン酸ナトリウム,クエン酸,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,メタリン酸ナトリウム,Ｄ－グルタミン酸,ワレモコウエキス, 塩化カルシウム, 塩化マグネシウム,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,フェノキシエタノール",
+      "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-emulsion.html",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "chifure-moist-lotion-moist",
+      "brand": "ちふれ",
+      "name": "保湿化粧水 しっとりタイプ",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "グリセリン、ＢＧ、トレハロース、ヒアルロン酸Ｎａ、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、トリエチルヘキサノイン、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、セテス－２０、ＰＥＧ－６０水添ヒマシ油、メチルパラベン、プロピルパラベン、リンゴ酸Ｎａ、リンゴ酸、トコフェロール、水",
+      "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2873",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "グリセリン",
+          "purpose": "保湿成分",
+          "amount": "6.00%"
+        },
+        {
+          "name": "ＢＧ",
+          "purpose": "保湿成分",
+          "amount": "5.00%"
+        },
+        {
+          "name": "トレハロース",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "ヒアルロン酸Ｎａ",
+          "purpose": "保湿成分",
+          "amount": "0.01%"
+        },
+        {
+          "name": "ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.10%"
+        },
+        {
+          "name": "トリエチルヘキサノイン",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.10%"
+        },
+        {
+          "name": "トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油",
+          "purpose": "乳化剤",
+          "amount": "0.90%"
+        },
+        {
+          "name": "セテス－２０",
+          "purpose": "乳化剤",
+          "amount": "0.23%"
+        },
+        {
+          "name": "ＰＥＧ－６０水添ヒマシ油",
+          "purpose": "可溶化剤",
+          "amount": "0.88%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "プロピルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "リンゴ酸Ｎａ",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "リンゴ酸",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "トコフェロール",
+          "purpose": "成分の酸化防止剤",
+          "amount": "適量"
+        },
+        {
+          "name": "水",
+          "purpose": "基剤",
+          "amount": "全量を１００％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-moist-lotion-very-moist",
+      "brand": "ちふれ",
+      "name": "保湿化粧水 とてもしっとりタイプ",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "グリセリン、ＤＰＧ、ＢＧ、ヒアルロン酸Ｎａ、トレハロース、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、トリエチルヘキサノイン、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、セテス－２０、ＰＥＧ－６０水添ヒマシ油、メチルパラベン、プロピルパラベン、リンゴ酸Ｎａ、リンゴ酸、トコフェロール、水",
+      "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2871",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "グリセリン",
+          "purpose": "保湿成分",
+          "amount": "10.00%"
+        },
+        {
+          "name": "ＤＰＧ",
+          "purpose": "保湿成分",
+          "amount": "3.00%"
+        },
+        {
+          "name": "ＢＧ",
+          "purpose": "保湿成分",
+          "amount": "2.00%"
+        },
+        {
+          "name": "ヒアルロン酸Ｎａ",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "トレハロース",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.20%"
+        },
+        {
+          "name": "トリエチルヘキサノイン",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.10%"
+        },
+        {
+          "name": "トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油",
+          "purpose": "乳化剤",
+          "amount": "0.90%"
+        },
+        {
+          "name": "セテス－２０",
+          "purpose": "乳化剤",
+          "amount": "0.23%"
+        },
+        {
+          "name": "ＰＥＧ－６０水添ヒマシ油",
+          "purpose": "可溶化剤",
+          "amount": "0.88%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "プロピルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "リンゴ酸Ｎａ",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "リンゴ酸",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "トコフェロール",
+          "purpose": "成分の酸化防止剤",
+          "amount": "適量"
+        },
+        {
+          "name": "水",
+          "purpose": "基剤",
+          "amount": "全量を１００％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-rich-lotion",
+      "brand": "ちふれ",
+      "name": "濃厚 化粧水",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "BG、グリセリン、DPG、ジグリセリン、メチルグルセス-10、PEG-75、グリチルリチン酸2K、ヒアルロン酸Na、シャクヤク根エキス、PEG-60水添ヒマシ油、メチルパラベン、キサンタンガム、カルボマー、クエン酸Na、クエン酸、水酸化K、EDTA-2Na、水",
+      "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2628",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "BG",
+          "purpose": "保湿成分",
+          "amount": "8.05%"
+        },
+        {
+          "name": "グリセリン",
+          "purpose": "保湿成分",
+          "amount": "6.00%"
+        },
+        {
+          "name": "DPG",
+          "purpose": "保湿成分",
+          "amount": "2.00%"
+        },
+        {
+          "name": "ジグリセリン",
+          "purpose": "保湿成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "メチルグルセス-10",
+          "purpose": "保湿成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "PEG-75",
+          "purpose": "保湿成分",
+          "amount": "0.10%"
+        },
+        {
+          "name": "グリチルリチン酸2K",
+          "purpose": "保湿成分",
+          "amount": "0.05%"
+        },
+        {
+          "name": "ヒアルロン酸Na",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "シャクヤク根エキス",
+          "purpose": "保湿成分",
+          "amount": "適量"
+        },
+        {
+          "name": "PEG-60水添ヒマシ油",
+          "purpose": "可溶化剤",
+          "amount": "0.20%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "0.20%"
+        },
+        {
+          "name": "キサンタンガム",
+          "purpose": "増粘剤",
+          "amount": "0.05%"
+        },
+        {
+          "name": "カルボマー",
+          "purpose": "増粘剤",
+          "amount": "0.01%"
+        },
+        {
+          "name": "クエン酸Na",
+          "purpose": "pH調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "クエン酸",
+          "purpose": "pH調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "水酸化K",
+          "purpose": "pH調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "EDTA-2Na",
+          "purpose": "キレート剤",
+          "amount": "0.01%"
+        },
+        {
+          "name": "水",
+          "purpose": "基剤",
+          "amount": "全量を100％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-sensitive-lotion",
+      "brand": "ちふれ",
+      "name": "敏感肌用化粧水",
+      "category": "TONER",
+      "quasiDrug": true,
+      "jan": null,
+      "ingredients": "グリチルリチン酸２Ｋ、ＢＧ、濃グリセリン、トレハロース、異性化糖、ヒアルロン酸ナトリウム（２）、クエン酸Ｎａ、クエン酸、メチルパラベン、ポリオキシエチレン硬化ヒマシ油、精製水",
+      "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/9983",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "グリチルリチン酸２Ｋ",
+          "purpose": "有効成分",
+          "amount": "0.20%"
+        },
+        {
+          "name": "ＢＧ",
+          "purpose": "保湿成分",
+          "amount": "8.00%"
+        },
+        {
+          "name": "濃グリセリン",
+          "purpose": "保湿成分",
+          "amount": "6.00%"
+        },
+        {
+          "name": "トレハロース",
+          "purpose": "保湿成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "異性化糖",
+          "purpose": "保湿成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "ヒアルロン酸ナトリウム（２）",
+          "purpose": "保湿成分",
+          "amount": "0.06%"
+        },
+        {
+          "name": "クエン酸Ｎａ",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "クエン酸",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "ポリオキシエチレン硬化ヒマシ油",
+          "purpose": "可溶化剤",
+          "amount": "0.10%"
+        },
+        {
+          "name": "精製水",
+          "purpose": "基剤",
+          "amount": "全量を１００％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-moist-milk",
+      "brand": "ちふれ",
+      "name": "保湿乳液",
+      "category": "EMULSION",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "ミネラルオイル、エチルヘキサン酸セチル、ミツロウ、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、セタノール、グリセリン、ＢＧ、ヒアルロン酸Ｎａ、トレハロース、ステアリン酸グリセリル、セテス－２０、テトラオレイン酸ソルベス－３０、ステアリン酸ＰＥＧ－４５、メチルパラベン、プロピルパラベン、フェノキシエタノール、カルボマー、キサンタンガム、水酸化Ｋ、トコフェロール、ＥＤＴＡ－２Ｎａ、水",
+      "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/2877",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "ミネラルオイル",
+          "purpose": "油性エモリエント成分",
+          "amount": "10.00%"
+        },
+        {
+          "name": "エチルヘキサン酸セチル",
+          "purpose": "油性エモリエント成分",
+          "amount": "2.00%"
+        },
+        {
+          "name": "ミツロウ",
+          "purpose": "油性エモリエント成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）",
+          "purpose": "油性エモリエント成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "セタノール",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "グリセリン",
+          "purpose": "保湿成分",
+          "amount": "5.00%"
+        },
+        {
+          "name": "ＢＧ",
+          "purpose": "保湿成分",
+          "amount": "3.00%"
+        },
+        {
+          "name": "ヒアルロン酸Ｎａ",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "トレハロース",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "ステアリン酸グリセリル",
+          "purpose": "乳化剤",
+          "amount": "1.00%"
+        },
+        {
+          "name": "セテス－２０",
+          "purpose": "乳化剤",
+          "amount": "0.95%"
+        },
+        {
+          "name": "テトラオレイン酸ソルベス－３０",
+          "purpose": "乳化剤",
+          "amount": "0.10%"
+        },
+        {
+          "name": "ステアリン酸ＰＥＧ－４５",
+          "purpose": "乳化剤",
+          "amount": "0.05%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "プロピルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "フェノキシエタノール",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "カルボマー",
+          "purpose": "増粘剤",
+          "amount": "0.13%"
+        },
+        {
+          "name": "キサンタンガム",
+          "purpose": "増粘剤",
+          "amount": "0.13%"
+        },
+        {
+          "name": "水酸化Ｋ",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "トコフェロール",
+          "purpose": "製品の酸化防止剤",
+          "amount": "適量"
+        },
+        {
+          "name": "ＥＤＴＡ－２Ｎａ",
+          "purpose": "キレート剤",
+          "amount": "0.02%"
+        },
+        {
+          "name": "水",
+          "purpose": "基剤",
+          "amount": "全量を１００％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-rich-milk",
+      "brand": "ちふれ",
+      "name": "濃厚 乳液",
+      "category": "EMULSION",
+      "quasiDrug": false,
+      "jan": null,
+      "ingredients": "グリセリン、BG、ジグリセリン、ヒアルロン酸Na、シャクヤク根エキス、トリ（カプリル酸／カプリン酸／ミリスチン酸／ステアリン酸）グリセリル、水添ポリ（C6-12オレフィン）、セテアリルアルコール、ベヘニルアルコール、ラウロイルグルタミン酸ジ（オクチルドデシル／フィトステリル／ベヘニル）、ジメチコン、ミリスチン酸ポリグリセリル-10、ステアリン酸グリセリル、テトラオレイン酸ソルベス-40、ステアロイルグルタミン酸Na、キサンタンガム、メチルパラベン、フェノキシエタノール、プロピルパラベン、クエン酸Na、クエン酸、トコフェロール、EDTA-2Na、水",
+      "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/2630",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "グリセリン",
+          "purpose": "保湿成分",
+          "amount": "13.50%"
+        },
+        {
+          "name": "BG",
+          "purpose": "保湿成分",
+          "amount": "5.05%"
+        },
+        {
+          "name": "ジグリセリン",
+          "purpose": "保湿成分",
+          "amount": "5.00%"
+        },
+        {
+          "name": "ヒアルロン酸Na",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "シャクヤク根エキス",
+          "purpose": "保湿成分",
+          "amount": "適量"
+        },
+        {
+          "name": "トリ（カプリル酸／カプリン酸／ミリスチン酸／ステアリン酸）グリセリル",
+          "purpose": "油性エモリエント成分",
+          "amount": "4.50%"
+        },
+        {
+          "name": "水添ポリ（C6-12オレフィン）",
+          "purpose": "油性エモリエント成分",
+          "amount": "3.00%"
+        },
+        {
+          "name": "セテアリルアルコール",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.70%"
+        },
+        {
+          "name": "ベヘニルアルコール",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "ラウロイルグルタミン酸ジ（オクチルドデシル／フィトステリル／ベヘニル）",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "ジメチコン",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.30%"
+        },
+        {
+          "name": "ミリスチン酸ポリグリセリル-10",
+          "purpose": "乳化剤",
+          "amount": "1.50%"
+        },
+        {
+          "name": "ステアリン酸グリセリル",
+          "purpose": "乳化剤",
+          "amount": "0.50%"
+        },
+        {
+          "name": "テトラオレイン酸ソルベス-40",
+          "purpose": "乳化剤",
+          "amount": "0.45%"
+        },
+        {
+          "name": "ステアロイルグルタミン酸Na",
+          "purpose": "乳化剤",
+          "amount": "0.30%"
+        },
+        {
+          "name": "キサンタンガム",
+          "purpose": "増粘剤",
+          "amount": "0.60%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "0.20%"
+        },
+        {
+          "name": "フェノキシエタノール",
+          "purpose": "防腐剤",
+          "amount": "0.10%"
+        },
+        {
+          "name": "プロピルパラベン",
+          "purpose": "防腐剤",
+          "amount": "0.10%"
+        },
+        {
+          "name": "クエン酸Na",
+          "purpose": "pH調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "クエン酸",
+          "purpose": "pH調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "トコフェロール",
+          "purpose": "製品の酸化防止剤",
+          "amount": "0.05%"
+        },
+        {
+          "name": "EDTA-2Na",
+          "purpose": "キレート剤",
+          "amount": "0.01%"
+        },
+        {
+          "name": "水",
+          "purpose": "基剤",
+          "amount": "全量を100％とする"
+        }
+      ]
+    },
+    {
+      "id": "chifure-sensitive-milk",
+      "brand": "ちふれ",
+      "name": "敏感肌用乳液",
+      "category": "EMULSION",
+      "quasiDrug": true,
+      "jan": null,
+      "ingredients": "グリチルリチン酸２Ｋ、濃グリセリン、ＢＧ、異性化糖、ヒアルロン酸ナトリウム（２）、トリ２－エチルヘキサン酸グリセリル、ベヘニルアルコール、Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）、サラシミツロウ、ポリオキシエチレンセチルエーテル、親油型モノステアリン酸グリセリル、モノステアリン酸ポリエチレングリコール、メチルパラベン、フェノキシエタノール、エチルパラベン、カルボキシビニルポリマー、キサンタンガム、アルギニン、ＥＤＴＡ－２Ｎａ、天然ビタミンＥ、精製水",
+      "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/0430",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null,
+      "ingredientAmounts": [
+        {
+          "name": "グリチルリチン酸２Ｋ",
+          "purpose": "有効成分",
+          "amount": "0.20%"
+        },
+        {
+          "name": "濃グリセリン",
+          "purpose": "保湿成分",
+          "amount": "6.00%"
+        },
+        {
+          "name": "ＢＧ",
+          "purpose": "保湿成分",
+          "amount": "5.00%"
+        },
+        {
+          "name": "異性化糖",
+          "purpose": "保湿成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "ヒアルロン酸ナトリウム（２）",
+          "purpose": "保湿成分",
+          "amount": "0.03%"
+        },
+        {
+          "name": "トリ２－エチルヘキサン酸グリセリル",
+          "purpose": "油性エモリエント成分",
+          "amount": "5.00%"
+        },
+        {
+          "name": "ベヘニルアルコール",
+          "purpose": "油性エモリエント成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）",
+          "purpose": "油性エモリエント成分",
+          "amount": "1.00%"
+        },
+        {
+          "name": "サラシミツロウ",
+          "purpose": "油性エモリエント成分",
+          "amount": "0.50%"
+        },
+        {
+          "name": "ポリオキシエチレンセチルエーテル",
+          "purpose": "乳化剤",
+          "amount": "1.43%"
+        },
+        {
+          "name": "親油型モノステアリン酸グリセリル",
+          "purpose": "乳化剤",
+          "amount": "0.90%"
+        },
+        {
+          "name": "モノステアリン酸ポリエチレングリコール",
+          "purpose": "乳化剤",
+          "amount": "0.08%"
+        },
+        {
+          "name": "メチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "フェノキシエタノール",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "エチルパラベン",
+          "purpose": "防腐剤",
+          "amount": "適量"
+        },
+        {
+          "name": "カルボキシビニルポリマー",
+          "purpose": "粘度調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "キサンタンガム",
+          "purpose": "粘度調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "アルギニン",
+          "purpose": "ｐＨ調整剤",
+          "amount": "適量"
+        },
+        {
+          "name": "ＥＤＴＡ－２Ｎａ",
+          "purpose": "キレート剤",
+          "amount": "0.05%"
+        },
+        {
+          "name": "天然ビタミンＥ",
+          "purpose": "製品の酸化防止剤",
+          "amount": "適量"
+        },
+        {
+          "name": "精製水",
+          "purpose": "基剤",
+          "amount": "全量を１００％とする"
+        }
+      ]
+    },
+    {
+      "id": "naturie-hatomugi-lotion",
+      "brand": "ナチュリエ",
+      "name": "ハトムギ化粧水",
+      "category": "TONER",
+      "quasiDrug": false,
+      "jan": "4903335693601",
+      "ingredients": "水、DPG、BG、グリセリン、ハトムギエキス、グリチルリチン酸2K、(スチレン/VP)コポリマー、クエン酸、クエン酸Na、メチルパラベン",
+      "sourceUrl": "https://www.imju.jp/shop/g/g4903335693601/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "naturie-hatomugi-gel",
+      "brand": "ナチュリエ",
+      "name": "ハトムギ保湿ジェル",
+      "category": "GEL",
+      "quasiDrug": false,
+      "jan": "4903335695551",
+      "ingredients": "水、グリセリン、DPG、ジメチコン、テトラヘキシルデカン酸アスコルビル、トコフェリルリン酸Na、ハトムギエキス、ラウロイルグルタミン酸ジ（コレステリル/オクチルドデシル）、（アクリレーツ/アクリル酸アルキル（C10-30））クロスポリマー、（アクリロイルジメチルタウリンアンモニウム/VP）コポリマー、BG、PEG-12ジメチコン、水酸化Na、カルボマー、ダイマージリノール酸ジ（イソステアリル/フィトステリル）、ミリスチン酸オクチルドデシル、トコフェロール、メチルパラベン",
+      "sourceUrl": "https://www.imju.jp/shop/g/g4903335695551/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    },
+    {
+      "id": "naturie-hatomugi-milk",
+      "brand": "ナチュリエ",
+      "name": "ハトムギ浸透乳液",
+      "category": "EMULSION",
+      "quasiDrug": false,
+      "jan": "4903335696855",
+      "ingredients": "水、グリセリン、ミネラルオイル、BG、ハトムギエキス、ベタイン、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、(アクリル酸ヒドロキシエチル/アクリロイルジメチルタウリンNa)コポリマー、(アクリレーツ/アクリル酸アルキル(C10-30))クロスポリマー、(エイコサン二酸/テトラデカン二酸)ポリグリセリル-10 、PEG-150、水酸化Na、イソステアリン酸ソルビタン、イソヘキサデカン、ステアリン酸、ステアリン酸スクロース、セスキオレイン酸ソルビタン、パーム脂肪酸グルタミン酸Na、ベヘニルアルコール、ポリソルベート60、メチルグルセス-10、メチルパラベン",
+      "sourceUrl": "https://www.imju.jp/shop/g/g4903335696855/",
+      "verifiedAt": "2026-11-07",
+      "amazonAsin": null
+    }
+  ]
+}
