@@ -6,6 +6,7 @@
     {
       "id": "curel-junshin-lotion-1",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "潤浸保湿 化粧水 I ややしっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -18,6 +19,7 @@
     {
       "id": "curel-junshin-lotion-2",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "潤浸保湿 化粧水 II しっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -30,6 +32,7 @@
     {
       "id": "curel-junshin-lotion-3",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "潤浸保湿 化粧水 III とてもしっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -42,6 +45,7 @@
     {
       "id": "curel-junshin-milk",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "潤浸保湿 乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -54,6 +58,7 @@
     {
       "id": "curel-junshin-face-cream",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "潤浸保湿 フェイスクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -66,6 +71,7 @@
     {
       "id": "hadalabo-gokujun-lotion",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 ヒアルロン液",
       "category": "TONER",
       "quasiDrug": false,
@@ -79,6 +85,7 @@
     {
       "id": "hadalabo-gokujun-milk",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 ヒアルロン乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -92,6 +99,7 @@
     {
       "id": "hadalabo-gokujun-perfect-gel",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 パーフェクトゲル",
       "category": "GEL",
       "quasiDrug": false,
@@ -105,6 +113,7 @@
     {
       "id": "hadalabo-shirojun-lotion",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤 薬用美白化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -118,6 +127,7 @@
     {
       "id": "hadalabo-shirojun-milk",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤 薬用美白乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -131,6 +141,7 @@
     {
       "id": "minon-moistcharge-lotion-1",
       "brand": "ミノン",
+      "maker": "第一三共ヘルスケア",
       "name": "アミノモイスト モイストチャージ ローション I しっとりタイプ",
       "category": "TONER",
       "quasiDrug": false,
@@ -143,6 +154,7 @@
     {
       "id": "minon-moistcharge-lotion-2",
       "brand": "ミノン",
+      "maker": "第一三共ヘルスケア",
       "name": "アミノモイスト モイストチャージ ローション II もっとしっとりタイプ",
       "category": "TONER",
       "quasiDrug": false,
@@ -155,6 +167,7 @@
     {
       "id": "minon-moistcharge-milk",
       "brand": "ミノン",
+      "maker": "第一三共ヘルスケア",
       "name": "アミノモイスト モイストチャージ ミルク",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -167,6 +180,7 @@
     {
       "id": "minon-moistcharge-cream",
       "brand": "ミノン",
+      "maker": "第一三共ヘルスケア",
       "name": "アミノモイスト モイストチャージ クリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -179,6 +193,7 @@
     {
       "id": "ihada-lotion-moist",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用うるおいローション しっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -191,6 +206,7 @@
     {
       "id": "ihada-lotion-very-moist",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用うるおいローション とてもしっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -203,6 +219,7 @@
     {
       "id": "ihada-emulsion",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用うるおいエマルジョン",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -215,6 +232,7 @@
     {
       "id": "chifure-moist-lotion-moist",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "保湿化粧水 しっとりタイプ",
       "category": "TONER",
       "quasiDrug": false,
@@ -304,6 +322,7 @@
     {
       "id": "chifure-moist-lotion-very-moist",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "保湿化粧水 とてもしっとりタイプ",
       "category": "TONER",
       "quasiDrug": false,
@@ -398,6 +417,7 @@
     {
       "id": "chifure-rich-lotion",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "濃厚 化粧水",
       "category": "TONER",
       "quasiDrug": false,
@@ -502,6 +522,7 @@
     {
       "id": "chifure-sensitive-lotion",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "敏感肌用化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -571,6 +592,7 @@
     {
       "id": "chifure-moist-milk",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "保湿乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -695,6 +717,7 @@
     {
       "id": "chifure-rich-milk",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "濃厚 乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -829,6 +852,7 @@
     {
       "id": "chifure-sensitive-milk",
       "brand": "ちふれ",
+      "maker": "ちふれ化粧品",
       "name": "敏感肌用乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -948,6 +972,7 @@
     {
       "id": "naturie-hatomugi-lotion",
       "brand": "ナチュリエ",
+      "maker": "イミュ",
       "name": "ハトムギ化粧水",
       "category": "TONER",
       "quasiDrug": false,
@@ -960,6 +985,7 @@
     {
       "id": "naturie-hatomugi-gel",
       "brand": "ナチュリエ",
+      "maker": "イミュ",
       "name": "ハトムギ保湿ジェル",
       "category": "GEL",
       "quasiDrug": false,
@@ -972,6 +998,7 @@
     {
       "id": "naturie-hatomugi-milk",
       "brand": "ナチュリエ",
+      "maker": "イミュ",
       "name": "ハトムギ浸透乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -984,6 +1011,7 @@
     {
       "id": "acseine-moist-balance-lotion",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "モイストバランス ローション",
       "category": "TONER",
       "quasiDrug": false,
@@ -996,6 +1024,7 @@
     {
       "id": "acseine-ad-control-lotion",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "ＡＤ コントロール ローション",
       "category": "TONER",
       "quasiDrug": false,
@@ -1008,6 +1037,7 @@
     {
       "id": "acseine-ipnos-sebum-clear-lotion",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "イプノス シーバムクリア ローション",
       "category": "TONER",
       "quasiDrug": true,
@@ -1020,6 +1050,7 @@
     {
       "id": "acseine-white-emulsion-deep-moisture-c",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "ホワイト エマルジョン ディープ モイスチュア Ｃ",
       "category": "TONER",
       "quasiDrug": false,
@@ -1032,6 +1063,7 @@
     {
       "id": "acseine-skin-lotion-1",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "スキンローション＜Ⅰ＞",
       "category": "TONER",
       "quasiDrug": false,
@@ -1044,6 +1076,7 @@
     {
       "id": "acseine-skin-lotion-2",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "スキンローション＜Ⅱ＞",
       "category": "TONER",
       "quasiDrug": false,
@@ -1056,6 +1089,7 @@
     {
       "id": "acseine-moist-balance-gel",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "モイストバランス ジェル",
       "category": "GEL",
       "quasiDrug": false,
@@ -1068,6 +1102,7 @@
     {
       "id": "acseine-milky-gel-ad",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "ミルキィジェル ＡＤ",
       "category": "GEL",
       "quasiDrug": false,
@@ -1080,6 +1115,7 @@
     {
       "id": "acseine-nourishing-gel-ad",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "ナリシングジェル ＡＤ",
       "category": "GEL",
       "quasiDrug": false,
@@ -1092,6 +1128,7 @@
     {
       "id": "acseine-emollient-conditioner",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "エモリエント コンディショナー",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1104,6 +1141,7 @@
     {
       "id": "acseine-ipnos-sebum-clear-repair-cream",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "イプノス シーバムクリア リペアクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1116,6 +1154,7 @@
     {
       "id": "acseine-activa-balance",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "アクティバランス",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1128,6 +1167,7 @@
     {
       "id": "acseine-skin-protector-ad",
       "brand": "アクセーヌ",
+      "maker": "アクセーヌ",
       "name": "スキンプロテクター ＡＤ",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1140,6 +1180,7 @@
     {
       "id": "avene-avene-water",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "アベンヌ ウオーター",
       "category": "TONER",
       "quasiDrug": false,
@@ -1152,6 +1193,7 @@
     {
       "id": "avene-skin-balance-lotion-ss-n",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "スキンバランスローション SS n",
       "category": "TONER",
       "quasiDrug": false,
@@ -1164,6 +1206,7 @@
     {
       "id": "avene-hydrance-deep-moist-lotion",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "イドランス ディープモイスト ローション",
       "category": "TONER",
       "quasiDrug": false,
@@ -1176,6 +1219,7 @@
     {
       "id": "avene-oil-control-lotion-ac",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "オイルコントロール ローション AC",
       "category": "TONER",
       "quasiDrug": false,
@@ -1188,6 +1232,7 @@
     {
       "id": "avene-cleanance-expert-emulsion",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "クリナンス エクスペール エマルジョン",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1200,6 +1245,7 @@
     {
       "id": "avene-cleanance-mattifying-emulsion",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "クリナンス マティファイング エマルジョン",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1212,6 +1258,7 @@
     {
       "id": "avene-cicalfate-plus-repair-milk",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "シカルファットプラス リペアミルク",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1224,6 +1271,7 @@
     {
       "id": "avene-milky-gel-ex",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "ミルキージェル EX",
       "category": "GEL",
       "quasiDrug": false,
@@ -1236,6 +1284,7 @@
     {
       "id": "avene-milky-gel-enrich-lf",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "ミルキージェル エンリッチ LF",
       "category": "GEL",
       "quasiDrug": false,
@@ -1248,6 +1297,7 @@
     {
       "id": "avene-milky-gel-oil-control",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "ミルキージェル オイルコントロール",
       "category": "GEL",
       "quasiDrug": false,
@@ -1260,6 +1310,7 @@
     {
       "id": "avene-skin-balance-cream-ex-ss",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "スキンバランスクリーム EX SS",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1272,6 +1323,7 @@
     {
       "id": "avene-skin-balance-cream-ex-ss-r-n",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "スキンバランスクリーム EX SS（R） n",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1284,6 +1336,7 @@
     {
       "id": "avene-skin-balance-tc-cream",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "スキンバランス TCクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1296,6 +1349,7 @@
     {
       "id": "avene-hydrance-cream-n",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "イドランス クリーム n",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1308,6 +1362,7 @@
     {
       "id": "avene-cicalfate-plus-repair-cream",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "シカルファットプラス リペアクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1320,6 +1375,7 @@
     {
       "id": "avene-c-plus-radiance-cream",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "C＋ ラディアンス クリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1332,6 +1388,7 @@
     {
       "id": "avene-dermabsolu-night-cream",
       "brand": "アベンヌ",
+      "maker": "ピエール ファーブル ジャポン",
       "name": "デルモアプソリュ ナイトクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1344,6 +1401,7 @@
     {
       "id": "cetaphil-comfort-repair-balancing-toner",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "コンフォートリペア バランシングトナー",
       "category": "TONER",
       "quasiDrug": false,
@@ -1356,6 +1414,7 @@
     {
       "id": "cetaphil-moisturizing-lotion",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "モイスチャライジングローション",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1368,6 +1427,7 @@
     {
       "id": "cetaphil-cera-repair-lotion",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "セラリペアローション",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1380,6 +1440,7 @@
     {
       "id": "cetaphil-gentle-sa-lotion",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "ジェントルSAローション",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1392,6 +1453,7 @@
     {
       "id": "cetaphil-comfort-repair-moist-barrier-cream",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "コンフォートリペア モイストバリアクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1404,6 +1466,7 @@
     {
       "id": "cetaphil-moisturizing-cream",
       "brand": "セタフィル",
+      "maker": "ガルデルマ",
       "name": "モイスチャライジングクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1416,6 +1479,7 @@
     {
       "id": "fancl-enrichplus-lotion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "エンリッチプラス 化粧液 I さっぱり",
       "category": "TONER",
       "quasiDrug": true,
@@ -1429,6 +1493,7 @@
     {
       "id": "fancl-enrichplus-lotion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "エンリッチプラス 化粧液 II しっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -1442,6 +1507,7 @@
     {
       "id": "fancl-enrichplus-emulsion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "エンリッチプラス 乳液 I さっぱり",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1455,6 +1521,7 @@
     {
       "id": "fancl-enrichplus-emulsion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "エンリッチプラス 乳液 II しっとり",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1468,6 +1535,7 @@
     {
       "id": "fancl-moistrefine-lotion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "モイストリファイン 化粧液 I さっぱり",
       "category": "TONER",
       "quasiDrug": false,
@@ -1481,6 +1549,7 @@
     {
       "id": "fancl-moistrefine-lotion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "モイストリファイン 化粧液 II しっとり",
       "category": "TONER",
       "quasiDrug": false,
@@ -1494,6 +1563,7 @@
     {
       "id": "fancl-moistrefine-emulsion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "モイストリファイン 乳液 I さっぱり",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1507,6 +1577,7 @@
     {
       "id": "fancl-moistrefine-emulsion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "モイストリファイン 乳液 II しっとり",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1520,6 +1591,7 @@
     {
       "id": "fancl-brightening-lotion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "ブライトニング 化粧液 I さっぱり",
       "category": "TONER",
       "quasiDrug": true,
@@ -1533,6 +1605,7 @@
     {
       "id": "fancl-brightening-lotion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "ブライトニング 化粧液 II しっとり",
       "category": "TONER",
       "quasiDrug": true,
@@ -1546,6 +1619,7 @@
     {
       "id": "fancl-brightening-emulsion-1",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "ブライトニング 乳液 I さっぱり",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1559,6 +1633,7 @@
     {
       "id": "fancl-brightening-emulsion-2",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "ブライトニング 乳液 II しっとり",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1572,6 +1647,7 @@
     {
       "id": "fancl-brightening-cream-extra-moist",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "ブライトニング クリーム エクストラモイスト",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1585,6 +1661,7 @@
     {
       "id": "fancl-acnecare-lotion",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "アクネケア 化粧液",
       "category": "TONER",
       "quasiDrug": true,
@@ -1598,6 +1675,7 @@
     {
       "id": "fancl-acnecare-gel-emulsion",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "アクネケア ジェル乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1611,6 +1689,7 @@
     {
       "id": "fancl-dry-sensitive-lotion",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "乾燥敏感肌ケア 化粧液",
       "category": "TONER",
       "quasiDrug": false,
@@ -1624,6 +1703,7 @@
     {
       "id": "fancl-dry-sensitive-emulsion",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "乾燥敏感肌ケア 乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1637,6 +1717,7 @@
     {
       "id": "fancl-dry-sensitive-cream",
       "brand": "ファンケル",
+      "maker": "ファンケル",
       "name": "乾燥敏感肌ケア クリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1650,6 +1731,7 @@
     {
       "id": "curel-brightening-lotion-3",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "シミ・ソバカス予防ケア 化粧水 III（とてもしっとり）",
       "category": "TONER",
       "quasiDrug": true,
@@ -1662,6 +1744,7 @@
     {
       "id": "curel-brightening-milk",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "シミ・ソバカス予防ケア 乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1674,6 +1757,7 @@
     {
       "id": "curel-brightening-face-cream",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "シミ・ソバカス予防ケア フェイスクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1686,6 +1770,7 @@
     {
       "id": "curel-oilcontrol-lotion",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "皮脂トラブルケア 化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -1698,6 +1783,7 @@
     {
       "id": "curel-oilcontrol-moisture-gel",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "皮脂トラブルケア 保湿ジェル",
       "category": "GEL",
       "quasiDrug": true,
@@ -1710,6 +1796,7 @@
     {
       "id": "curel-agingcare-lotion",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "エイジングケアシリーズ 化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -1722,6 +1809,7 @@
     {
       "id": "curel-agingcare-face-gel-cream",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "エイジングケアシリーズ フェイスジェルクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1734,6 +1822,7 @@
     {
       "id": "curel-agingcare-face-cream",
       "brand": "キュレル",
+      "maker": "花王",
       "name": "エイジングケアシリーズ フェイスクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1746,6 +1835,7 @@
     {
       "id": "alblanc-the-lotion-1",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ ローション I",
       "category": "TONER",
       "quasiDrug": true,
@@ -1758,6 +1848,7 @@
     {
       "id": "alblanc-the-lotion-2",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ ローション II",
       "category": "TONER",
       "quasiDrug": true,
@@ -1770,6 +1861,7 @@
     {
       "id": "alblanc-the-lotion-3",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ ローション III",
       "category": "TONER",
       "quasiDrug": true,
@@ -1782,6 +1874,7 @@
     {
       "id": "alblanc-the-lotion-4",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ ローション IV",
       "category": "TONER",
       "quasiDrug": true,
@@ -1794,6 +1887,7 @@
     {
       "id": "alblanc-the-emulsion-1",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ エマルジョン I",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1806,6 +1900,7 @@
     {
       "id": "alblanc-the-emulsion-2",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ エマルジョン II",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1818,6 +1913,7 @@
     {
       "id": "alblanc-the-emulsion-3",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ エマルジョン III",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1830,6 +1926,7 @@
     {
       "id": "alblanc-the-emulsion-4",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "ザ エマルジョン IV",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1842,6 +1939,7 @@
     {
       "id": "alblanc-vitalizing-cream",
       "brand": "アルブラン",
+      "maker": "花王",
       "name": "バイタライジングクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1854,6 +1952,7 @@
     {
       "id": "sofina-ip-treatment-lotion",
       "brand": "ソフィーナ iP",
+      "maker": "花王",
       "name": "角層トリートメント 基礎化粧液",
       "category": "TONER",
       "quasiDrug": false,
@@ -1866,6 +1965,7 @@
     {
       "id": "sofina-ip-medicated-deep-lotion",
       "brand": "ソフィーナ iP",
+      "maker": "花王",
       "name": "薬用 角層トリートメント 深層化粧液",
       "category": "TONER",
       "quasiDrug": true,
@@ -1878,6 +1978,7 @@
     {
       "id": "sofina-ip-medicated-deep-emulsion",
       "brand": "ソフィーナ iP",
+      "maker": "花王",
       "name": "薬用 角層トリートメント 深層美容乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1890,6 +1991,7 @@
     {
       "id": "sofina-ip-goldentime-repair-cream",
       "brand": "ソフィーナ iP",
+      "maker": "花王",
       "name": "ゴールデンタイムリペア 深夜浸透クリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -1902,6 +2004,7 @@
     {
       "id": "sofina-basic-uruoi-turbo-lotion",
       "brand": "ソフィーナ BASIC+",
+      "maker": "花王",
       "name": "うるおいターボ化粧水",
       "category": "TONER",
       "quasiDrug": false,
@@ -1914,6 +2017,7 @@
     {
       "id": "sofina-basic-uruoi-turbo-emulsion",
       "brand": "ソフィーナ BASIC+",
+      "maker": "花王",
       "name": "うるおいターボ乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -1926,6 +2030,7 @@
     {
       "id": "melanocc-lotion",
       "brand": "メラノCC",
+      "maker": "ロート製薬",
       "name": "薬用しみ対策 美白化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -1939,6 +2044,7 @@
     {
       "id": "melanocc-lotion-rich",
       "brand": "メラノCC",
+      "maker": "ロート製薬",
       "name": "薬用しみ対策 美白化粧水 しっとりタイプ",
       "category": "TONER",
       "quasiDrug": true,
@@ -1952,6 +2058,7 @@
     {
       "id": "melanocc-milk",
       "brand": "メラノCC",
+      "maker": "ロート製薬",
       "name": "薬用しみ対策 美白乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -1965,6 +2072,7 @@
     {
       "id": "melanocc-gel",
       "brand": "メラノCC",
+      "maker": "ロート製薬",
       "name": "薬用しみ対策美白ジェル",
       "category": "GEL",
       "quasiDrug": true,
@@ -1978,6 +2086,7 @@
     {
       "id": "melanocc-cream",
       "brand": "メラノCC",
+      "maker": "ロート製薬",
       "name": "薬用しみ対策 保湿クリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -1991,6 +2100,7 @@
     {
       "id": "hadalabo-gokujun-premium-lotion",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤プレミアム ヒアルロン液",
       "category": "TONER",
       "quasiDrug": false,
@@ -2004,6 +2114,7 @@
     {
       "id": "hadalabo-gokujun-premium-milk",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤プレミアム ヒアルロン乳液",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2017,6 +2128,7 @@
     {
       "id": "hadalabo-gokujun-lotion-light",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤ヒアルロン液 ライトタイプ",
       "category": "TONER",
       "quasiDrug": false,
@@ -2030,6 +2142,7 @@
     {
       "id": "hadalabo-gokujun-cream",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 ヒアルロンクリーム",
       "category": "CREAM",
       "quasiDrug": false,
@@ -2043,6 +2156,7 @@
     {
       "id": "hadalabo-shirojun-premium-lotion",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤プレミアム 薬用浸透美白化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -2056,6 +2170,7 @@
     {
       "id": "hadalabo-shirojun-premium-lotion-rich",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤プレミアム 薬用浸透美白化粧水 しっとりタイプ",
       "category": "TONER",
       "quasiDrug": true,
@@ -2069,6 +2184,7 @@
     {
       "id": "hadalabo-shirojun-premium-milk",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤プレミアム 薬用浸透美白乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2082,6 +2198,7 @@
     {
       "id": "hadalabo-shirojun-gel",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤薬用美白ジェル",
       "category": "GEL",
       "quasiDrug": true,
@@ -2095,6 +2212,7 @@
     {
       "id": "hadalabo-shirojun-lotion-rich",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "白潤薬用美白化粧水 しっとりタイプ",
       "category": "TONER",
       "quasiDrug": true,
@@ -2108,6 +2226,7 @@
     {
       "id": "hadalabo-aging-lotion",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 薬用ハリ化粧水",
       "category": "TONER",
       "quasiDrug": true,
@@ -2121,6 +2240,7 @@
     {
       "id": "hadalabo-aging-milk",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 薬用ハリ乳液",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2134,6 +2254,7 @@
     {
       "id": "hadalabo-aging-cream",
       "brand": "肌ラボ",
+      "maker": "ロート製薬",
       "name": "極潤 薬用ハリクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2147,6 +2268,7 @@
     {
       "id": "elixir-lift-moist-lotion-mask-ca",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトモイスト ローション マスク級高保湿 ca",
       "category": "TONER",
       "quasiDrug": true,
@@ -2159,6 +2281,7 @@
     {
       "id": "elixir-lift-moist-lotion-ba-light",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトモイスト ローション みずみずしいタイプ ba",
       "category": "TONER",
       "quasiDrug": true,
@@ -2171,6 +2294,7 @@
     {
       "id": "elixir-lift-moist-lotion-ba-moist",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトモイスト ローション しっとりタイプ ba",
       "category": "TONER",
       "quasiDrug": true,
@@ -2183,6 +2307,7 @@
     {
       "id": "elixir-white-brightening-lotion-ca-light",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ブライトニング ローション みずみずしいタイプ ca",
       "category": "TONER",
       "quasiDrug": true,
@@ -2195,6 +2320,7 @@
     {
       "id": "elixir-white-brightening-lotion-ca-moist",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ブライトニング ローション しっとりタイプ ca",
       "category": "TONER",
       "quasiDrug": true,
@@ -2207,6 +2333,7 @@
     {
       "id": "elixir-advanced-lotion-t-1",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ローション T I",
       "category": "TONER",
       "quasiDrug": false,
@@ -2219,6 +2346,7 @@
     {
       "id": "elixir-advanced-lotion-t-2",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ローション T II",
       "category": "TONER",
       "quasiDrug": false,
@@ -2231,6 +2359,7 @@
     {
       "id": "elixir-advanced-lotion-t-3",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ローション T III",
       "category": "TONER",
       "quasiDrug": false,
@@ -2243,6 +2372,7 @@
     {
       "id": "elixir-reflet-balancing-water-1",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "バランシング ウォーター I",
       "category": "TONER",
       "quasiDrug": false,
@@ -2255,6 +2385,7 @@
     {
       "id": "elixir-reflet-balancing-water-2",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "バランシング ウォーター II",
       "category": "TONER",
       "quasiDrug": false,
@@ -2267,6 +2398,7 @@
     {
       "id": "elixir-lift-moist-emulsion-ba-light",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトモイスト エマルジョン みずみずしいタイプ ba",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2279,6 +2411,7 @@
     {
       "id": "elixir-lift-moist-emulsion-ba-moist",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトモイスト エマルジョン しっとりタイプ ba",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2291,6 +2424,7 @@
     {
       "id": "elixir-white-brightening-emulsion-ca-light",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ブライトニング エマルジョン みずみずしいタイプ ca",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2303,6 +2437,7 @@
     {
       "id": "elixir-white-brightening-emulsion-ca-moist",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ブライトニング エマルジョン しっとりタイプ ca",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2315,6 +2450,7 @@
     {
       "id": "elixir-advanced-emulsion-t-1",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "エマルジョン T I",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2327,6 +2463,7 @@
     {
       "id": "elixir-advanced-emulsion-t-2",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "エマルジョン T II",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2339,6 +2476,7 @@
     {
       "id": "elixir-advanced-emulsion-t-3",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "エマルジョン T III",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2351,6 +2489,7 @@
     {
       "id": "elixir-reflet-balancing-milk-1",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "バランシング ミルク I",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2363,6 +2502,7 @@
     {
       "id": "elixir-reflet-balancing-milk-2",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "バランシング ミルク II",
       "category": "EMULSION",
       "quasiDrug": false,
@@ -2375,6 +2515,7 @@
     {
       "id": "elixir-total-v-firming-cream-ca",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "トータルV ファーミングクリーム ca",
       "category": "CREAM",
       "quasiDrug": false,
@@ -2387,6 +2528,7 @@
     {
       "id": "elixir-retinopower-wrinkle-cream-ba",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "レチノパワー リンクルクリーム ba L",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2399,6 +2541,7 @@
     {
       "id": "elixir-enriched-cream-tb",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "エンリッチドクリーム TB",
       "category": "CREAM",
       "quasiDrug": false,
@@ -2411,6 +2554,7 @@
     {
       "id": "elixir-lift-night-cream-w",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "リフトナイトクリーム W",
       "category": "CREAM",
       "quasiDrug": false,
@@ -2423,6 +2567,7 @@
     {
       "id": "elixir-white-brightening-enriched-cream",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "ブライトニング エンリッチド クリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2435,6 +2580,7 @@
     {
       "id": "elixir-reflet-balancing-mizu-cream",
       "brand": "エリクシール",
+      "maker": "資生堂",
       "name": "バランシング みずクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2447,6 +2593,7 @@
     {
       "id": "aqualabel-special-gel-cream-ex-golden-repair",
       "brand": "アクアレーベル",
+      "maker": "資生堂",
       "name": "スペシャルジェルクリーム EX (ゴールデンリペア)",
       "category": "GEL",
       "quasiDrug": false,
@@ -2459,6 +2606,7 @@
     {
       "id": "dprogram-moist-care-lotion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "モイストケア ローション EX",
       "category": "TONER",
       "quasiDrug": true,
@@ -2471,6 +2619,7 @@
     {
       "id": "dprogram-vitalizing-clear-lotion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "バイタライジング&クリア ローション EX",
       "category": "TONER",
       "quasiDrug": true,
@@ -2483,6 +2632,7 @@
     {
       "id": "dprogram-balance-acne-care-lotion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "バランス&アクネケア ローション EX",
       "category": "TONER",
       "quasiDrug": true,
@@ -2495,6 +2645,7 @@
     {
       "id": "dprogram-moist-care-emulsion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "モイストケア エマルジョン EX",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2507,6 +2658,7 @@
     {
       "id": "dprogram-vitalizing-clear-emulsion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "バイタライジング&クリア エマルジョン EX",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2519,6 +2671,7 @@
     {
       "id": "dprogram-balance-acne-care-emulsion-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "バランス&アクネケア エマルジョン EX",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2531,6 +2684,7 @@
     {
       "id": "dprogram-skin-repair-cream-ex",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "スキンリペアクリーム EX",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2543,6 +2697,7 @@
     {
       "id": "dprogram-vitalizing-cream",
       "brand": "dプログラム",
+      "maker": "資生堂",
       "name": "バイタライジングクリーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2555,6 +2710,7 @@
     {
       "id": "ihada-clear-lotion",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用クリアローション",
       "category": "TONER",
       "quasiDrug": true,
@@ -2567,6 +2723,7 @@
     {
       "id": "ihada-clear-emulsion",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用クリアエマルジョン",
       "category": "EMULSION",
       "quasiDrug": true,
@@ -2579,6 +2736,7 @@
     {
       "id": "ihada-balm",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用バーム",
       "category": "CREAM",
       "quasiDrug": true,
@@ -2591,6 +2749,7 @@
     {
       "id": "ihada-clear-balm",
       "brand": "イハダ",
+      "maker": "資生堂",
       "name": "薬用クリアバーム",
       "category": "CREAM",
       "quasiDrug": true,
