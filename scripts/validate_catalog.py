@@ -5,7 +5,7 @@ import re
 import sys
 
 CATEGORIES = {"TONER", "EMULSION", "GEL", "CREAM"}
-REQUIRED = {"id", "brand", "name", "category", "quasiDrug", "ingredients", "sourceUrl", "verifiedAt"}
+REQUIRED = {"id", "maker", "brand", "name", "category", "quasiDrug", "ingredients", "sourceUrl", "verifiedAt"}
 
 
 def main(path: str) -> int:
