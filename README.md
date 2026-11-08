@@ -44,6 +44,7 @@ Android アプリ「肌ログ最適化」が使う商品カタログ。スキン
 | `sourceUrl`, `verifiedAt` | ✓ | 出典と確認日 |
 | `spf`, `pa` | | ベースのみ。商品ページに明記されている値だけ（SPF50+ は 50）。不明なら null |
 | `shades` | | 色展開。全色で全成分が同じ場合のみ1商品にまとめる（違う場合は色ごとに別商品） |
+| `price` | | 参考価格。`kind`: `SRP`（メーカー希望小売価格）/ `STORE`（メーカー公式通販の販売価格）/ `OPEN`（オープン価格）。`amount`（円）, `taxIncluded`, `volume`, `sourceUrl`。取得できなければ null |
 | `ingredientsSourceUrl`, `ingredientAmounts`, `amazonAsin` | | 任意 |
 
 `schemaVersion` を上げるとアプリの古い版は読み込まなくなるので、項目の追加は任意項目で行います。

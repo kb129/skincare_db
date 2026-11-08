@@ -54,6 +54,14 @@ def main(path: str) -> int:
         shades = p.get("shades", [])
         if not isinstance(shades, list) or not all(isinstance(x, str) and x for x in shades):
             errors.append(f"{where}: shades must be a list of non-empty strings")
+        price = p.get("price")
+        if price is not None:
+            if price.get("kind") not in ("SRP", "STORE", "OPEN"):
+                errors.append(f"{where}: price.kind must be SRP, STORE or OPEN")
+            elif price["kind"] != "OPEN" and not (isinstance(price.get("amount"), int) and price["amount"] > 0):
+                errors.append(f"{where}: price.amount must be a positive integer (yen)")
+            if not str(price.get("sourceUrl", "")).startswith("https://"):
+                errors.append(f"{where}: price.sourceUrl must be https")
         asin = p.get("amazonAsin")
         if asin is not None and not re.fullmatch(r"[A-Z0-9]{10}", asin):
             errors.append(f"{where}: amazonAsin must be 10 chars")
