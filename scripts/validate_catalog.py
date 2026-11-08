@@ -15,6 +15,17 @@ def main(path: str) -> int:
     errors = []
     if catalog.get("schemaVersion") != 1:
         errors.append("schemaVersion must be 1")
+    # アフィリエイトの ID（未設定は null）。Amazon は日本のトラッキングID（末尾 -22）、楽天はアフィリエイトID（16進4組）
+    aff = catalog.get("affiliate") or {}
+    if not isinstance(aff, dict):
+        errors.append("affiliate must be an object")
+        aff = {}
+    tag = aff.get("amazonTag")
+    if tag is not None and not re.fullmatch(r"[A-Za-z0-9_-]+-22", tag):
+        errors.append("affiliate.amazonTag must look like xxxx-22")
+    rid = aff.get("rakutenAffiliateId")
+    if rid is not None and not re.fullmatch(r"[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}", rid):
+        errors.append("affiliate.rakutenAffiliateId must look like 1a2b3c4d.5e6f7a8b.9c0d1e2f.3a4b5c6d")
     seen = set()
     jans = set()
     for i, p in enumerate(catalog.get("products", [])):
