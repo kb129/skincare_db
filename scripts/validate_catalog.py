@@ -4,7 +4,8 @@ import json
 import re
 import sys
 
-CATEGORIES = {"TONER", "EMULSION", "GEL", "CREAM"}
+# スキンケア: TONER/EMULSION/GEL/CREAM、ベース（下地）: BASE/BB_CC/TONE_UP
+CATEGORIES = {"TONER", "EMULSION", "GEL", "CREAM", "BASE", "BB_CC", "TONE_UP"}
 REQUIRED = {"id", "maker", "brand", "name", "category", "quasiDrug", "ingredients", "sourceUrl", "verifiedAt"}
 
 
@@ -31,8 +32,8 @@ def main(path: str) -> int:
             errors.append(f"{where}: unknown category {p['category']}")
         if not isinstance(p["quasiDrug"], bool):
             errors.append(f"{where}: quasiDrug must be boolean")
-        # 区切りは「、」「,」「，」のいずれか。アベンヌ ウオーター（温泉水、窒素）のように短い全成分もある
-        if len(p["ingredients"]) < 5 or not any(sep in p["ingredients"] for sep in ("、", ",", "，")):
+        # 区切りは「、」「,」「，」「・」（コーセー）「､」（セザンヌ）のいずれか。アベンヌ ウオーター（温泉水、窒素）のように短い全成分もある
+        if len(p["ingredients"]) < 5 or not any(sep in p["ingredients"] for sep in ("、", ",", "，", "・", "､")):
             errors.append(f"{where}: ingredients look incomplete")
         if not p["sourceUrl"].startswith("https://"):
             errors.append(f"{where}: sourceUrl must be https")
@@ -44,6 +45,15 @@ def main(path: str) -> int:
             jans.add(p["jan"])
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["verifiedAt"]):
             errors.append(f"{where}: verifiedAt must be YYYY-MM-DD")
+        spf = p.get("spf")
+        if spf is not None and (not isinstance(spf, (int, float)) or not 0 < spf <= 50):
+            errors.append(f"{where}: spf must be a number in (0, 50] or null")
+        pa = p.get("pa")
+        if pa is not None and not re.fullmatch(r"\+{1,4}", pa):
+            errors.append(f"{where}: pa must be + .. ++++ or null")
+        shades = p.get("shades", [])
+        if not isinstance(shades, list) or not all(isinstance(x, str) and x for x in shades):
+            errors.append(f"{where}: shades must be a list of non-empty strings")
         asin = p.get("amazonAsin")
         if asin is not None and not re.fullmatch(r"[A-Z0-9]{10}", asin):
             errors.append(f"{where}: amazonAsin must be 10 chars")
