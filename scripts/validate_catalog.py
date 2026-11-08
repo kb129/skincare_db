@@ -31,7 +31,8 @@ def main(path: str) -> int:
             errors.append(f"{where}: unknown category {p['category']}")
         if not isinstance(p["quasiDrug"], bool):
             errors.append(f"{where}: quasiDrug must be boolean")
-        if len(p["ingredients"]) < 20 or ("、" not in p["ingredients"] and "," not in p["ingredients"]):
+        # 区切りは「、」「,」「，」のいずれか。アベンヌ ウオーター（温泉水、窒素）のように短い全成分もある
+        if len(p["ingredients"]) < 5 or not any(sep in p["ingredients"] for sep in ("、", ",", "，")):
             errors.append(f"{where}: ingredients look incomplete")
         if not p["sourceUrl"].startswith("https://"):
             errors.append(f"{where}: sourceUrl must be https")
