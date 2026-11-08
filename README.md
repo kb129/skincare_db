@@ -28,7 +28,11 @@ Android アプリ「肌ログ最適化」が使う商品カタログ。スキン
 - 成分が別ページにある場合は `ingredientsSourceUrl` も入れる
 - 医薬部外品は `quasiDrug: true`。「有効成分：」「その他の成分：」の区分は改行で残す
 - 分量が公開されている場合（ちふれ等）は `ingredientAmounts` に残す
-- `amazonAsin` は将来のアフィリエイト用。確認できたものだけ入れる
+- `amazonAsin` は Amazon の商品ページに直接リンクするときに使う。確認できたものだけ入れる（無ければ Amazon の検索結果へのリンク）
+- 先頭の `affiliate` にアフィリエイトの ID を入れる（未設定は `null`。null のときアプリは紹介料の付かない普通のリンクを出す）
+  - `amazonTag`: Amazon アソシエイトのトラッキングID（例 `xxxx-22`）
+  - `rakutenAffiliateId`: 楽天アフィリエイトのアフィリエイトID（例 `1a2b3c4d.5e6f7a8b.9c0d1e2f.3a4b5c6d`。楽天アフィリエイトの「サイト・アプリ情報」などで確認）
+  - 変えると products.json のハッシュが変わるので、アプリは次の起動時に取り込む（アプリの更新は不要）
 
 ## 項目
 

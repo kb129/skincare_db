@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "updatedAt": "2026-11-08",
   "note": "全成分は各メーカー公式サイトの掲載内容をそのまま転記。商品の改良で変わることがあるため、購入時はパッケージの表示を確認してください。",
+  "affiliate": {
+    "amazonTag": null,
+    "rakutenAffiliateId": null
+  },
   "products": [
     {
       "id": "curel-junshin-lotion-1",
