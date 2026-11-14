@@ -64,6 +64,8 @@ python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 
 オルビスは海外からの接続を受け付けないため、国内の PC で `tools/fetch_site_pages.py` を実行して商品ページを取得し（`orbis_dump/`）、`tools/import_orbis.py` で全成分を取り込む。価格は公式サイトで表示時に読み込まれるため未収録。
 
+DHC は `tools/fetch_missing.py dhc` で取った `dumps/dhc/` から、`tools/import_dhc.py` で取り込む（商品ページに全成分が載っている化粧品だけ）。
+
 未収録（公式サイトから取得できなかったもの）
 
 まとめて取るときは、日本国内の PC で `python3 tools/fetch_missing.py` を実行し、できた `dumps/` を push する（取得先は `tools/missing_targets.json`）。robots.txt を守り、自動アクセスを拒否されたサイトはそこでやめる。
@@ -71,7 +73,8 @@ python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 | ブランド | 理由 |
 |---|---|
 | 無印良品 | 公式サイトがメンテナンス中 |
-| DHC、ラロッシュポゼ | 自動アクセスを拒否（HTTP 503 / 403） |
+| ラロッシュポゼ | 国内からも自動アクセスを拒否（HTTP 403） |
+| DHC の医薬部外品（薬用〜） | 商品ページに全成分がない（指定成分だけ） |
 | 雪肌精・コーセー各ブランド、なめらか本舗 | 公式サイトが別ドメイン（maison.kose.co.jp など）に移っており未対応 |
 | アクアレーベルの化粧水・乳液、スペシャルジェルクリーム EX の一部 | 商品ページが見つからない、または別サイトへ転送される |
 
