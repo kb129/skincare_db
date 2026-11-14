@@ -10,6 +10,10 @@ on:
       only:
         description: "この ID を含む製品だけ（正規表現・空なら全件）"
         required: false
+      missing:
+        description: "画像がまだない製品だけ（取りこぼしの取り直し）"
+        type: boolean
+        default: false
   pull_request:
     paths:
       - tools/fetch_yahoo_images.py
@@ -39,7 +43,8 @@ jobs:
         env:
           YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
           ONLY: ${{ inputs.only }}
-        run: python3 tools/fetch_yahoo_images.py ${ONLY:+--only "$ONLY"}
+          MISSING: ${{ inputs.missing && '--missing' || '' }}
+        run: python3 tools/fetch_yahoo_images.py ${ONLY:+--only "$ONLY"} $MISSING
       - name: Commit and publish
         if: github.event_name != 'pull_request'
         env:

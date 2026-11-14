@@ -37,6 +37,8 @@ REFILL = ["詰め替え", "詰替", "つめかえ", "付け替え", "付替", "�
 VARIANTS = ["とても", "もっと", "やや", "さっぱり", "しっとり", "さらっと", "ライト", "リッチ"]
 # 一致の判定で無視する語（どの商品名にも付く飾り）
 STOP = {"の", "用", "公式", "送料無料", "国内正規品"}
+RETRY_WAITS = [10, 30, 60, 120]
+INTERVAL = 1.5  # リクエストの間隔（秒）。上限は1秒に1回だが、余裕を持たせる
 KEEP_DAYS = 120  # 見つからなくなった画像を残す日数（出品が一時的に消えることがある）
 
 
@@ -87,8 +89,17 @@ def search(app_id: str, **params) -> list[dict]:
     q.update(params)
     url = ENDPOINT + "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": "skincare-catalog/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.load(r).get("hits", [])
+    # 429（短時間にリクエストが多すぎる）は、待ってからやり直す（10・30・60・120秒）。それでもだめなら諦める
+    for wait in RETRY_WAITS + [None]:
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.load(r).get("hits", [])
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 503) or wait is None:
+                raise
+            print(f"  … HTTP {e.code}、{wait}秒待ってやり直します", file=sys.stderr)
+            time.sleep(wait)
+    return []
 
 
 def pick(product: dict, hits: list[dict]) -> tuple[dict | None, str]:
@@ -129,6 +140,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="先頭から N 件だけ（試し用）")
     ap.add_argument("--only", help="この ID を含む製品だけ（正規表現）")
+    ap.add_argument("--missing", action="store_true", help="画像がまだない製品だけ（前回取りこぼした分の取り直し）")
     args = ap.parse_args()
     app_id = (os.environ.get("YAHOO_APP_ID") or "").strip()  # 貼り付けたときの改行・空白を除く
     if not app_id:
@@ -143,7 +155,7 @@ def main() -> int:
         print(f"API の確認に失敗: HTTP {e.code} {body}", file=sys.stderr)
         print("Client ID（アプリケーションID）が正しいか、Secrets の値を確かめてください。", file=sys.stderr)
         return 1
-    time.sleep(1.1)
+    time.sleep(INTERVAL)
 
     products = json.loads(Path(args.catalog).read_text(encoding="utf-8"))["products"]
     if args.only:
@@ -152,6 +164,8 @@ def main() -> int:
         products = products[: args.limit]
     out = Path(args.out)
     old = json.loads(out.read_text(encoding="utf-8")).get("images", {}) if out.exists() else {}
+    if args.missing:
+        products = [p for p in products if p["id"] not in old]
     today = dt.date.today().isoformat()
     images: dict[str, dict] = {}
     found = {"jan": 0, "name": 0}
@@ -160,10 +174,10 @@ def main() -> int:
         try:
             if p.get("jan"):
                 hits = search(app_id, jan_code=p["jan"])
-                time.sleep(1.1)
+                time.sleep(INTERVAL)
             if not any(h.get("janCode") == p.get("jan") for h in hits):
                 hits += search(app_id, query=f"{p['brand']} {p['name']}")
-                time.sleep(1.1)
+                time.sleep(INTERVAL)
         except Exception as e:  # 通信の失敗は前回の結果を残す
             print(f"  ! {p['id']}: {e}", file=sys.stderr)
             if p["id"] in old:
@@ -184,7 +198,7 @@ def main() -> int:
     print(f"\n一致 {found['jan'] + found['name']}/{len(products)}（JAN {found['jan']}・名前 {found['name']}）")
     if args.dry_run:
         return 0
-    if args.only or args.limit:  # 一部だけ取ったときは、残りの前回の結果を消さない
+    if args.only or args.limit or args.missing:  # 一部だけ取ったときは、残りの前回の結果を消さない
         images = {**old, **images}
     doc = {
         "source": "Yahoo!ショッピング 商品検索API（v3）",
