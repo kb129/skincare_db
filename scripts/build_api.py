@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """data/products.json から GitHub Pages 用の静的 API（_site/）を生成する。
 
-  /v1/index.json             目次（件数・更新日・各ファイルのハッシュ）。アプリはまずここを見る
-  /v1/products.json          全商品（アプリが端末に保存する本体）
-  /v1/products/{id}.json     商品1件（共有リンク・Web 用）
-  /v1/jan/{jan}.json         JAN コードから商品1件（バーコード読み取り用）
-  /                          ブラウザで見られる一覧ページ
+/v1/index.json             目次（件数・更新日・各ファイルのハッシュ）。アプリはまずここを見る
+/v1/products.json          全商品（アプリが端末に保存する本体）
+/v1/products/{id}.json     商品1件（共有リンク・Web 用）
+/v1/jan/{jan}.json         JAN コードから商品1件（バーコード読み取り用）
+/                          ブラウザで見られる一覧ページ
 """
+
 import hashlib
 import json
 import shutil
@@ -18,7 +19,9 @@ API_VERSION = "v1"
 
 def dump(path: Path, obj) -> bytes:
     path.parent.mkdir(parents=True, exist_ok=True)
-    data = json.dumps(obj, ensure_ascii=False, separators=(",", ":"), sort_keys=False).encode("utf-8")
+    data = json.dumps(
+        obj, ensure_ascii=False, separators=(",", ":"), sort_keys=False
+    ).encode("utf-8")
     path.write_bytes(data)
     return data
 
@@ -38,7 +41,11 @@ def main(src: str = "data/products.json", out: str = "_site") -> int:
         for p in products:
             img = images["images"].get(p["id"])
             if img:
-                p["image"] = {"url": img["url"], "thumbUrl": img.get("thumbUrl"), "itemUrl": img.get("itemUrl")}
+                p["image"] = {
+                    "url": img["url"],
+                    "thumbUrl": img.get("thumbUrl"),
+                    "itemUrl": img.get("itemUrl"),
+                }
         print(f"images: {sum(1 for p in products if 'image' in p)}/{len(products)}")
 
     body = dump(api / "products.json", catalog)
@@ -68,10 +75,16 @@ def main(src: str = "data/products.json", out: str = "_site") -> int:
     dump(api / "index.json", index)
 
     shutil.copy("site/index.html", site / "index.html")
-    shutil.copy("site/privacy.html", site / "privacy.html")  # アプリのプライバシーポリシー（Google Play に登録する URL）
-    shutil.copy("site/google27a80f8474021811.html", site / "google27a80f8474021811.html")
+    shutil.copy(
+        "site/privacy.html", site / "privacy.html"
+    )  # アプリのプライバシーポリシー（Google Play に登録する URL）
+    shutil.copy(
+        "site/google5005a60a5526527f.html", site / "google5005a60a5526527f.html"
+    )
     (site / ".nojekyll").write_text("")
-    print(f"built {len(products)} products into {site}/{API_VERSION} (products.json {len(body)} bytes)")
+    print(
+        f"built {len(products)} products into {site}/{API_VERSION} (products.json {len(body)} bytes)"
+    )
     return 0
 
 
