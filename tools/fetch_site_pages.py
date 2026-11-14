@@ -5,7 +5,10 @@
 標準ライブラリだけで動く（Python 3.8+）。1.5秒に1ページのゆっくりした速度で巡回する。
 
 使い方:
-  python3 fetch_site_pages.py https://www.orbis.co.jp/ orbis_dump --max-pages 600
+  # おすすめ: サイトマップから商品ページだけを取る（記事ページを巡回しない）
+  python3 fetch_site_pages.py https://www.orbis.co.jp/ orbis_dump --sitemap auto --match '/small/[0-9]+/'
+  # サイトマップがないとき: リンクをたどる（記事ページなどは --skip で飛ばす）
+  python3 fetch_site_pages.py https://www.orbis.co.jp/ orbis_dump --skip '/archives/' --max-pages 1500
 出力:
   orbis_dump/pages.jsonl   全成分を含むページ1件=1行（url, title, lines=ページの文字を行ごとに）
   orbis_dump/visited.txt   巡回したURLとステータス（確認用）
@@ -61,8 +64,16 @@ class Page(HTMLParser):
         self._buf = []
 
 
+def safe_url(url):
+    """日本語などを含むURLを、送れる形（%エンコード）にする。"""
+    p = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(p.path, safe="/%:@!$&'()*+,;=-._~")
+    query = urllib.parse.quote(p.query, safe="=&%/:+,;-._~")
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, path, query, ""))
+
+
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.5"})
+    req = urllib.request.Request(safe_url(url), headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.5"})
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = r.read()
         if r.headers.get("Content-Encoding") == "gzip":
@@ -77,13 +88,25 @@ def main():
     ap.add_argument("out_dir")
     ap.add_argument("--max-pages", type=int, default=600)
     ap.add_argument("--delay", type=float, default=1.5)
+    ap.add_argument("--sitemap", help="サイトマップのURL。auto なら robots.txt と /sitemap.xml から探す")
+    ap.add_argument("--match", help="サイトマップのうち、このパターン（正規表現）に合うURLだけ取る。巡回では優先して回る")
+    ap.add_argument("--skip", help="巡回しないURLのパターン（正規表現）。例: '/archives/'")
     a = ap.parse_args()
+    match = re.compile(a.match) if a.match else None
+    skip = re.compile(a.skip) if a.skip else None
     host = urllib.parse.urlparse(a.start_url).netloc
     import os
     os.makedirs(a.out_dir, exist_ok=True)
     out = open(os.path.join(a.out_dir, "pages.jsonl"), "w", encoding="utf-8")
     log = open(os.path.join(a.out_dir, "visited.txt"), "w", encoding="utf-8")
     seen, hi, lo, saved, n = {a.start_url}, deque([a.start_url]), deque(), 0, 0
+    crawl = True
+    if a.sitemap:
+        urls = sitemap_urls(a.start_url, a.sitemap, a.delay, log)
+        picked = [u for u in urls if not match or match.search(u)]
+        print(f"sitemap: {len(urls)} URLs, {len(picked)} match", file=sys.stderr)
+        if picked:
+            hi, seen, crawl = deque(picked), set(picked), False  # 商品ページだけ取る（リンクはたどらない）
     while (hi or lo) and n < a.max_pages:
         url = hi.popleft() if hi else lo.popleft()
         n += 1
@@ -96,16 +119,54 @@ def main():
         if any("成分" in l for l in p.lines):
             out.write(json.dumps({"url": final, "title": p.title.strip(), "lines": p.lines}, ensure_ascii=False) + "\n")
             out.flush(); saved += 1
-        for href in p.links:
+        for href in (p.links if crawl else []):
+            if "{" in href:  # テンプレートの書きかけ（{{...}}）は飛ばす
+                continue
             u = urllib.parse.urljoin(final, href).split("#")[0]
             pu = urllib.parse.urlparse(u)
             if pu.scheme not in ("http", "https") or pu.netloc != host or u in seen or SKIP_EXT.search(u) or AVOID.search(u):
                 continue
+            if skip and skip.search(u):
+                continue
             seen.add(u)
-            (hi if PRIORITY.search(pu.path) else lo).append(u)
+            (hi if (match.search(u) if match else PRIORITY.search(pu.path)) else lo).append(u)
         print(f"\r{n} pages visited, {saved} with ingredients", end="", file=sys.stderr)
         time.sleep(a.delay)
     print(f"\ndone: {n} visited, {saved} saved -> {a.out_dir}/pages.jsonl", file=sys.stderr)
+
+
+def sitemap_urls(start_url, sitemap, delay, log):
+    """サイトマップ（入れ子のサイトマップも）から、ページのURLを集める。"""
+    root = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(start_url))
+    todo = []
+    if sitemap == "auto":
+        try:
+            _, _, robots = fetch(root + "/robots.txt")
+            todo = [l.split(":", 1)[1].strip() for l in robots.splitlines() if l.lower().startswith("sitemap:")]
+        except Exception as e:
+            log.write(f"ERR\t{root}/robots.txt\t{e}\n")
+        if not todo:
+            todo = [root + "/sitemap.xml"]
+    else:
+        todo = [sitemap]
+    pages, done = [], set()
+    while todo:
+        sm = todo.pop(0)
+        if sm in done:
+            continue
+        done.add(sm)
+        try:
+            _, _, xml = fetch(sm)
+        except Exception as e:
+            log.write(f"ERR\t{sm}\t{e}\n"); continue
+        log.write(f"SITEMAP\t{sm}\n")
+        locs = [x.strip() for x in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", xml)]
+        if "<sitemapindex" in xml:
+            todo += locs
+        else:
+            pages += locs
+        time.sleep(delay)
+    return list(dict.fromkeys(p.replace("&amp;", "&") for p in pages))
 
 
 if __name__ == "__main__":
