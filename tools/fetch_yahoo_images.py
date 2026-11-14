@@ -21,6 +21,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -77,7 +78,8 @@ def name_match(product: dict, hit: dict) -> bool:
 
 
 def search(app_id: str, **params) -> list[dict]:
-    q = {"appid": app_id, "results": 30, "image_size": 600, **params}
+    q = {"appid": app_id, "results": 30, "image_size": 600}
+    q.update(params)
     url = ENDPOINT + "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": "skincare-catalog/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -123,10 +125,20 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="先頭から N 件だけ（試し用）")
     ap.add_argument("--only", help="この ID を含む製品だけ（正規表現）")
     args = ap.parse_args()
-    app_id = os.environ.get("YAHOO_APP_ID")
+    app_id = (os.environ.get("YAHOO_APP_ID") or "").strip()  # 貼り付けたときの改行・空白を除く
     if not app_id:
         print("YAHOO_APP_ID が未設定です", file=sys.stderr)
         return 2
+    # 値は出さず、形だけ確かめる（Client ID はふつう dj00 で始まる。シークレットと取り違えやすい）
+    print(f"YAHOO_APP_ID: {len(app_id)}文字・dj0 で{'始まる' if app_id.startswith('dj0') else '始まらない'}")
+    try:
+        search(app_id, query="化粧水", results=1)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:300]
+        print(f"API の確認に失敗: HTTP {e.code} {body}", file=sys.stderr)
+        print("Client ID（アプリケーションID）が正しいか、Secrets の値を確かめてください。", file=sys.stderr)
+        return 1
+    time.sleep(1.1)
 
     products = json.loads(Path(args.catalog).read_text(encoding="utf-8"))["products"]
     if args.only:
