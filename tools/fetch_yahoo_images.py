@@ -32,7 +32,9 @@ CREDIT_URL = "https://developer.yahoo.co.jp/sitemap/"
 # 一致しても使わない商品（中身が違う・数が違う）
 EXCLUDE = ["セット", "まとめ買い", "まとめ売り", "お試し", "トライアル", "サンプル", "ミニサイズ", "福袋", "訳あり", "中古",
            "2個", "3個", "4個", "5個", "6個", "2本", "3本", "4本", "5本", "6本", "×2", "x2", "×3", "x3", "ケース販売"]
-REFILL = ["詰め替え", "詰替", "つめかえ", "レフィル", "リフィル", "替え"]
+REFILL = ["詰め替え", "詰替", "つめかえ", "付け替え", "付替", "つけかえ", "取替", "レフィル", "リフィル", "替え"]
+# 同じ製品の種類違い（しっとり／とてもしっとり など）。出品名にあって製品名にない語があれば別の種類
+VARIANTS = ["とても", "もっと", "やや", "さっぱり", "しっとり", "さらっと", "ライト", "リッチ"]
 # 一致の判定で無視する語（どの商品名にも付く飾り）
 STOP = {"の", "用", "公式", "送料無料", "国内正規品"}
 KEEP_DAYS = 120  # 見つからなくなった画像を残す日数（出品が一時的に消えることがある）
@@ -68,6 +70,9 @@ def name_match(product: dict, hit: dict) -> bool:
     if brand not in text.replace(" ", ""):
         return False
     compact = text.replace(" ", "")
+    pname = norm(product["name"]).replace(" ", "")
+    if any(v in compact and v not in pname for v in VARIANTS):
+        return False
     for tok in tokens(product["name"]):
         if re.fullmatch(r"[a-z0-9.+\-]+", tok):
             if not has_token(text, tok):
