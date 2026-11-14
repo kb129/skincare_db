@@ -58,6 +58,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/images.json
           git commit -m "商品画像を更新（Yahoo!ショッピング）"
-          git push
+          # 取得には10分ほどかかるので、その間に main が進んでいることがある。images.json はこのワークフローしか書かないので、最新に載せ直してから push する
+          pushed=
+          for i in 1 2 3; do
+            if git pull --rebase origin "${GITHUB_REF_NAME}" && git push; then pushed=1; break; fi
+            sleep 5
+          done
+          [ -n "$pushed" ] || { echo "push に失敗しました"; exit 1; }
           # GITHUB_TOKEN の push では他のワークフローが動かないので、公開を手動で起動する
           gh workflow run pages.yml --ref "${GITHUB_REF_NAME}"
