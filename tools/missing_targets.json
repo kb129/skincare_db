@@ -28,10 +28,11 @@
     {
       "key": "bioreuv",
       "brand": "ビオレUV",
-      "start": "https://www.kao.com/jp/products/",
-      "sitemap": "auto",
-      "match": "/products/bioreuv/",
-      "maxPages": 300
+      "start": "https://www.kao.com/jp/products/bioreuv/",
+      "sitemap": null,
+      "match": "/jp/products/bioreuv/",
+      "maxPages": 150,
+      "skip": "/jp/(?!products/bioreuv/)"
     },
     {
       "key": "maquillage",
@@ -60,10 +61,10 @@
     {
       "key": "namerakahonpo",
       "brand": "なめらか本舗",
-      "start": "https://tokiwa-corp.co.jp/",
-      "sitemap": "auto",
-      "match": "namerakahonpo",
-      "maxPages": 600
+      "start": "https://tokiwa-corp.co.jp/brand/namerakahonpo/",
+      "sitemap": null,
+      "match": "namerakahonpo|/products?/",
+      "maxPages": 300
     }
   ]
 }
