@@ -13,7 +13,7 @@
   orbis_dump/pages.jsonl   全成分を含むページ1件=1行（url, title, lines=ページの文字を行ごとに）
   orbis_dump/visited.txt   巡回したURLとステータス（確認用）
 """
-import argparse, gzip, json, re, sys, time, urllib.parse, urllib.request
+import argparse, gzip, json, re, sys, time, urllib.error, urllib.parse, urllib.request, urllib.robotparser
 from collections import deque
 from html.parser import HTMLParser
 
@@ -91,7 +91,19 @@ def main():
     ap.add_argument("--sitemap", help="サイトマップのURL。auto なら robots.txt と /sitemap.xml から探す")
     ap.add_argument("--match", help="サイトマップのうち、このパターン（正規表現）に合うURLだけ取る。巡回では優先して回る")
     ap.add_argument("--skip", help="巡回しないURLのパターン（正規表現）。例: '/archives/'")
+    ap.add_argument("--stop-after-blocks", type=int, default=5, help="403/429/503 がこの回数続いたら、そのサイトはやめる（自動アクセスの拒否を回避しない）")
     a = ap.parse_args()
+    # robots.txt を守る（巡回してよいページか、待ち時間の指定があるか）
+    root = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(a.start_url))
+    robots = urllib.robotparser.RobotFileParser()
+    try:
+        _, _, txt = fetch(root + "/robots.txt")
+        robots.parse(txt.splitlines())
+    except Exception:
+        robots.parse([])  # robots.txt がなければ制限なし
+    if robots.crawl_delay("*"):
+        a.delay = max(a.delay, float(robots.crawl_delay("*")))
+        print(f"robots.txt: {a.delay}秒に1ページ", file=sys.stderr)
     match = re.compile(a.match) if a.match else None
     skip = re.compile(a.skip) if a.skip else None
     host = urllib.parse.urlparse(a.start_url).netloc
@@ -107,11 +119,23 @@ def main():
         print(f"sitemap: {len(urls)} URLs, {len(picked)} match", file=sys.stderr)
         if picked:
             hi, seen, crawl = deque(picked), set(picked), False  # 商品ページだけ取る（リンクはたどらない）
+    blocked = 0
     while (hi or lo) and n < a.max_pages:
         url = hi.popleft() if hi else lo.popleft()
+        if not robots.can_fetch("*", safe_url(url)):
+            log.write(f"ROBOTS\t{url}\n"); continue
         n += 1
         try:
             status, final, html = fetch(url)
+            blocked = 0
+        except urllib.error.HTTPError as e:
+            log.write(f"ERR\t{url}\t{e}\n"); log.flush()
+            if e.code in (403, 429, 503):
+                blocked += 1
+                if blocked >= a.stop_after_blocks:
+                    print(f"\n{e.code} が{blocked}回続いたので中止します（このサイトは自動アクセスを受け付けていません）", file=sys.stderr)
+                    break
+            time.sleep(a.delay); continue
         except Exception as e:  # 失敗しても続ける
             log.write(f"ERR\t{url}\t{e}\n"); log.flush(); time.sleep(a.delay); continue
         log.write(f"{status}\t{url}\n"); log.flush()
