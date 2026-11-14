@@ -15,6 +15,17 @@ def main(path: str) -> int:
     errors = []
     if catalog.get("schemaVersion") != 1:
         errors.append("schemaVersion must be 1")
+    # アフィリエイトの ID（未設定は null）。Amazon は日本のトラッキングID（末尾 -22）、楽天はアフィリエイトID（16進4組）
+    aff = catalog.get("affiliate") or {}
+    if not isinstance(aff, dict):
+        errors.append("affiliate must be an object")
+        aff = {}
+    tag = aff.get("amazonTag")
+    if tag is not None and not re.fullmatch(r"[A-Za-z0-9_-]+-22", tag):
+        errors.append("affiliate.amazonTag must look like xxxx-22")
+    rid = aff.get("rakutenAffiliateId")
+    if rid is not None and not re.fullmatch(r"[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}", rid):
+        errors.append("affiliate.rakutenAffiliateId must look like 1a2b3c4d.5e6f7a8b.9c0d1e2f.3a4b5c6d")
     seen = set()
     jans = set()
     for i, p in enumerate(catalog.get("products", [])):
@@ -54,6 +65,14 @@ def main(path: str) -> int:
         shades = p.get("shades", [])
         if not isinstance(shades, list) or not all(isinstance(x, str) and x for x in shades):
             errors.append(f"{where}: shades must be a list of non-empty strings")
+        price = p.get("price")
+        if price is not None:
+            if price.get("kind") not in ("SRP", "STORE", "OPEN"):
+                errors.append(f"{where}: price.kind must be SRP, STORE or OPEN")
+            elif price["kind"] != "OPEN" and not (isinstance(price.get("amount"), int) and price["amount"] > 0):
+                errors.append(f"{where}: price.amount must be a positive integer (yen)")
+            if not str(price.get("sourceUrl", "")).startswith("https://"):
+                errors.append(f"{where}: price.sourceUrl must be https")
         asin = p.get("amazonAsin")
         if asin is not None and not re.fullmatch(r"[A-Z0-9]{10}", asin):
             errors.append(f"{where}: amazonAsin must be 10 chars")

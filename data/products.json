@@ -1,7 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "note": "全成分は各メーカー公式サイトの掲載内容をそのまま転記。商品の改良で変わることがあるため、購入時はパッケージの表示を確認してください。",
+  "affiliate": {
+    "amazonTag": "azoshikzai-22",
+    "rakutenAffiliateId": "5944b6f3.4e6e2358.5944b6f4.53f5f7c6"
+  },
   "products": [
     {
       "id": "curel-junshin-lotion-1",
@@ -14,7 +18,14 @@
       "ingredients": "アラントイン＊、水、ＢＧ、グリセリン、ベタイン、ユーカリエキス、ＰＯＥメチルグルコシド、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236043/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236043/"
+      }
     },
     {
       "id": "curel-junshin-lotion-2",
@@ -27,7 +38,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、ベタイン、ユーカリエキス、ＰＯＥメチルグルコシド、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236197/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236197/"
+      }
     },
     {
       "id": "curel-junshin-lotion-3",
@@ -40,7 +58,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、ベタイン、ＰＯＥメチルグルコシド、ユーカリエキス、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、コハク酸、アルギニン、ステアロイルメチルタウリンＮａ、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236180/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236180/"
+      }
     },
     {
       "id": "curel-junshin-milk",
@@ -53,7 +78,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、シュガースクワラン、ジカプリン酸ネオペンチルグリコール、ジメチコン、ステアリン酸ＰＯＥソルビタン、ＢＧ、ユーカリエキス、イソステアリン酸コレステリル、コレステロール、ステアリン酸ソルビタン、ステアロイルメチルタウリンＮａ、コハク酸、セタノール、ステアリルアルコール、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236173/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "120mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236173/"
+      }
     },
     {
       "id": "curel-junshin-face-cream",
@@ -66,7 +98,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、トリシロキサン、ジメチコン、α-オレフィンオリゴマー、ＰＯＥ・ジメチコン共重合体、ユーカリエキス、硫酸Ｍｇ、ＢＧ、イソステアリルグリセリルエーテル、コハク酸、水酸化ナトリウム液、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236210/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301236210/"
+      }
     },
     {
       "id": "hadalabo-gokujun-lotion",
@@ -80,7 +119,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-lotion/",
       "verifiedAt": "2026-11-07",
       "amazonAsin": null,
-      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=155712"
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=155712",
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-lotion/"
+      }
     },
     {
       "id": "hadalabo-gokujun-milk",
@@ -94,7 +140,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-milk/",
       "verifiedAt": "2026-11-07",
       "amazonAsin": null,
-      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=127054"
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=127054",
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "140mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-milk/"
+      }
     },
     {
       "id": "hadalabo-gokujun-perfect-gel",
@@ -108,7 +161,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/rich-gokujun-perfect/",
       "verifiedAt": "2026-11-07",
       "amazonAsin": null,
-      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=202997"
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=202997",
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "100g",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/rich-gokujun-perfect/"
+      }
     },
     {
       "id": "hadalabo-shirojun-lotion",
@@ -122,7 +182,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-lotion/",
       "verifiedAt": "2026-11-07",
       "amazonAsin": null,
-      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157549"
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157549",
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-lotion/"
+      }
     },
     {
       "id": "hadalabo-shirojun-milk",
@@ -136,7 +203,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-milk/",
       "verifiedAt": "2026-11-07",
       "amazonAsin": null,
-      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157587"
+      "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157587",
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "140mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-milk/"
+      }
     },
     {
       "id": "minon-moistcharge-lotion-1",
@@ -149,7 +223,14 @@
       "ingredients": "水、グリセリン、ＢＧ、プロパンジオール、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルリチン酸２Ｋ、ＰＥＧ－７５、メチルグルセス－２０、ベタイン、クエン酸、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、ＰＥＧ－６０水添ヒマシ油、トコフェロール、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、セテス－２０、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、フェノキシエタノール",
       "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mlc.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "150mL",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_lotion/"
+      }
     },
     {
       "id": "minon-moistcharge-lotion-2",
@@ -162,7 +243,14 @@
       "ingredients": "水、グリセリン、ＢＧ、プロパンジオール、メチルグルセス－２０、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルリチン酸２Ｋ、ＰＥＧ－７５、キサンタンガム、クエン酸、ベタイン、トリイソステアリン酸ＰＥＧ－５０水添ヒマシ油、クエン酸Ｎａ、ＰＥＧ－６０水添ヒマシ油、トコフェロール、セテス－２０、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、加水分解ヒアルロン酸、フェノキシエタノール",
       "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mlm.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "150mL",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_lotion2/"
+      }
     },
     {
       "id": "minon-moistcharge-milk",
@@ -175,7 +263,14 @@
       "ingredients": "水、ＢＧ、グリセリン、キシリトール、リンゴ酸ジイソステアリル、ジメチコン、アラキジルアルコール、ベヘニルアルコール、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルレチン酸ステアリル、ペンチレングリコール、ジフェニルシロキシフェニルトリメチコン、（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー、ステアリン酸グリセリル、アラキジルグルコシド、スクワラン、水添ヤシ油、カプリル酸グリセリル、水添パーム核油、カルボマー、ポリソルベート６０、キサンタンガム、水添パーム油、水酸化Ｋ、ジメチコノール、タウリン、ヒスチジンＨＣｌ、グルタミン酸、アラントイン、イソロイシン、フェニルアラニン、１，２－ヘキサンジオール、水添レシチン、ラウリン酸ポリグリセリル－１０、トコフェロール、レシチン、イソステアリン酸ソルビタン、 フェノキシエタノール",
       "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mm.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "100g",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_milk/"
+      }
     },
     {
       "id": "minon-moistcharge-cream",
@@ -188,7 +283,14 @@
       "ingredients": "水、グリセリン、スクワラン、ＢＧ、ＤＰＧ、トリイソステアリン、マカデミアナッツ脂肪酸フィトステリル、ベヘニルアルコール、ソルビトール、ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）、ホホバ種子油、パルミチン酸セチル、ミツロウ、バリン、トレオニン、セリン、ロイシン、プロリン、ヒスチジン、グリシン、アラニン、アルギニン、ポリクオタニウム－６１、リシンＨＣｌ、カルノシン、グルコシルルチン、ホスホリルオリゴ糖Ｃａ、グリセリルグルコシド、グルコシルヘスペリジン、グリチルレチン酸ステアリル、トリ（カプリル酸／カプリン酸／ミリスチン酸／ステアリン酸）グリセリル、ワセリン、ラウロイルグルタミン酸ジ（オクチルドデシル／フィトステリル／ベヘニル）、シア脂、ダイマージリノール酸（フィトステリル／イソステアリル／セチル／ステアリル／ベヘニル）、ステアリン酸グリセリル、ジメチコン、ベヘネス－３０、水添レシチン、（ＰＣＡ／イソステアリン酸）ＰＥＧ－４０水添ヒマシ油、カルボマー、バチルアルコール、クエン酸、エチルヘキシルグリセリン、カプリル酸グリセリル、ＰＣＡ－Ｎａ、ココイルアルギニンエチルＰＣＡ、ペンテト酸５Ｎａ、１，２－ヘキサンジオール、ラウリン酸ポリグリセリル－１０、ヒアルロン酸Ｎａ、トコフェロール、フェノキシエタノール",
       "sourceUrl": "https://www.daiichisankyo-hc.co.jp/site_minon-aminomoist/products/mc.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "40g",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_mc-cream/"
+      }
     },
     {
       "id": "ihada-lotion-moist",
@@ -201,7 +303,14 @@
       "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール,ジプロピレングリコール, 濃グリセリン, ポリオキシエチレンメチルグルコシド,トレハロース, ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル, ポリオキシエチレン硬化ヒマシ油,ジイソステアリン酸ポリグリセリル,トリ２－エチルヘキサン酸グリセリル,クエン酸ナトリウム,クエン酸,メタリン酸ナトリウム,ピロ亜硫酸ナトリウム,ワレモコウエキス,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,ワセリン,塩化カルシウム, 塩化マグネシウム,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html"
+      }
     },
     {
       "id": "ihada-lotion-very-moist",
@@ -214,7 +323,14 @@
       "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール, 濃グリセリン,ジプロピレングリコール,１，３－プロパンジオール, ポリオキシエチレンメチルグルコシド,トレハロース, ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル, ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,トリメチルグリシン, ポリオキシエチレン硬化ヒマシ油,ジイソステアリン酸ポリグリセリル,トリ２－エチルヘキサン酸グリセリル,クエン酸ナトリウム, クエン酸, メタリン酸ナトリウム,ピロ亜硫酸ナトリウム,ワレモコウエキス,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,ワセリン, 塩化カルシウム, 塩化マグネシウム,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-lotion.html"
+      }
     },
     {
       "id": "ihada-emulsion",
@@ -227,7 +343,14 @@
       "ingredients": "有効成分：アラントイン,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール, 濃グリセリン,α－オレフィンオリゴマー,ジプロピレングリコール,トリ２－エチルヘキサン酸グリセリル,ワセリン, イソステアリン酸ポリオキシエチレングリセリル,モノステアリン酸ポリオキシエチレングリセリル, ベヘニルアルコール, 架橋型Ｎ，Ｎ－ジメチルアクリルアミド－２－アクリルアミド－２－メチルプロパンスルホン酸ナトリウム共重合体, バチルアルコール, ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,キサンタンガム,クエン酸ナトリウム,クエン酸,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,メタリン酸ナトリウム,Ｄ－グルタミン酸,ワレモコウエキス, 塩化カルシウム, 塩化マグネシウム,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-emulsion.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1760,
+        "taxIncluded": true,
+        "volume": "135mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-emulsion.html"
+      }
     },
     {
       "id": "chifure-moist-lotion-moist",
@@ -317,7 +440,14 @@
           "purpose": "基剤",
           "amount": "全量を１００％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2873"
+      }
     },
     {
       "id": "chifure-moist-lotion-very-moist",
@@ -412,7 +542,14 @@
           "purpose": "基剤",
           "amount": "全量を１００％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2871"
+      }
     },
     {
       "id": "chifure-rich-lotion",
@@ -517,7 +654,14 @@
           "purpose": "基剤",
           "amount": "全量を100％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 880,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/2628"
+      }
     },
     {
       "id": "chifure-sensitive-lotion",
@@ -587,7 +731,14 @@
           "purpose": "基剤",
           "amount": "全量を１００％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 1430,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/skinlotion/9983"
+      }
     },
     {
       "id": "chifure-moist-milk",
@@ -712,7 +863,14 @@
           "purpose": "基剤",
           "amount": "全量を１００％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/2877"
+      }
     },
     {
       "id": "chifure-rich-milk",
@@ -847,7 +1005,14 @@
           "purpose": "基剤",
           "amount": "全量を100％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 880,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/2630"
+      }
     },
     {
       "id": "chifure-sensitive-milk",
@@ -967,7 +1132,14 @@
           "purpose": "基剤",
           "amount": "全量を１００％とする"
         }
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 1430,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/milkylotion/0430"
+      }
     },
     {
       "id": "naturie-hatomugi-lotion",
@@ -980,7 +1152,14 @@
       "ingredients": "水、DPG、BG、グリセリン、ハトムギエキス、グリチルリチン酸2K、(スチレン/VP)コポリマー、クエン酸、クエン酸Na、メチルパラベン",
       "sourceUrl": "https://www.imju.jp/shop/g/g4903335693601/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "500mL",
+        "sourceUrl": "https://www.imju.jp/shop/g/g4903335693601/"
+      }
     },
     {
       "id": "naturie-hatomugi-gel",
@@ -993,7 +1172,14 @@
       "ingredients": "水、グリセリン、DPG、ジメチコン、テトラヘキシルデカン酸アスコルビル、トコフェリルリン酸Na、ハトムギエキス、ラウロイルグルタミン酸ジ（コレステリル/オクチルドデシル）、（アクリレーツ/アクリル酸アルキル（C10-30））クロスポリマー、（アクリロイルジメチルタウリンアンモニウム/VP）コポリマー、BG、PEG-12ジメチコン、水酸化Na、カルボマー、ダイマージリノール酸ジ（イソステアリル/フィトステリル）、ミリスチン酸オクチルドデシル、トコフェロール、メチルパラベン",
       "sourceUrl": "https://www.imju.jp/shop/g/g4903335695551/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 990,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.imju.jp/shop/g/g4903335695551/"
+      }
     },
     {
       "id": "naturie-hatomugi-milk",
@@ -1006,7 +1192,14 @@
       "ingredients": "水、グリセリン、ミネラルオイル、BG、ハトムギエキス、ベタイン、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、(アクリル酸ヒドロキシエチル/アクリロイルジメチルタウリンNa)コポリマー、(アクリレーツ/アクリル酸アルキル(C10-30))クロスポリマー、(エイコサン二酸/テトラデカン二酸)ポリグリセリル-10 、PEG-150、水酸化Na、イソステアリン酸ソルビタン、イソヘキサデカン、ステアリン酸、ステアリン酸スクロース、セスキオレイン酸ソルビタン、パーム脂肪酸グルタミン酸Na、ベヘニルアルコール、ポリソルベート60、メチルグルセス-10、メチルパラベン",
       "sourceUrl": "https://www.imju.jp/shop/g/g4903335696855/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 825,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.imju.jp/shop/g/g4903335696855/"
+      }
     },
     {
       "id": "acseine-moist-balance-lotion",
@@ -1019,7 +1212,14 @@
       "ingredients": "水、グリセリン、BG、PEG-40、ヒアルロン酸Na、ベタイン、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、PEG-12ジメチコン、PEG/PPG/ポリブチレングリコール-8/5/3グリセリン、アクリレーツコポリマー、イソステアリン酸、イソステアリン酸ポリグリセリル-2、オレイン酸PEG-6ソルビタン、ジグリセリン、ジメチコン、ステアロイルグルタミン酸Na、セタノール、ダイマージリノール酸ジ(イソステアリル/フィトステリル)、ポリソルベート60、ミリスチン酸オクチルドデシル、トコフェロール、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049885/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "360mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049885/"
+      }
     },
     {
       "id": "acseine-ad-control-lotion",
@@ -1032,7 +1232,14 @@
       "ingredients": "水、グリセリン、BG、クエン酸、クエン酸Na、フェノキシエタノール",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421048000/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "120mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421048000/"
+      }
     },
     {
       "id": "acseine-ipnos-sebum-clear-lotion",
@@ -1045,7 +1252,14 @@
       "ingredients": "有効成分：アラントイン、酢酸ＤＬ－αートコフェロール\nその他の成分：精製水、１，３－ブチレングリコール、濃グリセリン、トリメチルグリシン、ジプロピレングリコール、ポリオキシエチレン硬化ヒマシ油、パラオキシ安息香酸エステル、Ｎ－ヤシ油脂肪酸アシル－Ｌ－アルギニンエチル・ＤＬ－ピロリドンカルボン酸塩、キトサン、グリコール酸、ユキノシタエキス、水酸化ナトリウム",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004365/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004365/"
+      }
     },
     {
       "id": "acseine-white-emulsion-deep-moisture-c",
@@ -1058,7 +1272,14 @@
       "ingredients": "水、BG、グリセリン、クララ根エキス、ツボクサエキス、パルミチン酸アスコルビルリン酸3Na、リンゴエキス、加水分解水添デンプン、水酸化Na、水添レシチン、カルボマー、クエン酸、クエン酸Na、グリコシルトレハロース、コレステロール、酢酸トコフェロール、ペンテト酸、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421003597/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421003597/"
+      }
     },
     {
       "id": "acseine-skin-lotion-1",
@@ -1071,7 +1292,14 @@
       "ingredients": "水、BG、グリセリン、水酸化Na、カルボマー、クエン酸、クエン酸Na、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050119/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "200mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050119/"
+      }
     },
     {
       "id": "acseine-skin-lotion-2",
@@ -1084,7 +1312,14 @@
       "ingredients": "水、BG、PEG-40、水酸化Na、カルボマー、クエン酸、クエン酸Na、フェノキシエタノール、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050133/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "200mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050133/"
+      }
     },
     {
       "id": "acseine-moist-balance-gel",
@@ -1097,7 +1332,14 @@
       "ingredients": "水、グリセリン、BG、ジメチコン、ミリスチン酸オクチルドデシル、テトラヘキシルデカン酸アスコルビル、トコフェリルリン酸Na、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、(アクリレーツ/アクリル酸アルキル(C10-30))クロスポリマー、(アクリロイルジメチルタウリンアンモニウム/VP)コポリマー、PEG-12ジメチコン、水酸化Na、カルボマー、ダイマージリノール酸ジ(イソステアリル/フィトステリル)、トコフェロール、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049861/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 9900,
+        "taxIncluded": true,
+        "volume": "95g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049861/"
+      }
     },
     {
       "id": "acseine-milky-gel-ad",
@@ -1110,7 +1352,14 @@
       "ingredients": "水、グリセリン、BG、アラントイン、ヒアルロン酸Na、水酸化Na、カルボマー、キサンタンガム、フェノキシエタノール、酸化チタン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421017051/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "60mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421017051/"
+      }
     },
     {
       "id": "acseine-nourishing-gel-ad",
@@ -1123,7 +1372,14 @@
       "ingredients": "水、グリセリン、BG、ヒアルロン酸Na、水酸化Na、カルボマー、キサンタンガム、フェノキシエタノール",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421017150/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421017150/"
+      }
     },
     {
       "id": "acseine-emollient-conditioner",
@@ -1136,7 +1392,14 @@
       "ingredients": "水、グリセリン、ミネラルオイル、BG、ステアリン酸グリセリル、セタノール、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、水酸化Na、水添レシチン、カルボマー、ココイルグルタミン酸Na、コレステロール、ジメチコン、ステアリン酸ソルビタン、ステアロイルグルタミン酸Na、ポリソルベート60、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050140/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "60mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421050140/"
+      }
     },
     {
       "id": "acseine-ipnos-sebum-clear-repair-cream",
@@ -1149,7 +1412,14 @@
       "ingredients": "有効成分：イソプロピルメチルフェノール、グリチルリチン酸ジカリウム、Ｌ－アスコルビン酸２－グルコシド\nその他の成分：精製水、デカメチルシクロペンタシロキサン、ポリアクリル酸アルキル、架橋型シリコーン・網状型シリコーンブロック共重合体、ジプロピレングリコール、濃グリセリン、ポリオキシエチレン・メチルポリシロキサン共重合体、アーティチョークエキス、硫酸マグネシウム、トリメチルシロキシケイ酸、ポリエチレングリコール２０００、ユキノシタエキス、ステアリン酸マグネシウム、パラオキシ安息香酸エステル、水酸化ナトリウム、水酸化アルミニウム、ジミリスチン酸アルミニウム、無水ケイ酸、ジエチレントリアミン五酢酸、メチルポリシロキサン、クエン酸、１，３－ブチレングリコール、酸化チタン、ベンガラ、黄酸化鉄、黒酸化鉄",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004228/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "6g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004228/"
+      }
     },
     {
       "id": "acseine-activa-balance",
@@ -1162,7 +1432,14 @@
       "ingredients": "水、ミネラルオイル、BG、ベヘニルアルコール、グリセリン、ジエチルヘキサン酸ネオペンチルグリコール、スクワラン、セタノール、ジメチコン、ポリソルベート60、アラントイン、キトサンPCA、ヒドロキシプロピルキトサン、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、PCA、水添レシチン、イソプロパノール、エタノール、コレステロール、ステアリン酸、ステアリン酸グリセリル、ステアリン酸ソルビタン、ワセリン、BHT、トコフェロール、メチルパラベン",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049908/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 7700,
+        "taxIncluded": true,
+        "volume": "50g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049908/"
+      }
     },
     {
       "id": "acseine-skin-protector-ad",
@@ -1175,7 +1452,14 @@
       "ingredients": "ワセリン、ミリスチン酸オクチルドデシル、スクワラン、マイクロクリスタリンワックス、オリザノール、トコフェロール、ラウロイルグルタミン酸ジ(コレステリル/オクチルドデシル)、水添レシチン、コレステロール、フェノキシエタノール",
       "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421048109/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "15g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421048109/"
+      }
     },
     {
       "id": "avene-avene-water",
@@ -1188,7 +1472,14 @@
       "ingredients": "温泉水、窒素",
       "sourceUrl": "https://www.avene.co.jp/products/avenewater/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "150g",
+        "sourceUrl": "https://www.avene.co.jp/products/avenewater/"
+      }
     },
     {
       "id": "avene-skin-balance-lotion-ss-n",
@@ -1201,7 +1492,14 @@
       "ingredients": "温泉水，ＰＥＧ－７グリセリルココエート，加水分解水添デンプン，ステアラルコニウムヘクトライト，フェノキシエタノール，ＥＤＴＡ－３Ｎａ，水，香料",
       "sourceUrl": "https://www.avene.co.jp/products/bc/17/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2860,
+        "taxIncluded": true,
+        "volume": "200mL",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/17/"
+      }
     },
     {
       "id": "avene-hydrance-deep-moist-lotion",
@@ -1214,7 +1512,14 @@
       "ingredients": "温泉水，グリセリン，メチルグルセスー20，ベンチレングリコール，1, 2ーヘキサンジオール，ヒアルロン酸Na，ステアロイルオキシステアリン酸イソセチル，トリエチルヘキサノイン，フィトステロールズ，トレハロース，ベタイン，スクワラン，ヒドロキシエチルセルロース，PEG-40水添ヒマシ油，EDTA-2Na，水，クエン酸，クエン酸Na，キサンタンガム，香料",
       "sourceUrl": "https://www.avene.co.jp/products/hydrance_deepmoist_lotion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "200mL",
+        "sourceUrl": "https://www.avene.co.jp/products/hydrance_deepmoist_lotion/"
+      }
     },
     {
       "id": "avene-oil-control-lotion-ac",
@@ -1227,7 +1532,14 @@
       "ingredients": "温泉水，ＤＰＧ，変性アルコール，グルコン酸亜鉛，ペポカボチャ種子油，ＰＥＧ－４０水添ヒマシ油，ＰＰＧ－２６ブテス－２６，水，ステアラルコニウムヘクトライト，シリカ",
       "sourceUrl": "https://www.avene.co.jp/products/bc/07/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "300mL",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/07/"
+      }
     },
     {
       "id": "avene-cleanance-expert-emulsion",
@@ -1240,7 +1552,8 @@
       "ingredients": "温泉水，イソヘキサデカン，ジ（カプリル酸／カプリン酸）ＰＧ，セテアリルアルコール，ＢＧ，ジメチコン，ポリメタクリル酸メチル，グリセリン，水，１，２－ヘキサンジオール，アルギン酸Ｎａ，シア脂，カプリリルグリコール，アマニ脂肪酸カプリリルグリコ―ル，カルボマー，セテアリルグルコシド，ＥＤＴＡ－２Ｎａ，リン酸２Ｎａ，ラウリン酸グリセリル，パパイン，ポリアクリレート－１３，ポリイソブテン，ポリソルベート２０，リン酸２Ｋ，ソルビン酸Ｋ，セテアリル硫酸Ｎａ，水酸化Ｎａ，イソステアリン酸ソルビタン，香料",
       "sourceUrl": "https://www.avene.co.jp/products/bc/20/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "avene-cleanance-mattifying-emulsion",
@@ -1253,7 +1566,14 @@
       "ingredients": "温泉水、グリセリン、ミリスチン酸イソプロピル、ジ（カプリル酸／カプリン酸）ＰＧ、ポリメタクリル酸メチル、（Ｃ１４－２２）アルコール、イソプロパノール、ＰＥＧ－６、セチルリン酸Ｋ、オオアザミ果実エキス、カプリリルグリコール、アマニ脂肪酸カプリリルグリコール、トコフェロール、（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー、ヒマワリ種子油、サリチル酸亜鉛、１，２－ヘキサンジオール、（Ｃ１２－２０）アルキルグルコシド、ベヘン酸グリセリル、ジベヘン酸グリセリル、ポリアクリル酸Ｎａ、トリベヘニン、水、キサンタンガム、ソルビン酸Ｋ、水酸化Ｎａ、香料",
       "sourceUrl": "https://www.avene.co.jp/products/bc/24/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2860,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/24/"
+      }
     },
     {
       "id": "avene-cicalfate-plus-repair-milk",
@@ -1266,7 +1586,14 @@
       "ingredients": "温泉水,トリ（カプリル酸／カプリン酸）グリセリル,グリセリン,テトラ（カプリル／カプリン酸）ペンタエリスリチル,トリエチルヘキサノイン,スクワラン,セテアリルアルコール,ベヘニルアルコール,ナイアシンアミド,アルキル（Ｃ２０－２２）リン酸,（Ｃ２０－２２）アルコール,アクアフィルスドロミエ培養液,硫酸銅,硫酸亜鉛,ヒアルロン酸Ｎａ,アルギニン,シア脂,カプリリルグリコール,セテアリルグルコシド,安息香酸Ｎａ,水酸化Ｎａ,酢酸トコフェロール,トロメタミン,キサンタンガム",
       "sourceUrl": "https://www.avene.co.jp/products/cicalfate_milk/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.avene.co.jp/products/cicalfate_milk/"
+      }
     },
     {
       "id": "avene-milky-gel-ex",
@@ -1279,7 +1606,14 @@
       "ingredients": "温泉水，グリセリン，トリ（カプリル酸／カプリン酸）グリセリル，（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー，ステアロイルオキシステアリン酸イソセチル，トリエチルヘキサノイン，ミリスチン酸ポリグリセリル－１０，１，２－ヘキサンジオール，アスコルビルグルコシド，ベタイン，ペポカボチャ種子油，アボカド油，フィトステロールズ，ポリソルベート６０，ヒアルロン酸Ｎａ，スクワラン，トコフェリルグルコシド，ベヘニルアルコール，カプリリルグリコール，カラメル，クエン酸，水酸化Ｋ，プロパンジオール，クエン酸Ｎａ，イソステアリン酸ソルビタン，水，キサンタンガム，香料",
       "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_ex/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "50mL",
+        "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_ex/"
+      }
     },
     {
       "id": "avene-milky-gel-enrich-lf",
@@ -1292,7 +1626,14 @@
       "ingredients": "温泉水,グリセリン,ナイアシンアミド,スクワラン,ジグリセリン,アボカド油,（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー,ミリスチン酸ポリグリセリル−１０,１，２−ヘキサンジオール,アデノシン,ヒアルロン酸Ｎａ,トコフェリルグルコシド,ベヘニルアルコール,トリ（カプリル酸／カプリン酸）グリセリル,カプリリルグリコール,カラメル,クエン酸,ポリソルベート６０,クエン酸Ｎａ,イソステアリン酸ソルビタン,水,キサンタンガム,香料",
       "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_enrich_lf/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4620,
+        "taxIncluded": true,
+        "volume": "50mL",
+        "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_enrich_lf/"
+      }
     },
     {
       "id": "avene-milky-gel-oil-control",
@@ -1305,7 +1646,14 @@
       "ingredients": "温泉水,プロパンジオール,ペンチレングリコール,グリセリン,水,トリエチルヘキサノイン,ナイアシンアミド,ラウリン酸グリセリル,ヒラマメ種子エキス,トコフェリルグルコシド,（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー,トリ（カプリル酸／カプリン酸）グリセリル,カプリリルグリコール,オリーブ油脂肪酸セテアリル,ジグリセリン,（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー, ヒドロキシプロピルデンプンリン酸,ポリグリセリン－３,ポリソルベート６０,水酸化Ｋ,安息香酸Ｎａ,イソステアリン酸ソルビタン,オリーブ油脂肪酸ソルビタン,香料,青１",
       "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_oc/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "50mL",
+        "sourceUrl": "https://www.avene.co.jp/products/osc/milkygel_oc/"
+      }
     },
     {
       "id": "avene-skin-balance-cream-ex-ss",
@@ -1318,7 +1666,8 @@
       "ingredients": "温泉水，ミネラルオイル，グリセリン，ステアリン酸グリセリル，スクワラン，シクロペンタシロキサン，シクロヘキサシロキサン，セリン，カルボマー，ＥＤＴＡ－４Ｎａ，ＴＥＡ，水",
       "sourceUrl": "https://www.avene.co.jp/products/bc/14/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "avene-skin-balance-cream-ex-ss-r-n",
@@ -1331,7 +1680,8 @@
       "ingredients": "温泉水，ミネラルオイル，グリセリン，スクワラン，ジメチコン，ステアリン酸グリセリル，ベヘニルアルコール，セリン，シア脂，カルボマー，ＥＤＴＡ－４Ｎａ，ＴＥＡ，水，キサンタンガム",
       "sourceUrl": "https://www.avene.co.jp/products/bc/15/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "avene-skin-balance-tc-cream",
@@ -1344,7 +1694,14 @@
       "ingredients": "温泉水、トリ（カプリル酸／カプリン酸）グリセリル、パルミチン酸エチルヘキシル、グリセリン、セテアリルアルコール、スクワラン、セテアリルグルコシド、アクアフィルスドロミエエキス液、アルギニン、トロメタミン、水、ミツロウ、セチルエステルズ、クエン酸、キサンタンガム",
       "sourceUrl": "https://www.avene.co.jp/products/bc/23/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/23/"
+      }
     },
     {
       "id": "avene-hydrance-cream-n",
@@ -1357,7 +1714,14 @@
       "ingredients": "温泉水，ミネラルオイル，グリセリン，イソヘキサデカン，ジメチコン，セテアリルアルコール，サフラワー油，ステアロイルオキシステアリン酸イソセチル，トリエチルヘキサノイン，ステアリン酸グリセリル，ステアリン酸ＰＥＧ－１００，フィトステロールズ，１，２－ヘキサンジオール，シア脂，セテアリルグルコシド，ポリアクリレート－１３，ポリイソブテン，キサンタンガム，水，水酸化Ｎａ，イソステアリン酸ソルビタン，ポリソルベート２０，安息香酸，香料",
       "sourceUrl": "https://www.avene.co.jp/products/bc/21/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "39g",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/21/"
+      }
     },
     {
       "id": "avene-cicalfate-plus-repair-cream",
@@ -1370,7 +1734,14 @@
       "ingredients": "温泉水、トリ（カプリル酸／カプリン酸）グリセリル、ミネラルオイル、グリセリン、水添野菜油、酸化亜鉛、ＰＧ、セスキイソステアリン酸ポリグリセリル－２、（ＰＥＧ－２２／ドデシルグリコール）コポリマー、アクアフィルスドロミエ培養液、アルギニン、トロメタミン、ミツロウ、硫酸銅、硫酸亜鉛、ステアリン酸Ａｌ、ステアリン酸Ｍｇ、硫酸Ｍｇ、マイクロクリスタリンワックス",
       "sourceUrl": "https://www.avene.co.jp/products/bc/22/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.avene.co.jp/products/bc/22/"
+      }
     },
     {
       "id": "avene-c-plus-radiance-cream",
@@ -1383,7 +1754,14 @@
       "ingredients": "温泉水,トリ（カプリル酸／カプリン酸）グリセリル,グリセリン,ナイアシンアミド,サフラワー油,シア脂,パルミチン酸グリコール,アスコルビルグルコシド,アラキジルアルコール,セテアリルアルコール,ヒアルロン酸Ｎａ,カプリリルグリコール,ヒマワリ種子油,トコフェロール,ベヘニルアルコール,ステアリン酸グリセリル,アラキジルグルコシド,セテアリルグルコシド,ステアロイルグルタミン酸Ｎａ,クエン酸,クエン酸Ｎａ,水酸化Ｎａ,安息香酸Ｎａ,キサンタンガム,香料",
       "sourceUrl": "https://www.avene.co.jp/products/radiance_cream/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 7150,
+        "taxIncluded": true,
+        "volume": "50mL",
+        "sourceUrl": "https://www.avene.co.jp/products/radiance_cream/"
+      }
     },
     {
       "id": "avene-dermabsolu-night-cream",
@@ -1396,7 +1774,14 @@
       "ingredients": "温泉水,グリセリン,ペンチレングリコール,（カプリル酸／カプリン酸）ヤシアルキル,（アクリル酸ヒドロキシエチル／アクリロイルジメチルタウリンＮａ）コポリマー,ナイアシンアミド,コーンスターチ,リノール酸グリセリル,バクチオール,アスコルビルグルコシド,トコフェリルグルコシド,ダイズ油,ヒマワリ種子油,トコフェロール,トリ（カプリル酸／カプリン酸）グリセリル,リノレン酸グリセリル,オレイン酸グリセリル,パルミチン酸グリセリル,ステアリン酸グリセリル,ラウリルグルコシド,ジポリヒドロキシステアリン酸ポリグリセリル－２,ポリソルベート６０,イソステアリン酸ソルビタン,水,クエン酸,カラメル,香料",
       "sourceUrl": "https://www.avene.co.jp/products/dermabsolu_nightcream/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 11000,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.avene.co.jp/products/dermabsolu_nightcream/"
+      }
     },
     {
       "id": "cetaphil-comfort-repair-balancing-toner",
@@ -1409,7 +1794,8 @@
       "ingredients": "水、グリセリン、プロパンジオール、１，２－ヘキサンジオール、ツボクサ葉エキス、アラントイン、ヒアルロン酸、加水分解ヒアルロン酸、ヒアルロン酸Ｎａ、ＢＧ、ヒドロキシアセトフェノン、エチルヘキシルグリセリン、セルロースガム、ビオサッカリドガム－１、ヒドロキシエチルセルロース、クエン酸、クエン酸Ｎａ",
       "sourceUrl": "https://www.cetaphil.jp/products/comfort/20260401CR_BT_A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "cetaphil-moisturizing-lotion",
@@ -1422,7 +1808,8 @@
       "ingredients": "水、グリセリン、パルミチン酸イソプロピル、セテアリルアルコール、セテアレス－２０、パンテノール、ナイアシンアミド、酢酸トコフェロール、ジメチコン、アボカド油、ヒマワリ種子油、パントラクトン、ステアリン酸グリセリル、安息香酸Ｎａ、ベンジルアルコール、クエン酸",
       "sourceUrl": "https://www.cetaphil.jp/products/moisturizinglotion/3499320012651A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "cetaphil-cera-repair-lotion",
@@ -1435,7 +1822,8 @@
       "ingredients": "水、グリセリン、トリ（カプリル酸／カプリン酸）グリセリル、ヒマワリ種子油、ペンチレングリコール、シア脂、シクロペンタシロキサン、セテアリルアルコール、ソルビトール、ベヘニルアルコール、ステアリン酸グリセリル、酢酸トコフェロール、アラントイン、ナイアシンアミド、パンテノール、セラミドＮＰ、ヒアルロン酸Ｎａ、パントラクトン、アルギニン、カプリリルグリコール、セテアレス－２０、セタノール、ジメチコノール、エチレンジコカミドＰＥＧ－１５ジ硫酸２Ｎａ、クエン酸ステアリン酸グリセリル、クエン酸、ＰＣＡ－Ｎａ、ポリアクリル酸Ｎａ、ＥＤＴＡ－２Ｎａ",
       "sourceUrl": "https://www.cetaphil.jp/products/cerarepairlotion/20251001CE_L_A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "cetaphil-gentle-sa-lotion",
@@ -1448,7 +1836,8 @@
       "ingredients": "水、グリセリン、パルミチン酸イソプロピル、シア脂、セテアリルアルコール、グルコノラクトン、ステアリン酸グリセリル、ステアリン酸ＰＥＧ－１００、ジメチコン、マンデル酸、酢酸トコフェロール、サリチル酸、ナイアシンアミド、パンテノール、パントラクトン、エチルヘキシルグリセリン、キサンタンガム、水酸化Ｎａ、ＥＤＴＡ－２Ｎａ、クエン酸、フェノキシエタノール",
       "sourceUrl": "https://www.cetaphil.jp/products/sa/20251001SA_L_A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "cetaphil-comfort-repair-moist-barrier-cream",
@@ -1461,7 +1850,8 @@
       "ingredients": "水、トリ（カプリル酸／カプリン酸）グリセリル、グリセリン、プロパンジオール、ヒマワリ種子油、ペンチレングリコール、ジメチコン、シア脂、セテアリルアルコール、ベヘニルアルコール、ステアリン酸グリセリル、酢酸トコフェロール、ツボクサ葉エキス、アラントイン、ナイアシンアミド、パンテノール、セラミドＮＰ、ヒアルロン酸Ｎａ、パントラクトン、セタノール、クエン酸ステアリン酸グリセリル、エチレンジコカミドＰＥＧ－１５ジ硫酸２Ｎａ、カプリリルグリコール、カフェイン、セテアレス－２０、（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー、キサンタンガム、水酸化Ｎａ、クエン酸、ＥＤＴＡ－２Ｎａ",
       "sourceUrl": "https://www.cetaphil.jp/products/comfort/20260401CR_MC_A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "cetaphil-moisturizing-cream",
@@ -1474,7 +1864,8 @@
       "ingredients": "水、グリセリン、ワセリン、ジカプリリルエーテル、ジメチコン、ステアリン酸グリセリル、セタノール、ヒマワリ種子油、ステアリン酸ＰＥＧ－３０、パンテノール、ナイアシンアミド、アーモンド油、トコフェロール、酢酸トコフェロール、パントラクトン、ジメチコノール、（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー、カルボマー、ＰＧ、ＢＨＴ、ＥＤＴＡ－２Ｎａ、ベンジルアルコール、フェノキシエタノール、水酸化Ｎａ、クエン酸",
       "sourceUrl": "https://www.cetaphil.jp/products/moisturizingcream/3499320012637A.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": null
     },
     {
       "id": "fancl-enrichplus-lotion-1",
@@ -1488,7 +1879,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3761d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3761-41&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3761-41)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3761d/"
+      }
     },
     {
       "id": "fancl-enrichplus-lotion-2",
@@ -1502,7 +1900,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3762d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3762-41&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3762-41)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3762d/"
+      }
     },
     {
       "id": "fancl-enrichplus-emulsion-1",
@@ -1516,7 +1921,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3763d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3763-41&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3763-41)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3763d/"
+      }
     },
     {
       "id": "fancl-enrichplus-emulsion-2",
@@ -1530,7 +1942,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3764d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3764-41&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3764-41)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3764d/"
+      }
     },
     {
       "id": "fancl-moistrefine-lotion-1",
@@ -1544,7 +1963,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3741c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3741-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3741-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3741c/"
+      }
     },
     {
       "id": "fancl-moistrefine-lotion-2",
@@ -1558,7 +1984,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3742c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3742-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3742-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3742c/"
+      }
     },
     {
       "id": "fancl-moistrefine-emulsion-1",
@@ -1572,7 +2005,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3743c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3743-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3743-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3743c/"
+      }
     },
     {
       "id": "fancl-moistrefine-emulsion-2",
@@ -1586,7 +2026,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3744c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3744-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3744-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3744c/"
+      }
     },
     {
       "id": "fancl-brightening-lotion-1",
@@ -1600,7 +2047,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3751d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3751-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3751-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3751d/"
+      }
     },
     {
       "id": "fancl-brightening-lotion-2",
@@ -1614,7 +2068,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3752d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3752-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3752-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3752d/"
+      }
     },
     {
       "id": "fancl-brightening-emulsion-1",
@@ -1628,7 +2089,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3753d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3753-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3753-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3753d/"
+      }
     },
     {
       "id": "fancl-brightening-emulsion-2",
@@ -1642,7 +2110,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3754d/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3754-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3754-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3754d/"
+      }
     },
     {
       "id": "fancl-brightening-cream-extra-moist",
@@ -1656,7 +2131,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3788-91/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3788-91&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5170,
+        "taxIncluded": true,
+        "volume": "30g (商品番号3788-91)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3788-91/"
+      }
     },
     {
       "id": "fancl-acnecare-lotion",
@@ -1670,7 +2152,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3771c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3771-21&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "30mL×1本 (商品番号3771-21)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3771c/"
+      }
     },
     {
       "id": "fancl-acnecare-gel-emulsion",
@@ -1684,7 +2173,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3772c/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3772-21&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "18g×1本 (商品番号3772-21)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3772c/"
+      }
     },
     {
       "id": "fancl-dry-sensitive-lotion",
@@ -1698,7 +2194,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3011a/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3011-23&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "10mL×3本 (商品番号3011-23)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3011a/"
+      }
     },
     {
       "id": "fancl-dry-sensitive-emulsion",
@@ -1712,7 +2215,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3012b/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3012-43&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1870,
+        "taxIncluded": true,
+        "volume": "10mL×3本 (商品番号3012-43)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3012b/"
+      }
     },
     {
       "id": "fancl-dry-sensitive-cream",
@@ -1726,7 +2236,14 @@
       "sourceUrl": "https://www.fancl.co.jp/beauty/item/3014b/",
       "ingredientsSourceUrl": "https://www.fancl.co.jp/item/Seibun?item_id=3014-31&category=01",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "18g×1本 (商品番号3014-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3014b/"
+      }
     },
     {
       "id": "curel-brightening-lotion-3",
@@ -1739,7 +2256,14 @@
       "ingredients": "Ｌ-アスコルビン酸　2-グルコシド＊、精製水、グリセリン、BG、DPG、ユーカリエキス、PEG1540、ベタイン、プルラン、N-アミジノ-L-プロリン、水酸化K、リン酸1Na、POEイソセチルエーテル、リン酸2Na、ジメチルシロキサン・メチル（ウンデシルグリセリルエーテル）シロキサン共重合体、ジメチコン、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238801/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2530,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238801/"
+      }
     },
     {
       "id": "curel-brightening-milk",
@@ -1752,7 +2276,14 @@
       "ingredients": "カモミラＥＴ＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、流動イソパラフィン、ジカプリン酸ネオペンチルグリコール、ジメチコン、ＢＧ、ステアリン酸ＰＯＥソルビタン、ユーカリエキス、コレステロール、シュガースクワラン、ステアリン酸ソルビタン、イソステアリン酸コレステリル、ステアロイルメチルタウリンＮａ、ステアリルアルコール、セタノール、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238795/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2530,
+        "taxIncluded": true,
+        "volume": "110mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238795/"
+      }
     },
     {
       "id": "curel-brightening-face-cream",
@@ -1765,7 +2296,14 @@
       "ingredients": "カモミラＥＴ＊、水、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、トリシロキサン、シュガースクワラン、ジメチコン、ＰＯＥ・ジメチコン共重合体、ユーカリエキス、硫酸Ｍｇ、ＢＧ、イソステアリルグリセリルエーテル、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238818/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301238818/"
+      }
     },
     {
       "id": "curel-oilcontrol-lotion",
@@ -1778,7 +2316,14 @@
       "ingredients": "アラントイン＊、精製水、ＢＧ、ベタイン、グリセリン、ユーカリエキス、10-ヒドロキシウンデカン酸、酸化Zn、ＰＯＥメチルグルコシド、ＰＥＧ１５４０、コハク酸、アルギニン、ＰＯＥ水添ヒマシ油、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301264343/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "150mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301264343/"
+      }
     },
     {
       "id": "curel-oilcontrol-moisture-gel",
@@ -1791,7 +2336,14 @@
       "ingredients": "アラントイン＊、精製水、グリセリン、ＢＧ、ジメチコン、ユーカリエキス、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、長鎖二塩基酸ビス３-メトキシプロピルアミド、10-ヒドロキシウンデカン酸、酸化Zn、ステアロイルメチルタウリンNa、ヒドロキシプロピルメチルセルロース、アクリル酸・メタクリル酸アルキル共重合体、アルギニン、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301264350/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "120mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301264350/"
+      }
     },
     {
       "id": "curel-agingcare-lotion",
@@ -1804,7 +2356,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、アスナロエキス、ＰＥＧ１５４０、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ユーカリエキス、水溶性ショウキョウエキス（Ｋ）、ＰＯＥメチルグルコシド、ＰＥＧ２００００、ＰＯＥ水添ヒマシ油、カルボキシビニルポリマー、キサンタンガム、アルギニン、ステアロイルメチルタウリンＮａ、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334510/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2530,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334510/"
+      }
     },
     {
       "id": "curel-agingcare-face-gel-cream",
@@ -1817,7 +2376,14 @@
       "ingredients": "アラントイン＊、水、グリセリン、ＢＧ、ＰＥＧ１５４０、ＰＯＥメチルグルコシド、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、アスナロエキス、ジメチコン、水溶性ショウキョウエキス（Ｋ）、ユーカリエキス、セタノール、グリセリン脂肪酸エステル、ＰＥＧ２００００、フィトスフィンゴシン、Ｎ，Ｎ-ジメチルアミノエチルメタクリル酸ジエチル硫酸塩・Ｎ，Ｎ-ジメチルアクリルアミド・ジメタクリル酸ポリエチレングリコール共重合体／ＰＥＧ混合物、ステアリン酸ＰＯＥソルビタン、Ｌ-グルタミン酸、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334527/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334527/"
+      }
     },
     {
       "id": "curel-agingcare-face-cream",
@@ -1830,7 +2396,14 @@
       "ingredients": "アラントイン＊、水、ジメチコン、グリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、シュガースクワラン、ＢＧ、ジリノール酸ジ（フィトステリル／イソステアリル／セチル／ステアリル／ベヘニル）、アスナロエキス、ラウロイルグルタミン酸ジ（フィトステリル・オクチルドデシル）、ジイソステアリン酸ポリグリセリル、ＰＯＥ・ジメチコン共重合体、架橋型ジメチコン、水溶性ショウキョウエキス（Ｋ）、ユーカリエキス、ラウロイルグルタミン酸ジ（コレステリル・オクチルドデシル）、パルミチン酸デキストリン、硫酸Ｍｇ、コハク酸、水酸化ナトリウム液、イソステアリルグリセリルエーテル、パラベン　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334534/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301334534/"
+      }
     },
     {
       "id": "alblanc-the-lotion-1",
@@ -1843,7 +2416,14 @@
       "ingredients": "Ｌ-アスコルビン酸　２-グルコシド＊、水、ＤＰＧ、グリセリン、エタノール、ＢＧ、チューベロースポリサッカライド液、センレンシエキス、ゲンノショウコエキス、チョウジ抽出液、ＰＥＧ-１２、アルテアエキス、人参エキス、ユーカリエキス、ジオウエキス、２-メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、Ｄ-マンニット、キサンタンガム、ＰＯＥオクチルドデシルエーテル、アミノヒドロキシメチルプロパンジオール、リン酸２Ｎａ、リン酸１Ｎａ、エデト酸塩、フェノキシエタノール、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455741/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-lotion/"
+      }
     },
     {
       "id": "alblanc-the-lotion-2",
@@ -1856,7 +2436,14 @@
       "ingredients": "Ｌ-アスコルビン酸　２-グルコシド＊、水、ＤＰＧ、ＰＯＥメチルグルコシド、ＢＧ、グリセリン、エタノール、センレンシエキス、ゲンノショウコエキス、チョウジ抽出液、ＰＥＧ-１２、アルテアエキス、人参エキス、ユーカリエキス、ジオウエキス、２-メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、チューベロースポリサッカライド液、Ｄ-マンニット、キサンタンガム、ＰＯＥオクチルドデシルエーテル、アミノヒドロキシメチルプロパンジオール、リン酸２Ｎａ、リン酸１Ｎａ、エデト酸塩、フェノキシエタノール、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455758/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-lotion/"
+      }
     },
     {
       "id": "alblanc-the-lotion-3",
@@ -1869,7 +2456,14 @@
       "ingredients": "Ｌ-アスコルビン酸　２-グルコシド＊、水、ＤＰＧ、ＢＧ、グリセリン、ジグリセリン、トレハロース、ＰＥＧ１５４０、センレンシエキス、ゲンノショウコエキス、チョウジ抽出液、ＰＥＧ-１２、アルテアエキス、人参エキス、ユーカリエキス、ジオウエキス、２-メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、Ｄ-マンニット、ベタイン、キサンタンガム、ＰＯＥオクチルドデシルエーテル、エタノール、アミノヒドロキシメチルプロパンジオール、リン酸２Ｎａ、リン酸１Ｎａ、エデト酸塩、フェノキシエタノール、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455765/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-lotion/"
+      }
     },
     {
       "id": "alblanc-the-lotion-4",
@@ -1882,7 +2476,14 @@
       "ingredients": "Ｌ-アスコルビン酸　２-グルコシド＊、水、グリセリン、ＤＰＧ、ＢＧ、ＰＯＥメチルグルコシド、センレンシエキス、ゲンノショウコエキス、チョウジ抽出液、ジグリセリン、ＰＥＧ-１２、アルテアエキス、人参エキス、ユーカリエキス、ジオウエキス、２-メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、Ｄ-マンニット、ベタイン、キサンタンガム、カルボキシビニルポリマー、ＰＯＥオクチルドデシルエーテル、エタノール、アミノヒドロキシメチルプロパンジオール、リン酸２Ｎａ、リン酸１Ｎａ、エデト酸塩、フェノキシエタノール、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455772/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "140mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-lotion/"
+      }
     },
     {
       "id": "alblanc-the-emulsion-1",
@@ -1895,7 +2496,14 @@
       "ingredients": "カモミラＥＴ＊、水、エタノール、グリセリン、ＢＧ、ジカプリン酸ネオペンチルグリコール、マカデミアナッツ油脂肪酸フィトステリル、センレンシエキス、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、アルテアエキス、人参エキス、ユーカリエキス、ビルベリー葉エキス、オランダカラシエキス、アルギニン、シュガースクワラン、ステアリルアルコール、ジメチコン、メチルフェニルポリシロキサン、セタノール、グリセリン脂肪酸エステル、アルキル-１，３-ジメチルブチルエーテル、カルボキシビニルポリマー、ジラウロイルグルタミン酸リシンナトリウム液、ＰＯＥラウリルエーテルリン酸Ｎａ、ステアロイルグルタミン酸、水酸化カリウム液（Ａ）、エデト酸塩、パラベン、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455826/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "80mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-emulsion/"
+      }
     },
     {
       "id": "alblanc-the-emulsion-2",
@@ -1908,7 +2516,14 @@
       "ingredients": "カモミラＥＴ＊、水、エタノール、グリセリン、ＢＧ、ジカプリン酸ネオペンチルグリコール、１，３-プロパンジオール、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、センレンシエキス、ジメチコン、アルテアエキス、人参エキス、ユーカリエキス、ビルベリー葉エキス、オランダカラシエキス、マカデミアナッツ油脂肪酸フィトステリル、アルギニン、シュガースクワラン、ステアリルアルコール、セタノール、グリセリン脂肪酸エステル、メチルフェニルポリシロキサン、アルキル-１，３-ジメチルブチルエーテル、カルボキシビニルポリマー、ジラウロイルグルタミン酸リシンナトリウム液、ＰＯＥラウリルエーテルリン酸Ｎａ、ステアロイルグルタミン酸、水酸化カリウム液（Ａ）、エデト酸塩、パラベン、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455833/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "80mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-emulsion/"
+      }
     },
     {
       "id": "alblanc-the-emulsion-3",
@@ -1921,7 +2536,14 @@
       "ingredients": "カモミラＥＴ＊、水、グリセリン、ＢＧ、ジメチコン、ジカプリン酸ネオペンチルグリコール、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、マカデミアナッツ油脂肪酸フィトステリル、ＰＥＧ１５４０、グリセリン脂肪酸エステル、センレンシエキス、ジグリセリン、アルテアエキス、人参エキス、ユーカリエキス、ビルベリー葉エキス、オランダカラシエキス、アルギニン、シュガースクワラン、セタノール、α-オレフィンオリゴマー、メチルフェニルポリシロキサン、アルキル-１，３-ジメチルブチルエーテル、オリブ油、ジイソステアリン酸ポリグリセリル、アクリル酸・メタクリル酸アルキル共重合体、ステアロイルグルタミン酸、水酸化カリウム液（Ａ）、エデト酸塩、パラベン、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455840/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-emulsion/"
+      }
     },
     {
       "id": "alblanc-the-emulsion-4",
@@ -1934,7 +2556,14 @@
       "ingredients": "カモミラＥＴ＊、水、グリセリン、ＢＧ、ソルビット液、メドウフォーム油、ジメチコン、ジカプリン酸ネオペンチルグリコール、ホホバ油、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、α-オレフィンオリゴマー、ワセリン、セタノール、イソノナン酸イソトリデシル、オリブ油、マカデミアナッツ油脂肪酸フィトステリル、ステアリン酸ＰＯＥソルビタン、ステアリルアルコール、センレンシエキス、アルテアエキス、人参エキス、ユーカリエキス、ビルベリー葉エキス、オランダカラシエキス、シュガースクワラン、アルキル-１，３-ジメチルブチルエーテル、ジイソステアリン酸ポリグリセリル、ステアリン酸ソルビタン、ステアロイルメチルタウリンＮａ、ビタミンＥ、カルボキシビニルポリマー、キサンタンガム、水酸化カリウム液（Ａ）、エデト酸塩、パラベン、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301455857/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6050,
+        "taxIncluded": true,
+        "volume": "55g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/the-emulsion/"
+      }
     },
     {
       "id": "alblanc-vitalizing-cream",
@@ -1947,7 +2576,14 @@
       "ingredients": "カモミラＥＴ＊、水、グリセリン、ジメチコン、ＢＧ、シュガースクワラン、イソステアリン酸コレステリル、流動イソパラフィン、１，３-プロパンジオール、ラウロイルグルタミン酸ジ（コレステリル・オクチルドデシル）、イソノナン酸イソトリデシル、セタノール、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ステアリルアルコール、センレンシエキス、マロニエエキス、ワレモコウエキス、Ｎ-アミジノ-Ｌ-プロリン、アスナロ抽出液、ローズマリーエキス、アルテアエキス、人参エキス、ユーカリエキス、水溶性ショウキョウエキス（Ｋ）、ローマカミツレエキス、海藻エキス-１、レモンエキス、ステアリン酸ソルビタン、ステアロイルメチルタウリンＮａ、ジイソステアリン酸ポリグリセリル、マイクロクリスタリンワックス、水酸化カリウム液（Ａ）、エタノール、無水エタノール、カルボキシビニルポリマー、ジカプリン酸ネオペンチルグリコール、ＰＯＥラウリルエーテルリン酸Ｎａ、キサンタンガム、ビタミンＥ、アルキル-１，３-ジメチルブチルエーテル、ステアリン酸ＰＯＥソルビタン、エデト酸塩、黄酸化鉄、パラベン、フェノキシエタノール、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301409362/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 11000,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/skincare/vitalizing-cream/"
+      }
     },
     {
       "id": "sofina-ip-treatment-lotion",
@@ -1960,7 +2596,14 @@
       "ingredients": "水、グリセリン、ＤＰＧ、アミジノプロリン、コハク酸ジグリコールグアニジン、メチルセリン、セチルＰＧヒドロキシエチルパルミタミド、乳酸桿菌／豆乳発酵液、チューベロース多糖体、ヒアルロン酸Ｎａ、コレステロール（羊毛）、ＢＧ、ＰＥＧ-６０水添ヒマシ油、ステアロイルメチルタウリンＮａ、コハク酸、ＥＤＴＡ-２Ｎａ、ヒドロキシプロピルグアーガム、フェノキシエタノール、香料",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301422941/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 2640,
+        "taxIncluded": true,
+        "volume": "160mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301422941/"
+      }
     },
     {
       "id": "sofina-ip-medicated-deep-lotion",
@@ -1973,7 +2616,14 @@
       "ingredients": "ナイアシンアミド＊、水、エタノール、１，３-プロパンジオール、ＢＧ、グリセリン、ジグリセリン、ＰＯＥ水添ヒマシ油、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、Ｎ-メチル-Ｌ-セリン、Ｄ-マンニット、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ユーカリエキス、ローズマリーエキス、ワレモコウエキス、水溶性ショウキョウエキス（Ｋ）、海藻エキス-４、チューベロースポリサッカライド液-ＢＧ、キサンタンガム、ヒドロキシプロピルメチルセルロース、リン酸１Ｋ、リン酸２Ｎａ、ステアロイルメチルタウリンＮａ、フェノキシエタノール、無水エタノール、エデト酸塩、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301472762/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "160mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301472762/"
+      }
     },
     {
       "id": "sofina-ip-medicated-deep-emulsion",
@@ -1986,7 +2636,14 @@
       "ingredients": "ナイアシンアミド＊、水、グリセリン、ジメチコン、ＢＧ、ジカプリン酸ネオペンチルグリコール、ワセリン、ジグリセリン、ヘキサデシロキシＰＧヒドロキシエチルヘキサデカナミド、ＤＰＧ、チューベロースポリサッカライド液、オリブ油、流動イソパラフィン、Ｎ-アミジノ-Ｌ-プロリン、コハク酸２-（２-ヒドロキシエトキシ）エチルグアニジン、Ｎ-メチル-Ｌ-セリン、ユーカリエキス、ローズマリーエキス、ワレモコウエキス、水溶性ショウキョウエキス（Ｋ）、海藻エキス-４、キサンタンガム、アルギニン、グリセリン脂肪酸エステル、セタノール、水酸化カリウム液（Ａ）、ステアロイルグルタミン酸、カルボキシビニルポリマー、アクリル酸・メタクリル酸アルキル共重合体、パラベン、エタノール、無水エタノール、エデト酸塩、香料　＊は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301472793/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 4070,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301472793/"
+      }
     },
     {
       "id": "sofina-ip-goldentime-repair-cream",
@@ -1999,7 +2656,14 @@
       "ingredients": "水、グリセリン、ジメチコン、ＢＧ、イソステアリン酸コレステリル、プロパンジオール、スクワラン、水添ポリイソブテン、ラウロイルグルタミン酸ジ（コレステリル／オクチルドデシル）、イソノナン酸イソトリデシル、セタノール、セチルＰＧヒドロキシエチルパルミタミド、ステアリルアルコール、アミジノプロリン、コハク酸ジグリコールグアニジン、メチルセリン、グリシン、アラニン、ユーカリ葉エキス、オレンジ果汁、メドウフォーム油、マカデミア種子油、アスナロ枝エキス、ヒバマタエキス、ステアリン酸ソルビタン、ステアロイルメチルタウリンＮａ、ジイソステアリン酸ポリグリセリル-２、マイクロクリスタリンワックス、エタノール、カルボマー、ジカプリン酸ネオペンチルグリコール、ラウレス-４リン酸Ｎａ、キサンタンガム、ポリソルベート６０、セチルジメチルブチル、水酸化Ｋ、ＥＤＴＡ-２Ｎａ、フェノキシエタノール、エチルパラベン、メチルパラベン、香料",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301446466/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 3190,
+        "taxIncluded": true,
+        "volume": "55g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-ip/4901301446466/"
+      }
     },
     {
       "id": "sofina-basic-uruoi-turbo-lotion",
@@ -2012,7 +2676,14 @@
       "ingredients": "水、ＤＰＧ、グリセリン、ＢＧ、ジグリセリン、ＰＥＧ-３２、セチルＰＧヒドロキシエチルパルミタミド、セリン、スクロース、コハク酸ジグリコールグアニジン、塩化Ｎａ、ユーカリ葉エキス、チューベロース多糖体、プルラン、ＰＥＧ-１１メチルエーテルジメチコン、カルボマー、キサンタンガム、（アクリレーツ／アクリル酸アルキル（Ｃ１０-３０））クロスポリマー、イソセテス-２０、ステアロイルメチルタウリンＮａ、水酸化Ｋ、リン酸Ｎａ、リン酸２Ｎａ、ＥＤＴＡ-２Ｎａ、フェノキシエタノール",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-basic/4901301466648/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 1430,
+        "taxIncluded": true,
+        "volume": "160mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-basic/4901301466648/"
+      }
     },
     {
       "id": "sofina-basic-uruoi-turbo-emulsion",
@@ -2025,7 +2696,14 @@
       "ingredients": "水、グリセリン、プロパンジオール、ＤＰＧ、ジカプリン酸ネオペンチルグリコール、ＢＧ、ジグリセリン、ジメチコン、セチルＰＧヒドロキシエチルパルミタミド、コレステロール（羊毛）、水添ポリイソブテン、セリン、スクロース、コハク酸ジグリコールグアニジン、塩化Ｎａ、ユーカリ葉エキス、スクワラン、ベヘニルアルコール、ステアリルアルコール、ＰＥＧ-５フィトステロール、ポリソルベート６０、ステアロイルメチルタウリンＮａ、ヒドロキシプロピルメチルセルロース、ステアロキシＰＧヒドロキシエチルセルローススルホン酸Ｎａ、カルボマー、水酸化Ｋ、ＥＤＴＡ-２Ｎａ、フェノキシエタノール、クロルフェネシン",
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-basic/4901301466679/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "STORE",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "120mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/sofina-basic/4901301466679/"
+      }
     },
     {
       "id": "melanocc-lotion",
@@ -2039,7 +2717,14 @@
       "sourceUrl": "https://jp.rohto.com/melanocc/lotion/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=198900",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/melanocc/lotion/"
+      }
     },
     {
       "id": "melanocc-lotion-rich",
@@ -2053,7 +2738,14 @@
       "sourceUrl": "https://jp.rohto.com/melanocc/lotion-rich/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=198924",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/melanocc/lotion-rich/"
+      }
     },
     {
       "id": "melanocc-milk",
@@ -2067,7 +2759,14 @@
       "sourceUrl": "https://jp.rohto.com/melanocc/milk/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=188833",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "120mL",
+        "sourceUrl": "https://jp.rohto.com/melanocc/milk/"
+      }
     },
     {
       "id": "melanocc-gel",
@@ -2081,7 +2780,14 @@
       "sourceUrl": "https://jp.rohto.com/melanocc/gel/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=169702",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "100g",
+        "sourceUrl": "https://jp.rohto.com/melanocc/gel/"
+      }
     },
     {
       "id": "melanocc-cream",
@@ -2095,7 +2801,14 @@
       "sourceUrl": "https://jp.rohto.com/melanocc/cream/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=169696",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "23g",
+        "sourceUrl": "https://jp.rohto.com/melanocc/cream/"
+      }
     },
     {
       "id": "hadalabo-gokujun-premium-lotion",
@@ -2109,7 +2822,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-premium-lotion/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=167012",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-premium-lotion/"
+      }
     },
     {
       "id": "hadalabo-gokujun-premium-milk",
@@ -2123,7 +2843,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-premium-milk/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=167029",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "140mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-premium-milk/"
+      }
     },
     {
       "id": "hadalabo-gokujun-lotion-light",
@@ -2137,7 +2864,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-lotion-light/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=155736",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-lotion-light/"
+      }
     },
     {
       "id": "hadalabo-gokujun-cream",
@@ -2151,7 +2885,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-cream/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=127948",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "50g",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/gokujun-cream/"
+      }
     },
     {
       "id": "hadalabo-shirojun-premium-lotion",
@@ -2165,7 +2906,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-lotion/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=168446",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-lotion/"
+      }
     },
     {
       "id": "hadalabo-shirojun-premium-lotion-rich",
@@ -2179,7 +2927,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-lotion-rich/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=168491",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-lotion-rich/"
+      }
     },
     {
       "id": "hadalabo-shirojun-premium-milk",
@@ -2193,7 +2948,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-milk/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=168507",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "140mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-premium-milk/"
+      }
     },
     {
       "id": "hadalabo-shirojun-gel",
@@ -2207,7 +2969,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-gel/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=193844",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "100g",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-gel/"
+      }
     },
     {
       "id": "hadalabo-shirojun-lotion-rich",
@@ -2221,7 +2990,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-lotion-rich/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=157563",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/shirojun-lotion-rich/"
+      }
     },
     {
       "id": "hadalabo-aging-lotion",
@@ -2235,7 +3011,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/aging-lotion/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=171255",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "170mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/aging-lotion/"
+      }
     },
     {
       "id": "hadalabo-aging-milk",
@@ -2249,7 +3032,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/aging-milk/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=171286",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "140mL",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/aging-milk/"
+      }
     },
     {
       "id": "hadalabo-aging-cream",
@@ -2263,7 +3053,14 @@
       "sourceUrl": "https://jp.rohto.com/hadalabo/aging-cream/",
       "ingredientsSourceUrl": "https://jp.rohto.com/seib/seib?kw=171316",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "50g",
+        "sourceUrl": "https://jp.rohto.com/hadalabo/aging-cream/"
+      }
     },
     {
       "id": "elixir-lift-moist-lotion-mask-ca",
@@ -2276,7 +3073,14 @@
       "ingredients": "トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,ワセリン,２－メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液,メリロートエキス,イノシット,精製水,濃グリセリン,ジプロピレングリコール,１，３－ブチレングリコール,ポリエチレングリコール４００,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,エリスリトール,マルチトール液,メチルポリシロキサン,クロルフェネシン,ポリオキシエチレン・メチルポリシロキサン共重合体,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,カルボキシビニルポリマー,メチルフェニルポリシロキサン,エデト酸二ナトリウム,キサンタンガム,アクリル酸・メタクリル酸アルキル共重合体,水酸化カリウム,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J10502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3630,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J10502"
+      }
     },
     {
       "id": "elixir-lift-moist-lotion-ba-light",
@@ -2289,7 +3093,14 @@
       "ingredients": "トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,ラウリルジメチルアミノ酢酸ベタイン,キシリット,メリロートエキス,イノシット,精製水,ジプロピレングリコール,１，３－ブチレングリコール,濃グリセリン,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ポリエチレングリコール１５００,エリスリトール,クロルフェネシン,ポリオキシエチレンポリオキシプロピレンデシルテトラデシルエーテル,クエン酸ナトリウム,クエン酸,エデト酸二ナトリウム,キサンタンガム,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75002",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75002"
+      }
     },
     {
       "id": "elixir-lift-moist-lotion-ba-moist",
@@ -2302,7 +3113,14 @@
       "ingredients": "トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,ラウリルジメチルアミノ酢酸ベタイン,キシリット,メリロートエキス,イノシット,精製水,ジプロピレングリコール,濃グリセリン,１，３－ブチレングリコール,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ジグリセリン,ポリオキシエチレンメチルグルコシド,ポリオキシエチレンポリオキシプロピレンデシルテトラデシルエーテル,クロルフェネシン,カルボキシビニルポリマー,エリスリトール,エデト酸二ナトリウム,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75002",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75002"
+      }
     },
     {
       "id": "elixir-white-brightening-lotion-ca-light",
@@ -2315,7 +3133,14 @@
       "ingredients": "４－メトキシサリチル酸カリウム塩*,トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,メリロートエキス,塩酸リジン,精製水,ジプロピレングリコール,濃グリセリン,１，３－ブチレングリコール,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ポリオキシブチレン（１５）ポリオキシエチレン（４４）ジメチルダイマージオールエーテル,クロルフェネシン,エデト酸二ナトリウム,クエン酸ナトリウム,エリスリトール,２－Ｏ－エチル－Ｌ－アスコルビン酸,クエン酸,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料,赤色２２７号,黄色４号　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H89902",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3740,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H89902"
+      }
     },
     {
       "id": "elixir-white-brightening-lotion-ca-moist",
@@ -2328,7 +3153,14 @@
       "ingredients": "４－メトキシサリチル酸カリウム塩*,トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,メリロートエキス,塩酸リジン,精製水,ジプロピレングリコール,濃グリセリン,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ポリエチレングリコール１５００,１，３－ブチレングリコール,ポリエチレングリコール４００,ポリオキシブチレン（１５）ポリオキシエチレン（４４）ジメチルダイマージオールエーテル,クロルフェネシン,カルボキシビニルポリマー,エデト酸二ナトリウム,水酸化カリウム,エリスリトール,２－Ｏ－エチル－Ｌ－アスコルビン酸,ポリオキシエチレン・メチルポリシロキサン共重合体,キサンタンガム,ポリアクリル酸ナトリウム,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料,赤色２２７号,黄色４号　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H89902",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3740,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H89902"
+      }
     },
     {
       "id": "elixir-advanced-lotion-t-1",
@@ -2341,7 +3173,14 @@
       "ingredients": "水,ＤＰＧ,グリセリン,エタノール,ＰＥＧ－６,ＰＥＧ－３２,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,キサンタンガム,エリスリトール,イノシトール,ムクロジ果皮エキス,イチョウ葉エキス,イリス根エキス,塩化Ｃａ,塩化Ｍｇ,タウリン,ウコン根茎エキス,水溶性コラーゲン,オランダガラシ葉／茎エキス,ＢＧ,ＰＰＧ－１３デシルテトラデセス－２４,クエン酸Ｎａ,ＥＤＴＡ－２Ｎａ,クエン酸,ピロ亜硫酸Ｎａ,トコフェロール,フェノキシエタノール,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4290,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402"
+      }
     },
     {
       "id": "elixir-advanced-lotion-t-2",
@@ -2354,7 +3193,14 @@
       "ingredients": "水,ＤＰＧ,グリセリン,ＰＥＧ－８,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,マルチトール,ジフェニルシロキシフェニルトリメチコン,エリスリトール,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,キサンタンガム,イノシトール,ムクロジ果皮エキス,イチョウ葉エキス,イリス根エキス,塩化Ｃａ,塩化Ｍｇ,タウリン,ウコン根茎エキス,水溶性コラーゲン,オランダガラシ葉／茎エキス,ＢＧ,ジメチコン,カルボマー,ＰＥＧ－１０ジメチコン,ＥＤＴＡ－２Ｎａ,（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー,水酸化Ｋ,ピロ亜硫酸Ｎａ,トコフェロール,フェノキシエタノール,メチルパラベン,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4290,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402"
+      }
     },
     {
       "id": "elixir-advanced-lotion-t-3",
@@ -2367,7 +3213,14 @@
       "ingredients": "水,グリセリン,ＤＰＧ,ＢＧ,エタノール,ＰＥＧ－６,ＰＥＧ－３２,ジグリセリン,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,ＰＥＧ－６０水添ヒマシ油,エリスリトール,キサンタンガム,イノシトール,ムクロジ果皮エキス,ココイルメチルタウリンＮａ,イチョウ葉エキス,イリス根エキス,塩化Ｃａ,塩化Ｍｇ,タウリン,ウコン根茎エキス,水溶性コラーゲン,オランダガラシ葉／茎エキス,イソステアリン酸,カルボマー,水添ポリデセン,ジイソステアリン酸ポリグリセリル－２,ＥＤＴＡ－２Ｎａ,水酸化Ｋ,ピロ亜硫酸Ｎａ,トコフェロール,フェノキシエタノール,メチルパラベン,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4290,
+        "taxIncluded": true,
+        "volume": "170mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40402"
+      }
     },
     {
       "id": "elixir-reflet-balancing-water-1",
@@ -2380,7 +3233,14 @@
       "ingredients": "水,ＤＰＧ,エタノール,グリセリン,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,ＰＥＧ－６０水添ヒマシ油,エリスリトール,グリシルグリシン,ポリクオタニウム－５１,リシンＨＣｌ,オウゴン根エキス,ＰＣＡ－Ｎａ,モモ種子エキス,ユキノシタエキス,チャエキス,水溶性コラーゲン,ＰＥＧ－６,ＢＧ,水添ポリデセン,イソステアリルアルコール,イソステアリン酸,ジイソステアリン酸ポリグリセリル－２,クエン酸Ｎａ,ＥＤＴＡ－２Ｎａ,ココイルグルタミン酸Ｋ,クエン酸,ピロ亜硫酸Ｎａ,ローズマリー葉エキス,トコフェロール,メチルパラベン,フェノキシエタノール,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "168mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783502"
+      }
     },
     {
       "id": "elixir-reflet-balancing-water-2",
@@ -2393,7 +3253,14 @@
       "ingredients": "水,ＤＰＧ,エタノール,グリセリン,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,ジグリセリン,ＢＧ,ジフェニルシロキシフェニルトリメチコン,ＰＥＧ－６０水添ヒマシ油,キサンタンガム,エリスリトール,グリシルグリシン,リシンＨＣｌ,オウゴン根エキス,ＰＣＡ－Ｎａ,モモ種子エキス,ポリクオタニウム－５１,ユキノシタエキス,チャエキス,水溶性コラーゲン,クエン酸Ｎａ,ジイソステアリン酸ポリグリセリル－２,イソステアリルアルコール,イソステアリン酸,ＥＤＴＡ－２Ｎａ,クエン酸,ピロ亜硫酸Ｎａ,ローズマリー葉エキス,フェノキシエタノール,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "168mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783502"
+      }
     },
     {
       "id": "elixir-lift-moist-emulsion-ba-light",
@@ -2406,7 +3273,14 @@
       "ingredients": "トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,マカデミアナッツ油脂肪酸フィトステリル,メリロートエキス,イノシット,精製水,ジプロピレングリコール,濃グリセリン,１，３－ブチレングリコール,ジグリセリン,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,メチルフェニルポリシロキサン,トリ２－エチルヘキサン酸グリセリル,重質流動イソパラフィン,ポリエチレングリコール１５００,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ポリエチレングリコール４００,ポリオキシエチレン硬化ヒマシ油,クロルフェネシン,カルボキシビニルポリマー,ポリオキシエチレン・メチルポリシロキサン共重合体,アクリル酸・メタクリル酸アルキル共重合体,ラウリルジメチルアミノ酢酸ベタイン,エデト酸二ナトリウム,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,キサンタンガム,ポリアクリル酸ナトリウム,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75102",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3960,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75102"
+      }
     },
     {
       "id": "elixir-lift-moist-emulsion-ba-moist",
@@ -2419,7 +3293,14 @@
       "ingredients": "トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,マカデミアナッツ油脂肪酸フィトステリル,メリロートエキス,イノシット,精製水,ジプロピレングリコール,重質流動イソパラフィン,１，３－ブチレングリコール,濃グリセリン,ジグリセリン,トリ２－エチルヘキサン酸グリセリル,α－オレフィンオリゴマー,メチルポリシロキサン,メチルフェニルポリシロキサン,ポリエチレングリコール１０００,ミリスチン酸ミリスチル,ポリオキシエチレンフィトステロール,アクリル酸ナトリウム・アクリロイルジメチルタウリン酸ナトリウム共重合体／イソヘキサデカン／ポリソルベート８０,ジステアリン酸ポリエチレングリコール（１）,ポリオキシエチレンベヘニルエーテル,クロルフェネシン,カルボキシビニルポリマー,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,ヒドロキシエチルセルロース,水酸化カリウム,エデト酸二ナトリウム,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,ピロ亜硫酸ナトリウム,フェノキシエタノール,香料　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75102",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3960,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H75102"
+      }
     },
     {
       "id": "elixir-white-brightening-emulsion-ca-light",
@@ -2432,7 +3313,14 @@
       "ingredients": "４－メトキシサリチル酸カリウム塩*,トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,メリロートエキス,塩酸リジン,精製水,１，３－ブチレングリコール,ジプロピレングリコール,濃グリセリン,メチルポリシロキサン,ジグリセリン,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,２－エチルヘキサン酸セチル,テトラ２－エチルヘキサン酸ペンタエリトリット,メチルフェニルポリシロキサン,ステアリルアルコール,サクシノグルカン,親油型モノステアリン酸グリセリル,ベヘニルアルコール,Ｎ－ステアロイル－Ｎ－メチルタウリンナトリウム,エデト酸二ナトリウム,クエン酸,キサンタンガム,クエン酸ナトリウム,メタリン酸ナトリウム,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,ピロ亜硫酸ナトリウム,２－Ｏ－エチル－Ｌ－アスコルビン酸,フェノキシエタノール,香料,ベンガラ,黄酸化鉄　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H90002",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H90002"
+      }
     },
     {
       "id": "elixir-white-brightening-emulsion-ca-moist",
@@ -2445,7 +3333,14 @@
       "ingredients": "４－メトキシサリチル酸カリウム塩*,トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,水溶性コラーゲン（Ｆ）,メリロートエキス,塩酸リジン,精製水,ジプロピレングリコール,１，３－ブチレングリコール,α－オレフィンオリゴマー,濃グリセリン,２－エチルヘキサン酸セチル,マルチトール液,イソステアリン酸ポリオキシエチレングリセリル,軽質イソパラフィン,メチルポリシロキサン,モノステアリン酸ポリオキシエチレングリセリル,ワセリン,ベヘニルアルコール,ステアリン酸,イソステアリン酸,ベヘニン酸,カルボキシビニルポリマー,水酸化カリウム,バチルアルコール,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,キサンタンガム,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,ピロ亜硫酸ナトリウム,メタリン酸ナトリウム,２－Ｏ－エチル－Ｌ－アスコルビン酸,エデト酸二ナトリウム,フェノキシエタノール,香料,黄酸化鉄,ベンガラ　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H90002",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H90002"
+      }
     },
     {
       "id": "elixir-advanced-emulsion-t-1",
@@ -2458,7 +3353,14 @@
       "ingredients": "水,ＤＰＧ,グリセリン,水添ポリデセン,エタノール,エチルヘキサン酸セチル,ジメチコン,イソステアリン酸ＰＥＧ－６０グリセリル,ＰＥＧ－２０,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,キサンタンガム,イノシトール,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,ムクロジ果皮エキス,イチョウ葉エキス,サッカロミセス培養溶解質液,イリス根エキス,コメ胚芽油,ウコン根茎エキス,水溶性コラーゲン,ローヤルゼリーエキス,オランダガラシ葉／茎エキス,ステアリン酸ＰＥＧ－５グリセリル,ＢＧ,ベヘニルアルコール,ＰＥＧ－４００,ワセリン,ステアリン酸,イソステアリン酸,ベヘン酸,カルボマー,水酸化Ｋ,ＥＤＴＡ－２Ｎａ,トコフェロール,フェノキシエタノール,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5060,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502"
+      }
     },
     {
       "id": "elixir-advanced-emulsion-t-2",
@@ -2471,7 +3373,14 @@
       "ingredients": "水,ＤＰＧ,グリセリン,テトラエチルヘキサン酸ペンタエリスリチル,水添ポリデセン,ＢＧ,ＰＥＧ－２０,ジメチコン,エチルヘキサン酸セチル,ワセリン,ステアリン酸ＰＥＧ－５グリセリル,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,ＡＭＰＤ,キサンタンガム,イノシトール,ムクロジ果皮エキス,イチョウ葉エキス,サッカロミセス培養溶解質液,イリス根エキス,コメ胚芽油,ウコン根茎エキス,水溶性コラーゲン,ローヤルゼリーエキス,オランダガラシ葉／茎エキス,イソステアリン酸ＰＥＧ－６０グリセリル,水添パーム油,ベヘニルアルコール,ジイソステアリン酸グリセリル,パーム核油,パーム油,バチルアルコール,カルボマー,ＥＤＴＡ－２Ｎａ,ピロ亜硫酸Ｎａ,トコフェロール,クエン酸,フェノキシエタノール,メチルパラベン,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5060,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502"
+      }
     },
     {
       "id": "elixir-advanced-emulsion-t-3",
@@ -2484,7 +3393,14 @@
       "ingredients": "水,ＤＰＧ,グリセリン,ミネラルオイル,トリエチルヘキサノイン,ＢＧ,ワセリン,ジメチコン,ステアリン酸グリセリル（ＳＥ）,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,ポリアクリル酸Ｎａ,イノシトール,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,ムクロジ果皮エキス,イチョウ葉エキス,サッカロミセス培養溶解質液,イリス根エキス,コメ胚芽油,ウコン根茎エキス,水溶性コラーゲン,ローヤルゼリーエキス,オランダガラシ葉／茎エキス,ベヘニルアルコール,ステアリン酸,ステアリン酸ＰＥＧ－５グリセリル,イソステアリン酸,ベヘン酸,バチルアルコール,カルボマー,イソステアリン酸ＰＥＧ－６０グリセリル,水酸化Ｋ,ＥＤＴＡ－２Ｎａ,ピロ亜硫酸Ｎａ,トコフェロール,フェノキシエタノール,メチルパラベン,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5060,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E40502"
+      }
     },
     {
       "id": "elixir-reflet-balancing-milk-1",
@@ -2497,7 +3413,14 @@
       "ingredients": "水,ＤＰＧ,ミネラルオイル,ＢＧ,グリセリン,ジメチコン,イソステアリン酸ＰＥＧ－６０グリセリル,エチルヘキサン酸セチル,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,グリシルグリシン,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,リシンＨＣｌ,オウゴン根エキス,ＰＣＡ－Ｎａ,モモ種子エキス,ユキノシタエキス,チャエキス,水溶性コラーゲン,ステアリン酸ＰＥＧ－５グリセリル,水添パーム油,パーム核油,パーム油,ベヘニルアルコール,カルボマー,バチルアルコール,水酸化Ｋ,ピロ亜硫酸Ｎａ,ＥＤＴＡ－２Ｎａ,クエン酸Ｎａ,エタノール,クエン酸,トコフェロール,ローズマリー葉エキス,フェノキシエタノール,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783602",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3025,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783602"
+      }
     },
     {
       "id": "elixir-reflet-balancing-milk-2",
@@ -2510,7 +3433,14 @@
       "ingredients": "水,グリセリン,ＢＧ,ＤＰＧ,水添ポリデセン,トリエチルヘキサノイン,ジメチコン,ステアリン酸グリセリル（ＳＥ）,アミノプロピルジメチコン,ＰＥＧ／ＰＰＧ－１７／４ジメチルエーテル,グリシルグリシン,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,リシンＨＣｌ,オウゴン根エキス,ＰＣＡ－Ｎａ,モモ種子エキス,ユキノシタエキス,チャエキス,水溶性コラーゲン,ステアリン酸ＰＥＧ－５グリセリル,ベヘニルアルコール,ステアリン酸,イソステアリン酸,ベヘン酸,カルボマー,水酸化Ｋ,（アクリル酸Ｎａ／アクリロイルジメチルタウリンＮａ）コポリマー,イソヘキサデカン,ポリソルベート８０,ピロ亜硫酸Ｎａ,ＥＤＴＡ－２Ｎａ,エタノール,オレイン酸ソルビタン,トコフェロール,ローズマリー葉エキス,フェノキシエタノール,クロルフェネシン,香料",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783602",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3025,
+        "taxIncluded": true,
+        "volume": "130mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=783602"
+      }
     },
     {
       "id": "elixir-total-v-firming-cream-ca",
@@ -2523,7 +3453,14 @@
       "ingredients": "水,グリセリン,ＢＧ,ベタイン,エタノール,ミネラルオイル,ジグリセリン,ステアリン酸グリセリル（ＳＥ）,ジメチコン,セタノール,ＤＰＧ,リンゴ酸ジイソステアリル,テトラエチルヘキサン酸ペンタエリスリチル,ビスジグリセリルポリアシルアジペート－２,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,ステアリン酸ＰＥＧ－１００,イソドデカン,ミリスチン酸ミリスチル,水添ポリイソブテン,カンゾウ根エキス,カニナバラ果実エキス,イリス根エキス,ワレモコウエキス,トゲキリンサイ／ヒヂリメン／ミツイシコンブ／ウスバアオノリ／ワカメエキス,キイチゴエキス,センチフォリアバラ花エキス,ヒドロキシプロリン,シャクヤク根エキス,ヤグルマギク花エキス,ミツイシコンブ／ワカメエキス,ローズマリーエキス,水溶性コラーゲン,ミシマサイコ根エキス,オランダガラシ葉／茎エキス,ベヘニルアルコール,ステアリルアルコール,（アクリル酸Ｎａ／アクリロイルジメチルタウリンＮａ）コポリマー,マイクロクリスタリンワックス,イソヘキサデカン,ポリビニルアルコール,トリステアリン酸ソルビタン,カルボマー,ＥＤＴＡ－３Ｎａ,ポリソルベート８０,サクシノグリカン,ステアロイルメチルタウリンＮａ,オレイン酸ソルビタン,水酸化Ｋ,メタリン酸Ｎａ,ピロ亜硫酸Ｎａ,トコフェロール,フェノキシエタノール,安息香酸,香料,酸化鉄",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J07302",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 11220,
+        "taxIncluded": true,
+        "volume": "50g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J07302"
+      }
     },
     {
       "id": "elixir-retinopower-wrinkle-cream-ba",
@@ -2536,7 +3473,14 @@
       "ingredients": "レチノール*,トラネキサム酸*,シャクヤクエキス,バラエキス,Ｌ－オキシプロリン,サイコエキスＢＳ,クララエキス（１）,タイムエキス（１）,マンゴスチン樹皮エキス,ヒマシ油,アジピン酸ジグリセリル混合脂肪酸エステル,ジピバリン酸トリプロピレングリコール,マヨラナエキス,精製水,テトラ２－エチルヘキサン酸ペンタエリトリット,１，３－ブチレングリコール,濃グリセリン,ジプロピレングリコール,エタノール,ポリエチレングリコール１０００,メチルポリシロキサン,アクリル酸ナトリウム・アクリロイルジメチルタウリン酸ナトリウム共重合体／イソヘキサデカン／ポリソルベート８０,ポリプロピレングリコール,ポリオキシエチレン硬化ヒマシ油,ポリエチレングリコール２００００,トリイソステアリン酸グリセリル,ベヘニルアルコール,ヒドロキシエチルセルロース,ポリビニルアルコール,カルボキシビニルポリマー,ステアリルアルコール,モノラウリン酸ポリオキシエチレンソルビタン（２０Ｅ．Ｏ．）,ジブチルヒドロキシトルエン,メタリン酸ナトリウム,酢酸ＤＬ－α－トコフェロール,イノシット,ピロ亜硫酸ナトリウム,ムクロジエキス,ローズマリー油,水溶性コラーゲン（Ｆ）,海藻エキス（４）,アセチル化ヒアルロン酸ナトリウム,海藻エキス（１）,ウコンエキス,フェノキシエタノール,香料,黄酸化鉄　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H76902",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 8800,
+        "taxIncluded": true,
+        "volume": "22g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H76902"
+      }
     },
     {
       "id": "elixir-enriched-cream-tb",
@@ -2549,7 +3493,14 @@
       "ingredients": "水,エチルヘキサン酸セチル,ＢＧ,グリセリン,セテアリルアルコール,トリ（カプリル酸／カプリン酸）グリセリル,エタノール,マカデミアナッツ脂肪酸フィトステリル,ステアリン酸グリセリル,ジメチコン,酢酸トコフェロール,キサンタンガム,イノシトール,ムクロジ果皮エキス,セイヨウハッカ葉エキス,水溶性コラーゲン,アスパラギン酸,ワレモコウエキス,ローズマリーエキス,ウコン根茎エキス,サッカロミセス培養溶解質液,アルギニンＨＣｌ,ウンシュウミカン果皮エキス,ローズマリー葉油,オランダガラシ葉／茎エキス,オリーブ葉エキス,べへネス－２０,カルボマー,クエン酸Ｎａ,トコフェロール,ＥＤＴＡ－２Ｎａ,水酸化Ｋ,クエン酸,ピロ亜硫酸Ｎａ,メタリン酸Ｎａ,フェノキシエタノール,クロルフェネシン,香料,硫酸Ｂａ,酸化鉄",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=897802",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 8800,
+        "taxIncluded": true,
+        "volume": "45g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=897802"
+      }
     },
     {
       "id": "elixir-lift-night-cream-w",
@@ -2562,7 +3513,14 @@
       "ingredients": "水,グリセリン,ＢＧ,イソヘキサデカン,ジメチコン,エタノール,ＤＰＧ,ＰＥＧ－２０,エチルヘキサン酸セチル,セチルＰＥＧ／ＰＰＧ－１０／１ジメチコン,ＰＥＧ－１５０,塩化Ｎａ,（ベヘン酸／エイコサン二酸）グリセリル,トリポリヒドロキシステアリン酸ジペンタエリスリチル,イノシトール,ラウロイルグルタミン酸ジ（フィトステリル／オクチルドデシル）,ローズマリー葉油,塩化Ｍｇ,エリスリトール,フルクトース,塩化Ｃａ,リン酸アスコルビルＭｇ,酢酸トコフェロール,リシンＨＣｌ,加水分解酵母エキス,ウンシュウミカン果皮エキス,水溶性コラーゲン,オリーブ葉エキス,ワセリン,ＥＤＴＡ－３Ｎａ,セルロースガム,クエン酸Ｎａ,クエン酸,グルコサミンＨＣｌ,テトラヒドロテトラメチルシクロテトラシロキサン,トコフェロール,テトラデセン,フェノキシエタノール,香料,酸化鉄",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=741601",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=741601"
+      }
     },
     {
       "id": "elixir-white-brightening-enriched-cream",
@@ -2575,7 +3533,14 @@
       "ingredients": "４－メトキシサリチル酸カリウム塩*,グリチルリチン酸ジカリウム*,精製水,２－エチルヘキサン酸セチル,濃グリセリン,ジプロピレングリコール,セトステアリルアルコール,トリ（カプリル・カプリン酸）グリセリル,マカデミアナッツ油脂肪酸フィトステリル,ナイロン末,親油型モノステアリン酸グリセリル,エタノール,ポリオキシエチレンベヘニルエーテル,デカメチルテトラシロキサン,メチルポリシロキサン,カルボキシビニルポリマー,水酸化カリウム,１，３－ブチレングリコール,クエン酸ナトリウム,ｄ－δ－トコフェロール,エデト酸三ナトリウム,クエン酸,無水エタノール,キサンタンガム,ピロ亜硫酸ナトリウム,メタリン酸ナトリウム,イノシット,ムクロジエキス,水溶性コラーゲン（Ｆ）,酢酸レチノール,塩酸リジン,ローズマリーエキス,ウコンエキス,酵母エキス（３）,ローズマリー油,Ｌ－アルギニン塩酸塩,ヨクイニンエキス,ヨモギエキス（２）,オリーブ葉エキス,フェノキシエタノール,香料,ベンガラ,黄酸化鉄　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=856102",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 9350,
+        "taxIncluded": true,
+        "volume": "45g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=856102"
+      }
     },
     {
       "id": "elixir-reflet-balancing-mizu-cream",
@@ -2588,7 +3553,14 @@
       "ingredients": "トラネキサム酸*,グリチルリチン酸ジカリウム*,精製水,１，３－ブチレングリコール,エタノール,濃グリセリン,ジプロピレングリコール,ポリアクリル酸塩,ポリオキシエチレンポリオキシプロピレンデシルテトラデシルエーテル,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,クエン酸ナトリウム,グリシルグリシン,キサンタンガム,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,クエン酸,エデト酸二ナトリウム,ピロ亜硫酸ナトリウム,塩酸リジン,オウゴンエキス,ＤＬ－ピロリドンカルボン酸ナトリウム液,ローズマリーエキス,トウニンエキス,ユキノシタエキス,チャエキス（１）,水溶性コラーゲン（Ｆ）,フェノキシエタノール,香料,青色１号　　*は「有効成分」無表示は「その他の成分」",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=F52201",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2420,
+        "taxIncluded": true,
+        "volume": "60g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=F52201"
+      }
     },
     {
       "id": "aqualabel-special-gel-cream-ex-golden-repair",
@@ -2601,7 +3573,14 @@
       "ingredients": "水,グリセリン,ＤＰＧ,ＢＧ,キシリトール,ジグリセリン,テトラエチルヘキサン酸ペンタエリスリチル,ジメチコン,（アクリル酸Ｎａ／アクリロイルジメチルタウリンＮａ）コポリマー,キャンデリラロウ,ラウロイルリシン,グルタミン酸,アスパラギン酸,酢酸レチノール,ＰＥＧ／ＰＰＧ－１４／７ジメチルエーテル,アセチルヒアルロン酸Ｎａ,ヒアルロン酸Ｎａ,ジラウラミドグルタミドリシンＮａ,ポリクオタニウム－５１,塩化Ｍｇ,乳酸Ｎａ,メチオニン,水溶性コラーゲン,イソヘキサデカン,ポリソルベート８０,オレイン酸ソルビタン,ＥＤＴＡ－２Ｎａ,（アクリレーツ／アクリル酸アルキル（Ｃ１０－３０））クロスポリマー,パルミチン酸デキストリン,アラニン,イソステアリン酸,ヒマワリ種子油,カルボマー,ＢＨＴ,ポリソルベート２０,パルミトイルトリペプチド－１,パルミトイルテトラペプチド－７,フェノキシエタノール,香料,酸化鉄",
       "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J07402",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1958,
+        "taxIncluded": true,
+        "volume": "90g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=J07402"
+      }
     },
     {
       "id": "dprogram-moist-care-lotion-ex",
@@ -2614,7 +3593,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、アセチル化ヒアルロン酸ナトリウム、ワセリン、ヨモギエキス（２）、２－メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、精製水、濃グリセリン、１，３－ブチレングリコール、１，３－プロパンジオール、ジプロピレングリコール、ポリエチレングリコール２００００、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、ポリオキシエチレンメチルグルコシド、ポリオキシエチレン硬化ヒマシ油、ジイソステアリン酸ポリグリセリル、トリ２－エチルヘキサン酸グリセリル、カルボキシビニルポリマー、メタリン酸ナトリウム、エリスリトール、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、ピロ亜硫酸ナトリウム、Ｄ－グルタミン酸、イザヨイバラエキス、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/moisturing_lotion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "125mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/moisturing_lotion/"
+      }
     },
     {
       "id": "dprogram-vitalizing-clear-lotion-ex",
@@ -2627,7 +3613,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、サイコエキスＢＳ、ユキノシタエキス、オノニスエキス、イザヨイバラエキス、ヨモギエキス（２）、精製水、１，３－ブチレングリコール、濃グリセリン、１，３－プロパンジオール、ジプロピレングリコール、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、ポリオキシエチレン硬化ヒマシ油、イソステアリン酸、α－オレフィンオリゴマー、クエン酸ナトリウム、ジイソステアリン酸ポリグリセリル、エリスリトール、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、メタリン酸ナトリウム、クエン酸、キサンタンガム、ヒアルロン酸ナトリウム（２）、ピロ亜硫酸ナトリウム、Ｄ－グルタミン酸、アセチル化ヒアルロン酸ナトリウム、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/vitalizing_clear_lotion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "125mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/vitalizing_clear_lotion/"
+      }
     },
     {
       "id": "dprogram-balance-acne-care-lotion-ex",
@@ -2640,7 +3633,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、ジオウエキス、アラントイン、タイムエキス（１）、ビワ葉エキス、ヨモギエキス（２）、精製水、濃グリセリン、１，３－ブチレングリコール、ジプロピレングリコール、１，３－プロパンジオール、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、ポリオキシエチレン・メチルポリシロキサン共重合体、メチルフェニルポリシロキサン、クエン酸ナトリウム、エリスリトール、クエン酸、Ｎ－ステアロイル－Ｎ－メチルタウリンナトリウム、メタリン酸ナトリウム、ピロ亜硫酸ナトリウム、Ｄ－グルタミン酸、アセチル化ヒアルロン酸ナトリウム、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/balancing_acne_lotion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "125mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/balancing_acne_lotion/"
+      }
     },
     {
       "id": "dprogram-moist-care-emulsion-ex",
@@ -2653,7 +3653,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、アセチル化ヒアルロン酸ナトリウム、ワセリン、ヨモギエキス（２）、２－メタクリロイルオキシエチルホスホリルコリン・メタクリル酸ブチル共重合体液、精製水、濃グリセリン、α－オレフィンオリゴマー、１，３－ブチレングリコール、１，３－プロパンジオール、ジグリセリン、ジプロピレングリコール、硬化油、テトラ２－エチルヘキサン酸ペンタエリトリット、イソステアリン酸ポリオキシエチレングリセリル、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、メチルフェニルポリシロキサン、ベヘニルアルコール、モノステアリン酸ポリオキシエチレングリセリル、バチルアルコール、カルボキシビニルポリマー、キサンタンガム、水酸化カリウム、Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）、メタリン酸ナトリウム、ピロ亜硫酸ナトリウム、イザヨイバラエキス、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/moisturing_emulsion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3630,
+        "taxIncluded": true,
+        "volume": "100mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/moisturing_emulsion/"
+      }
     },
     {
       "id": "dprogram-vitalizing-clear-emulsion-ex",
@@ -2666,7 +3673,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、サイコエキスＢＳ、ユキノシタエキス、オノニスエキス、イザヨイバラエキス、ヨモギエキス（２）、精製水、濃グリセリン、α－オレフィンオリゴマー、ジプロピレングリコール、１，３－ブチレングリコール、１，３－プロパンジオール、テトラ２－エチルヘキサン酸ペンタエリトリット、ワセリン、メチルポリシロキサン、ベヘニルアルコール、イソステアリン酸ポリオキシエチレングリセリル、トリメチルグリシン、バチルアルコール、モノステアリン酸ポリオキシエチレングリセリル、Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、カルボキシビニルポリマー、キサンタンガム、メタリン酸ナトリウム、ピロ亜硫酸ナトリウム、アセチル化ヒアルロン酸ナトリウム、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/vitalizing_clear_emulsion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 4510,
+        "taxIncluded": true,
+        "volume": "100mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/vitalizing_clear_emulsion/"
+      }
     },
     {
       "id": "dprogram-balance-acne-care-emulsion-ex",
@@ -2679,7 +3693,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、キシリット、酵母エキス（３）、アルテロモナス発酵エキス、ジオウエキス、アラントイン、タイムエキス（１）、ビワ葉エキス、ヨモギエキス（２）、精製水、１，３－プロパンジオール、１，３－ブチレングリコール、ジプロピレングリコール、濃グリセリン、メチルポリシロキサン、トレハロース、ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、無水ケイ酸、カルボキシビニルポリマー、アクリル酸・メタクリル酸アルキル共重合体、水酸化カリウム、Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）、メタリン酸ナトリウム、キサンタンガム、ピロ亜硫酸ナトリウム、アセチル化ヒアルロン酸ナトリウム、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/balancing_acne_emulsion/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3630,
+        "taxIncluded": true,
+        "volume": "100mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/balancing_acne_emulsion/"
+      }
     },
     {
       "id": "dprogram-skin-repair-cream-ex",
@@ -2692,7 +3713,14 @@
       "ingredients": "トラネキサム酸*,グリチルリチン酸ジカリウム*,キシリット,酵母エキス（３）,アルテロモナス発酵エキス,ニコチン酸アミド,ヨモギエキス（２）,植物性スクワラン,エクトイン,トウキエキス（１）,オドリコソウエキス,精製水,１，３－ブチレングリコール,濃グリセリン,ジプロピレングリコール,２－エチルヘキサン酸セチル,ベヘニルアルコール,α－オレフィンオリゴマー,硬化油,アジピン酸ジグリセリル混合脂肪酸エステル,テトラ２－エチルヘキサン酸ペンタエリトリット,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,メチルポリシロキサン,ポリオキシエチレンベヘニルエーテル,カルナウバロウ,バチルアルコール,ワセリン,ポリエチレングリコール１５００,無水ケイ酸,架橋型Ｎ，Ｎ－ジメチルアクリルアミド－２－アクリルアミド－２－メチルプロパンスルホン酸ナトリウム共重合体,トリメチルシロキシケイ酸,Ｎ－ステアロイル－Ｎ－メチルタウリンナトリウム,クエン酸ナトリウム,メタリン酸ナトリウム,サクシノグルカン,クエン酸,ピロ亜硫酸ナトリウム,サイコエキスＢＳ,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/repaircream/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 3960,
+        "taxIncluded": true,
+        "volume": "45g",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/repaircream/"
+      }
     },
     {
       "id": "dprogram-vitalizing-cream",
@@ -2705,7 +3733,14 @@
       "ingredients": "トラネキサム酸*、グリチルリチン酸ジカリウム*、酵母エキス（３）、ニーム葉エキス、海藻エキス（４）、海藻エキス（１）、オノニスエキス、セイヨウサンザシエキス、イザヨイバラエキス、精製水、濃グリセリン、１，３－ブチレングリコール、デカメチルテトラシロキサン、ジプロピレングリコール、メチルポリシロキサン、α－オレフィンオリゴマー、マルチトール液、ポリオキシエチレン・メチルポリシロキサン共重合体、ワセリン、メチルフェニルポリシロキサン、ジメチルジステアリルアンモニウムヘクトライト、エリスリトール、トレハロース、キシリット、ポリエチレングリコール６０００、重質流動イソパラフィン、トリメチルシロキシケイ酸、Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）、メタリン酸ナトリウム、ピロ亜硫酸ナトリウム、ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル、フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/vitalizing_cream/",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 6490,
+        "taxIncluded": true,
+        "volume": "45g",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/vitalizing_cream/"
+      }
     },
     {
       "id": "ihada-clear-lotion",
@@ -2718,7 +3753,14 @@
       "ingredients": "有効成分：トラネキサム酸,グリチルリチン酸ジカリウム\nその他の成分：精製水,ジプロピレングリコール,１，３－ブチレングリコール,濃グリセリン,ポリエチレングリコール１５００,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,イソステアリン酸,α－オレフィンオリゴマー,ポリオキシエチレンフィトステロール,クエン酸ナトリウム,エリスリトール,クエン酸,メタリン酸ナトリウム,セスキイソステアリン酸ソルビタン,ピロ亜硫酸ナトリウム,常水,塩化カルシウム,塩化マグネシウム,Ｌ－グルタミン酸ナトリウム,アラントイン,ＤＬ－ピロリドンカルボン酸ナトリウム液,ワセリン,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-lotion.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "180mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-lotion.html"
+      }
     },
     {
       "id": "ihada-clear-emulsion",
@@ -2731,7 +3773,14 @@
       "ingredients": "有効成分：トラネキサム酸,グリチルリチン酸ジカリウム\nその他の成分：精製水,１，３－ブチレングリコール,ジプロピレングリコール,α－オレフィンオリゴマー,濃グリセリン,２－エチルヘキサン酸セチル,メチルポリシロキサン,イソステアリン酸ポリオキシエチレングリセリル,モノステアリン酸ポリオキシエチレングリセリル,ワセリン,ベヘニルアルコール,カルボキシビニルポリマー,バチルアルコール,ポリオキシエチレン（１７）ポリオキシプロピレン（４）ジメチルエーテル,Ｎ－ラウロイル－Ｌ－グルタミン酸ジ（フィトステリル・２－オクチルドデシル）,ポリオキシエチレン（１４）ポリオキシプロピレン（７）ジメチルエーテル,メタリン酸ナトリウム,ピロ亜硫酸ナトリウム,塩化カルシウム,塩化マグネシウム,Ｌ－グルタミン酸ナトリウム,アラントイン,常水,ＤＬ－ピロリドンカルボン酸ナトリウム液,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-emulsion.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "135mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-emulsion.html"
+      }
     },
     {
       "id": "ihada-balm",
@@ -2744,7 +3793,14 @@
       "ingredients": "有効成分：グリチルレチン酸ステアリル\nその他の成分：シュガースクワラン,ワセリン,テトラ２－エチルヘキサン酸ペンタエリトリット,α－オレフィンオリゴマー,パルミチン酸デキストリン,重質流動イソパラフィン,セスキイソステアリン酸ソルビタン,無水ケイ酸,シリコーン樹脂,テトラヒドロテトラメチルシクロテトラシロキサン,テトラデセン,酸化チタン",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-berm.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1485,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-berm.html"
+      }
     },
     {
       "id": "ihada-clear-balm",
@@ -2757,7 +3813,14 @@
       "ingredients": "有効成分：トラネキサム酸,グリチルリチン酸ジカリウム\nその他の成分：ワセリン,精製水,テトラ２－エチルヘキサン酸ペンタエリトリット,デカメチルテトラシロキサン,メチルポリシロキサン,１，３－ブチレングリコール,ジプロピレングリコール,メチルフェニルポリシロキサン,パラフィン,ＰＥＧ－９　ポリジメチルシロキシエチル　ジメチコン,無水ケイ酸,濃グリセリン,架橋型メチルポリシロキサン,ジメチルジステアリルアンモニウムヘクトライト,ポリエチレングリコール６０００,ジイソステアリン酸ポリグリセリル,塩化ナトリウム,高融点マイクロクリスタリンワックス,シリコーン樹脂,アラントイン,常水,塩化カルシウム,塩化マグネシウム,Ｌ－グルタミン酸ナトリウム,ＤＬ－ピロリドンカルボン酸ナトリウム液,フェノキシエタノール",
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-berm.html",
       "verifiedAt": "2026-11-07",
-      "amazonAsin": null
+      "amazonAsin": null,
+      "price": {
+        "kind": "SRP",
+        "amount": 1760,
+        "taxIncluded": true,
+        "volume": "18g",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/skincare-clear-berm.html"
+      }
     },
     {
       "id": "acseine-skin-color-control",
@@ -2776,7 +3839,14 @@
       "shades": [
         "01(標準色)",
         "02(明るめ)"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "10g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004020/"
+      }
     },
     {
       "id": "acseine-ipnos-sebum-clear-uv-protection",
@@ -2792,7 +3862,14 @@
       "amazonAsin": null,
       "spf": 38,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421004457/"
+      }
     },
     {
       "id": "acseine-super-sun-shield-bright-veil",
@@ -2811,7 +3888,14 @@
       "shades": [
         "01 ピンクベージュ",
         "02 クリームベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "22g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049526/"
+      }
     },
     {
       "id": "acseine-super-sun-shield-ex-r",
@@ -2827,7 +3911,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "22g",
+        "sourceUrl": "https://www.acseine.co.jp/shop/g/g4900421049687/"
+      }
     },
     {
       "id": "avene-day-protector-uv-ex",
@@ -2843,7 +3934,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.avene.co.jp/products/pc/03/"
+      }
     },
     {
       "id": "avene-day-protector-bb",
@@ -2859,7 +3957,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.avene.co.jp/products/pc/05/"
+      }
     },
     {
       "id": "minon-bright-up-base-uv",
@@ -2875,7 +3980,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "25g",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_base_uv/"
+      }
     },
     {
       "id": "minon-balancing-base-uv",
@@ -2891,7 +4003,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "25g",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_cb_uv/"
+      }
     },
     {
       "id": "minon-aging-care-day-cream-uv",
@@ -2907,7 +4026,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "30g",
+        "sourceUrl": "https://www.daiichisankyo-hc.co.jp/products/details/minon-aminomoist_age_daycream_uv/"
+      }
     },
     {
       "id": "infinity-lift-tone-up-base",
@@ -2923,7 +4049,14 @@
       "amazonAsin": null,
       "spf": 25,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/infinity/g/gBAAV/"
+      }
     },
     {
       "id": "infinity-moisture-concentrate-treatment-base",
@@ -2937,7 +4070,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/infinity/g/gBAMB/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/infinity/g/gBAMB/"
+      }
     },
     {
       "id": "infinity-the-repair-treatment-base",
@@ -2951,7 +4091,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/infinity/g/gBAVN/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4730,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/infinity/g/gBAVN/"
+      }
     },
     {
       "id": "makekeep-make-keep-primer",
@@ -2965,7 +4112,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/makekeepmist/g/gDLBK/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/makekeepmist/g/gDLBK/"
+      }
     },
     {
       "id": "makekeep-make-keep-primer-uv",
@@ -2981,7 +4135,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1430,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/makekeepmist/g/gDLBJ001/"
+      }
     },
     {
       "id": "makekeep-primer-uv-cool",
@@ -2997,7 +4158,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1430,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/makekeepmist/g/gDLCR/"
+      }
     },
     {
       "id": "fasio-airy-stay-oil-blocker",
@@ -3011,7 +4179,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXBU001/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1100,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXBU001/"
+      }
     },
     {
       "id": "fasio-airy-stay-bb-tint-moist",
@@ -3031,7 +4206,14 @@
         "01 ピンクベージュ",
         "02 ライトベージュ",
         "03 ミディアムベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXFX001/"
+      }
     },
     {
       "id": "fasio-airy-stay-bb-tint-uv",
@@ -3051,7 +4233,14 @@
         "01 ピンクベージュ",
         "02 ライトベージュ",
         "03 ミディアムベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXJC001/"
+      }
     },
     {
       "id": "fasio-uruoi-totonou-cream-base",
@@ -3067,7 +4256,14 @@
       "amazonAsin": null,
       "spf": 40,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXKT000/"
+      }
     },
     {
       "id": "fasio-uruoi-totonou-cream-base-cover",
@@ -3083,7 +4279,14 @@
       "amazonAsin": null,
       "spf": 40,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXKU001/"
+      }
     },
     {
       "id": "fasio-uruoi-totonou-cream-base-full-cover",
@@ -3101,7 +4304,14 @@
       "pa": "++++",
       "shades": [
         "02 カバーベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXKW002/"
+      }
     },
     {
       "id": "fasio-kuzure-hiyake-boshi-base-01",
@@ -3119,7 +4329,14 @@
       "pa": "++++",
       "shades": [
         "01 ホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXNC001/"
+      }
     },
     {
       "id": "fasio-kuzure-hiyake-boshi-base-02",
@@ -3137,7 +4354,14 @@
       "pa": "++++",
       "shades": [
         "02 ピンクベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXNC001/"
+      }
     },
     {
       "id": "fasio-kuzure-hiyake-boshi-base-03",
@@ -3155,7 +4379,14 @@
       "pa": "++++",
       "shades": [
         "03 ミントブルー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXNC001/"
+      }
     },
     {
       "id": "fasio-kuzure-hiyake-boshi-base-04",
@@ -3173,7 +4404,14 @@
       "pa": "++++",
       "shades": [
         "04 ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXNC001/"
+      }
     },
     {
       "id": "fasio-pore-smooth-primer",
@@ -3187,7 +4425,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXPO000/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 990,
+        "taxIncluded": true,
+        "volume": "12g",
+        "sourceUrl": "https://maison.kose.co.jp/site/fasio/g/gDXPO000/"
+      }
     },
     {
       "id": "decorte-flawless-skin-glowrizer",
@@ -3203,7 +4448,14 @@
       "amazonAsin": null,
       "spf": 20,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJETF/"
+      }
     },
     {
       "id": "decorte-rosy-glowrizer-plus",
@@ -3219,7 +4471,14 @@
       "amazonAsin": null,
       "spf": 15,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4950,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJETR/"
+      }
     },
     {
       "id": "decorte-aq-essence-glow-primer",
@@ -3233,7 +4492,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQCB/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 7700,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQCB/"
+      }
     },
     {
       "id": "decorte-aq-lasting-uv-primer",
@@ -3247,7 +4513,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQLB/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 8250,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQLB/"
+      }
     },
     {
       "id": "decorte-aq-meliority-day-treatment-primer",
@@ -3261,7 +4534,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQME/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 11000,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJQME/"
+      }
     },
     {
       "id": "decorte-uv-comfort-tone-up-cc-01-02",
@@ -3278,7 +4558,14 @@
       "shades": [
         "01 light beige",
         "02 beige"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4950,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJSVG001/"
+      }
     },
     {
       "id": "decorte-uv-comfort-tone-up-cc-10",
@@ -3294,7 +4581,14 @@
       "amazonAsin": null,
       "shades": [
         "10 lavender rose"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4950,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/cosmedecorte/g/gJSVG001/"
+      }
     },
     {
       "id": "addiction-day-cream",
@@ -3310,7 +4604,14 @@
       "amazonAsin": null,
       "spf": 15,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 5500,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAGA/"
+      }
     },
     {
       "id": "addiction-blur-and-lock-primer",
@@ -3326,7 +4627,14 @@
       "amazonAsin": null,
       "spf": 38,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 5280,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAGQ/"
+      }
     },
     {
       "id": "addiction-silky-balm-primer",
@@ -3340,7 +4648,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAKU/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4620,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAKU/"
+      }
     },
     {
       "id": "addiction-silky-balm-stick",
@@ -3354,7 +4669,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQL/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "5g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQL/"
+      }
     },
     {
       "id": "addiction-skin-protector-color-control-001",
@@ -3372,7 +4694,14 @@
       "pa": "+++",
       "shades": [
         "001 Fair Lavender フェア ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQE001/"
+      }
     },
     {
       "id": "addiction-skin-protector-color-control-002",
@@ -3390,7 +4719,14 @@
       "pa": "+++",
       "shades": [
         "002 Healthy Rose ヘルシー ローズ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQE001/"
+      }
     },
     {
       "id": "addiction-skin-protector-color-control-003",
@@ -3408,7 +4744,14 @@
       "pa": "+++",
       "shades": [
         "003 Fresh Beige フレッシュ ベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQE001/"
+      }
     },
     {
       "id": "addiction-skin-protector-color-control-004",
@@ -3426,7 +4769,14 @@
       "pa": "+++",
       "shades": [
         "004 Pure Mint ピュア ミント"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQE001/"
+      }
     },
     {
       "id": "addiction-skin-protector-soft-glow-001",
@@ -3444,7 +4794,14 @@
       "pa": "+++",
       "shades": [
         "001 Pure Blue ピュア ブルー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQP001/"
+      }
     },
     {
       "id": "addiction-skin-protector-soft-glow-002",
@@ -3462,7 +4819,14 @@
       "pa": "+++",
       "shades": [
         "002 Nudy Apricot ヌーディ アプリコット"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4180,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/addiction/g/gMAQP001/"
+      }
     },
     {
       "id": "sekkisei-white-bb-cream-01",
@@ -3480,7 +4844,14 @@
       "pa": "+++",
       "shades": [
         "01 やや明るい自然な肌色"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2860,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkisei/g/gMECB001/"
+      }
     },
     {
       "id": "sekkisei-white-bb-cream-02",
@@ -3498,7 +4869,14 @@
       "pa": "+++",
       "shades": [
         "02 普通の明るさの自然な肌色"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2860,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkisei/g/gMECB001/"
+      }
     },
     {
       "id": "esprique-eclat-akarusa-jizoku-bb-liquid-uv",
@@ -3520,7 +4898,14 @@
         "OC405e",
         "OC410e",
         "OC415e"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/espriqueeclat/g/gMLAE205/"
+      }
     },
     {
       "id": "esprique-eclat-lift-bb-cream",
@@ -3542,7 +4927,14 @@
         "OC405e",
         "OC410e",
         "OC415e"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/espriqueeclat/g/gMLEA205/"
+      }
     },
     {
       "id": "esprique-eclat-akarusa-jizoku-serum-base-ex",
@@ -3558,7 +4950,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/espriqueeclat/g/gMLEH/"
+      }
     },
     {
       "id": "esprique-lasting-serum-base-01",
@@ -3576,7 +4975,14 @@
       "pa": "++++",
       "shades": [
         "01 ピンクベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/esprique/g/gMLQM001/"
+      }
     },
     {
       "id": "esprique-lasting-serum-base-02",
@@ -3594,7 +5000,14 @@
       "pa": "++++",
       "shades": [
         "02 ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://maison.kose.co.jp/site/esprique/g/gMLQM001/"
+      }
     },
     {
       "id": "esprique-triple-moisture-primer-01",
@@ -3612,7 +5025,14 @@
       "pa": "++",
       "shades": [
         "01 ベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/esprique/g/gMLZE001/"
+      }
     },
     {
       "id": "esprique-triple-moisture-primer-02",
@@ -3630,7 +5050,14 @@
       "pa": "++",
       "shades": [
         "02 ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 2970,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/esprique/g/gMLZE001/"
+      }
     },
     {
       "id": "drphil-formule-protect-bb-cream-multiblock",
@@ -3646,7 +5073,14 @@
       "amazonAsin": null,
       "spf": 25,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/drphil/g/gMMBC/"
+      }
     },
     {
       "id": "drphil-formule-medicated-acne-care-bb",
@@ -3662,7 +5096,14 @@
       "amazonAsin": null,
       "spf": 25,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/drphil/g/gMMBT/"
+      }
     },
     {
       "id": "sekkisei-clear-wellness-uv-tone-up",
@@ -3678,7 +5119,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkiseiclearwellness/g/gMTKW/"
+      }
     },
     {
       "id": "sekkisei-bright-bb-essence",
@@ -3697,7 +5145,14 @@
       "shades": [
         "01 やや明るい自然な色",
         "02 普通の明るさの自然な色"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkisei/g/gMTOE001/"
+      }
     },
     {
       "id": "sekkisei-clear-wellness-airy-skin-veil-bright-up-uv-base",
@@ -3713,7 +5168,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkiseiclearwellness/g/gMTVW/"
+      }
     },
     {
       "id": "sekkisei-miyabi-modeling-color-designer-serum-primer",
@@ -3729,7 +5191,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkiseimyv/g/gMWBJ/"
+      }
     },
     {
       "id": "sekkisei-miyabi-moisture-protect-serum",
@@ -3743,7 +5212,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/sekkiseimyv/g/gMWPP/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkiseimyv/g/gMWPP/"
+      }
     },
     {
       "id": "sekkisei-blue-awakening-my-tone-primer",
@@ -3759,7 +5235,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4950,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/sekkiseiblue/g/gMWTB/"
+      }
     },
     {
       "id": "floranotis-blue-hydrangea-tone-up-comfort-uv-serum",
@@ -3775,7 +5258,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3630,
+        "taxIncluded": true,
+        "volume": "60g",
+        "sourceUrl": "https://maison.kose.co.jp/site/floranotis/g/gNTUN/"
+      }
     },
     {
       "id": "maihada-tsuyashizuku-skincare-base",
@@ -3796,7 +5286,14 @@
         "02 フレッシュベージュ",
         "03 ピュアピンク",
         "04 クリアホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3696,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://maison.kose.co.jp/site/mk_maihada/g/gPRCC001/"
+      }
     },
     {
       "id": "predia-spa-e-mer-mineral-day-essence-moist",
@@ -3812,7 +5309,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/predia/g/gQLCA/"
+      }
     },
     {
       "id": "predia-spa-e-mer-mineral-day-essence-cover",
@@ -3828,7 +5332,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/predia/g/gQLCB/"
+      }
     },
     {
       "id": "jillstuart-something-pure-blue-illuminating-gem-serum-primer",
@@ -3844,7 +5355,14 @@
       "amazonAsin": null,
       "spf": 40,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSHBK101/"
+      }
     },
     {
       "id": "jillstuart-illuminating-gem-serum-primer",
@@ -3860,7 +5378,14 @@
       "amazonAsin": null,
       "spf": 40,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSIOA001/"
+      }
     },
     {
       "id": "jillstuart-flawless-gem-serum-primer",
@@ -3876,7 +5401,14 @@
       "amazonAsin": null,
       "spf": 20,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3850,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSIOB/"
+      }
     },
     {
       "id": "jillstuart-lucent-chiffon-tone-up-primer-01",
@@ -3894,7 +5426,14 @@
       "pa": "+++",
       "shades": [
         "01 fancy tulle"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSIKE001/"
+      }
     },
     {
       "id": "jillstuart-lucent-chiffon-tone-up-primer-02",
@@ -3912,7 +5451,14 @@
       "pa": "+++",
       "shades": [
         "02 lacy veil"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSIKE001/"
+      }
     },
     {
       "id": "jillstuart-lucent-chiffon-tone-up-primer-03",
@@ -3930,7 +5476,14 @@
       "pa": "+++",
       "shades": [
         "03 bustier dress"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/jillstuart/g/gSIKE001/"
+      }
     },
     {
       "id": "uruminaplus-nama-tsuyahada-mizuhikari-oshiroi-uv-milk",
@@ -3947,7 +5500,14 @@
       "shades": [
         "01 ナチュラルベージュ",
         "02 ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1078,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://maison.kose.co.jp/site/uruminaplus/g/gWCYC001/"
+      }
     },
     {
       "id": "magnifique-bb-cream-001",
@@ -3965,7 +5525,14 @@
       "pa": "+++",
       "shades": [
         "001 ライトベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/magnifique/g/gWLBZ001/"
+      }
     },
     {
       "id": "magnifique-bb-cream-002",
@@ -3983,7 +5550,14 @@
       "pa": "+++",
       "shades": [
         "002 ナチュラルベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/magnifique/g/gWLAZ/"
+      }
     },
     {
       "id": "suncut-r-multivitamin-tone-up-uv-essence-clear-lavender",
@@ -3997,7 +5571,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMJG/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1188,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMJG/"
+      }
     },
     {
       "id": "suncut-r-multivitamin-tone-up-uv-essence-clear-pink",
@@ -4011,7 +5592,14 @@
       "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWVGQ/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1188,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWVGQ/"
+      }
     },
     {
       "id": "suncut-r-tone-up-uv-essence-snow-white-blue",
@@ -4027,7 +5615,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 878,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMJJ/"
+      }
     },
     {
       "id": "suncut-tone-up-uv-essence-lavender",
@@ -4043,7 +5638,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 812,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMXT/"
+      }
     },
     {
       "id": "suncut-tone-up-uv-essence-mint-green",
@@ -4059,7 +5661,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 812,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMXU/"
+      }
     },
     {
       "id": "suncut-tone-up-uv-essence-rose-pink",
@@ -4075,7 +5684,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 812,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMXV/"
+      }
     },
     {
       "id": "suncut-tone-up-uv-essence-lemon-yellow",
@@ -4091,7 +5707,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 812,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMWW/"
+      }
     },
     {
       "id": "suncut-light-up-uv-essence",
@@ -4107,7 +5730,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 812,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://maison.kose.co.jp/site/suncut/g/gWMXW/"
+      }
     },
     {
       "id": "visee-tone-up-skin-designer-01",
@@ -4125,7 +5755,14 @@
       "pa": "++",
       "shades": [
         "01 ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/visee/g/gYNQM001/"
+      }
     },
     {
       "id": "visee-tone-up-skin-designer-02",
@@ -4143,7 +5780,14 @@
       "pa": "++",
       "shades": [
         "02 ピンクベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/visee/g/gYNQM001/"
+      }
     },
     {
       "id": "visee-tone-up-skin-designer-03",
@@ -4161,7 +5805,14 @@
       "pa": "++",
       "shades": [
         "03 グリーン"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/visee/g/gYNQM001/"
+      }
     },
     {
       "id": "visee-tone-up-skin-designer-sheer",
@@ -4177,7 +5828,14 @@
       "amazonAsin": null,
       "spf": 25,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1320,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://maison.kose.co.jp/site/visee/g/gYNQM001/"
+      }
     },
     {
       "id": "cezanne-glow-skin-base-clear-glow",
@@ -4196,7 +5854,14 @@
       "pa": "+++",
       "shades": [
         "クリアグロウ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553043089/"
+      }
     },
     {
       "id": "cezanne-glow-skin-base-lavender-glow",
@@ -4215,7 +5880,14 @@
       "pa": "+++",
       "shades": [
         "ラベンダーグロウ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "20g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553043089/"
+      }
     },
     {
       "id": "cezanne-uv-tone-up-base-white",
@@ -4234,7 +5906,14 @@
       "pa": "++++",
       "shades": [
         "ホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553042006/"
+      }
     },
     {
       "id": "cezanne-uv-tone-up-base-pink",
@@ -4253,7 +5932,14 @@
       "pa": "++++",
       "shades": [
         "ピンク"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553042006/"
+      }
     },
     {
       "id": "cezanne-uv-ultra-fit-base-ex-00-02",
@@ -4273,7 +5959,14 @@
       "shades": [
         "00",
         "02"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553041757/"
+      }
     },
     {
       "id": "cezanne-uv-ultra-fit-base-ex-01",
@@ -4292,7 +5985,14 @@
       "pa": "++",
       "shades": [
         "01"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553041757/"
+      }
     },
     {
       "id": "cezanne-sebum-control-base-pink-beige",
@@ -4311,7 +6011,14 @@
       "pa": "++",
       "shades": [
         "ピンクベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 660,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553040057/"
+      }
     },
     {
       "id": "cezanne-sebum-control-base-light-blue",
@@ -4330,7 +6037,14 @@
       "pa": "++",
       "shades": [
         "ライトブルー"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 660,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553040057/"
+      }
     },
     {
       "id": "cezanne-sebum-control-base-pure-lavender",
@@ -4349,7 +6063,14 @@
       "pa": "++",
       "shades": [
         "ピュアラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 660,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553040057/"
+      }
     },
     {
       "id": "cezanne-sebum-control-base-moist",
@@ -4368,7 +6089,14 @@
       "pa": "+++",
       "shades": [
         "オレンジベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553041542/"
+      }
     },
     {
       "id": "cezanne-sebum-control-base-50",
@@ -4387,7 +6115,14 @@
       "pa": "++++",
       "shades": [
         "ナチュラルベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 858,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553530602/"
+      }
     },
     {
       "id": "cezanne-mineral-cover-bb-cream-n",
@@ -4406,7 +6141,14 @@
         "00",
         "10",
         "20"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 748,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553042389/"
+      }
     },
     {
       "id": "cezanne-bb-cream",
@@ -4427,7 +6169,14 @@
         "01",
         "02",
         "03"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 638,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553009795/"
+      }
     },
     {
       "id": "cezanne-bb-cream-pearl",
@@ -4446,7 +6195,14 @@
       "pa": "++",
       "shades": [
         "P2"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 638,
+        "taxIncluded": true,
+        "volume": "32g",
+        "sourceUrl": "https://www.cezanne.co.jp/lineup/4939553013730/"
+      }
     },
     {
       "id": "canmake-moist-prism-primer-01",
@@ -4465,7 +6221,14 @@
       "shades": [
         "[01]ライトベージュ",
         "[02]スウィートピンク"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 990,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.canmake.com/item/detail/moist-prism-primer/"
+      }
     },
     {
       "id": "canmake-moist-prism-primer-03",
@@ -4483,7 +6246,14 @@
       "pa": "++",
       "shades": [
         "[03]ペールブルー"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 990,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.canmake.com/item/detail/moist-prism-primer/"
+      }
     },
     {
       "id": "canmake-mermaid-skin-gel-uv-01",
@@ -4501,7 +6271,14 @@
       "pa": "++++",
       "shades": [
         "[01]透明"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.canmake.com/item/detail/mermaid-skin-gel-uv/"
+      }
     },
     {
       "id": "canmake-mermaid-skin-gel-uv-02",
@@ -4519,7 +6296,14 @@
       "pa": "++++",
       "shades": [
         "[02]ホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.canmake.com/item/detail/mermaid-skin-gel-uv/"
+      }
     },
     {
       "id": "canmake-mermaid-skin-gel-uv-c01",
@@ -4537,7 +6321,14 @@
       "pa": "++++",
       "shades": [
         "[C01]CICAミント"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.canmake.com/item/detail/mermaid-skin-gel-uv/"
+      }
     },
     {
       "id": "canmake-mermaid-skin-gel-uv-c03",
@@ -4555,7 +6346,14 @@
       "pa": "++++",
       "shades": [
         "[C03]ピュアパープル"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.canmake.com/item/detail/mermaid-skin-gel-uv/"
+      }
     },
     {
       "id": "canmake-poreless-airy-base-01",
@@ -4571,7 +6369,14 @@
       "amazonAsin": null,
       "shades": [
         "[01]ピュアホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.canmake.com/item/detail/poreless-airy-base/"
+      }
     },
     {
       "id": "canmake-poreless-airy-base-02",
@@ -4587,7 +6392,14 @@
       "amazonAsin": null,
       "shades": [
         "[02]ナチュラルベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.canmake.com/item/detail/poreless-airy-base/"
+      }
     },
     {
       "id": "canmake-mermaid-skin-gel-uv-oil-block",
@@ -4605,7 +6417,14 @@
       "pa": "++++",
       "shades": [
         "［01]クリアホワイト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.canmake.com/item/detail/mermaid-skin-gel-uv-oil-block/"
+      }
     },
     {
       "id": "chifure-makeup-base-cream-uv-pink",
@@ -4623,7 +6442,14 @@
       "pa": "++",
       "shades": [
         "1 ピンク"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.chifure.co.jp/products/makeupbase/2752"
+      }
     },
     {
       "id": "chifure-makeup-base-cream-uv-green",
@@ -4641,7 +6467,14 @@
       "pa": "++",
       "shades": [
         "2 グリーン"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 770,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.chifure.co.jp/products/makeupbase/2752"
+      }
     },
     {
       "id": "chifure-makeup-base-milk-uv",
@@ -4657,7 +6490,14 @@
       "amazonAsin": null,
       "spf": 34,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 880,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.chifure.co.jp/products/makeupbase/2541"
+      }
     },
     {
       "id": "chifure-bb-cream",
@@ -4677,7 +6517,14 @@
         "0 ピンク オークル系",
         "1 オークル系",
         "2 オークル系"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 825,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.chifure.co.jp/products/foundation/8052"
+      }
     },
     {
       "id": "chifure-sunscreen-essence-tone-up-uv",
@@ -4693,7 +6540,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1100,
+        "taxIncluded": true,
+        "volume": "80g",
+        "sourceUrl": "https://www.chifure.co.jp/products/sunscreen/8056"
+      }
     },
     {
       "id": "fancl-skincare-base-lasting-uv-beige",
@@ -4712,7 +6566,14 @@
       "pa": "+++",
       "shades": [
         "ベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2200,
+        "taxIncluded": true,
+        "volume": "25mL (商品番号3200-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3200a/"
+      }
     },
     {
       "id": "fancl-skincare-base-lasting-uv-purple",
@@ -4731,7 +6592,14 @@
       "pa": "+++",
       "shades": [
         "パープル"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2200,
+        "taxIncluded": true,
+        "volume": "25mL (商品番号3200-32)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3200a/"
+      }
     },
     {
       "id": "fancl-skincare-base-w-moist-beige",
@@ -4750,7 +6618,14 @@
       "pa": "+++",
       "shades": [
         "ベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2200,
+        "taxIncluded": true,
+        "volume": "30g (商品番号3201-31)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3201a/"
+      }
     },
     {
       "id": "fancl-skincare-base-w-moist-purple",
@@ -4769,7 +6644,14 @@
       "pa": "+++",
       "shades": [
         "パープル"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2200,
+        "taxIncluded": true,
+        "volume": "30g (商品番号3201-32)",
+        "sourceUrl": "https://www.fancl.co.jp/beauty/item/3201a/"
+      }
     },
     {
       "id": "rohto-skinaqua-tone-up-uv-essence-lavender",
@@ -4786,7 +6668,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/tone-up-essence"
+      }
     },
     {
       "id": "rohto-skinaqua-tone-up-uv-essence-blue",
@@ -4803,7 +6692,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/tone-up-essence_bl"
+      }
     },
     {
       "id": "rohto-skinaqua-tone-up-uv-essence-pink",
@@ -4820,7 +6716,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/tone-up-essence_hr"
+      }
     },
     {
       "id": "rohto-skinaqua-tone-up-uv-essence-mint-green",
@@ -4837,7 +6740,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/tone-up-essence_mg"
+      }
     },
     {
       "id": "rohto-skinaqua-tone-up-uv-essence-white",
@@ -4854,7 +6764,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/tone-up-essence_wh"
+      }
     },
     {
       "id": "rohto-skinaqua-super-moisture-uv-light-up-essence",
@@ -4871,7 +6788,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1100,
+        "taxIncluded": true,
+        "volume": "70g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/light-up-essence"
+      }
     },
     {
       "id": "rohto-skinaqua-natural-veil-uv-essence-clear-white",
@@ -4888,7 +6812,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "50g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/natural_c"
+      }
     },
     {
       "id": "rohto-skinaqua-natural-veil-uv-essence-rose",
@@ -4905,7 +6836,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "50g",
+        "sourceUrl": "https://jp.rohto.com/skin-aqua/natural_r"
+      }
     },
     {
       "id": "rohto-skio-vc-tone-up-uv-essence",
@@ -4922,7 +6860,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g（45日分）",
+        "sourceUrl": "https://jp.rohto.com/skio/uv-essence"
+      }
     },
     {
       "id": "rohto-melanocc-deep-day-care-uv-milk",
@@ -4939,7 +6884,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "OPEN",
+        "amount": null,
+        "taxIncluded": null,
+        "volume": "50g",
+        "sourceUrl": "https://jp.rohto.com/melanocc/deep-uv-milk"
+      }
     },
     {
       "id": "rohto-episteme-stem-science-cc",
@@ -4956,7 +6908,14 @@
       "amazonAsin": null,
       "spf": 31,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 8800,
+        "taxIncluded": true,
+        "volume": "32g",
+        "sourceUrl": "https://jp.rohto.com/episteme/stem-cc"
+      }
     },
     {
       "id": "rohto-obagi-c-day-serum-bb-light",
@@ -4975,7 +6934,14 @@
       "pa": "++++",
       "shades": [
         "ライト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://jp.rohto.com/obagi/c-dayserum-bb"
+      }
     },
     {
       "id": "rohto-obagi-c-day-serum-bb-natural",
@@ -4994,7 +6960,14 @@
       "pa": "++++",
       "shades": [
         "ナチュラル"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://jp.rohto.com/obagi/c-dayserum-bb"
+      }
     },
     {
       "id": "rohto-obagi-c-day-serum-uv",
@@ -5011,7 +6984,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://jp.rohto.com/obagi/c-dayserum-uv"
+      }
     },
     {
       "id": "rohto-promedial-makeup-base-uv",
@@ -5028,7 +7008,14 @@
       "amazonAsin": null,
       "spf": 18,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://jp.rohto.com/promedial/makeup-base"
+      }
     },
     {
       "id": "primavista-kakuso-hosui-primer-sheer-beige",
@@ -5046,7 +7033,14 @@
       "pa": "+++",
       "shades": [
         "シアーベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301463920/"
+      }
     },
     {
       "id": "primavista-kakuso-hosui-primer-clear-lavender",
@@ -5064,7 +7058,14 @@
       "pa": "+++",
       "shades": [
         "クリアラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3520,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301471918/"
+      }
     },
     {
       "id": "primavista-skin-protect-base-sebum-uv50-ex",
@@ -5085,7 +7086,14 @@
         "ラベンダー",
         "フレッシュグリーン",
         "クリアブルー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301455697/"
+      }
     },
     {
       "id": "primavista-skin-protect-base-sebum-very-oily",
@@ -5101,7 +7109,14 @@
       "amazonAsin": null,
       "spf": 10,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301403100/"
+      }
     },
     {
       "id": "primavista-skin-protect-base-sebum-very-oily-cool",
@@ -5117,7 +7132,14 @@
       "amazonAsin": null,
       "spf": 10,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301470706/"
+      }
     },
     {
       "id": "primavista-pinpoint-sebum-off-stick",
@@ -5133,7 +7155,14 @@
       "amazonAsin": null,
       "spf": 4,
       "pa": "+",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "6.1g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301464163/"
+      }
     },
     {
       "id": "primavista-fande-boost-sebum",
@@ -5149,7 +7178,14 @@
       "amazonAsin": null,
       "spf": 5,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 3080,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/primavista/4901301419569/"
+      }
     },
     {
       "id": "curel-base-milk",
@@ -5165,7 +7201,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301274335/"
+      }
     },
     {
       "id": "curel-base-cream",
@@ -5181,7 +7224,14 @@
       "amazonAsin": null,
       "spf": 30,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301274342/"
+      }
     },
     {
       "id": "curel-iroduku-base-milk",
@@ -5200,7 +7250,14 @@
       "shades": [
         "ベージュ01",
         "ベージュ02"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301286475/"
+      }
     },
     {
       "id": "curel-iroduku-base-milk-pink",
@@ -5216,7 +7273,14 @@
       "amazonAsin": null,
       "spf": 24,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2090,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301439918/"
+      }
     },
     {
       "id": "curel-fande-futan-boshi-base",
@@ -5232,7 +7296,14 @@
       "amazonAsin": null,
       "spf": 41,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2750,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301449436/"
+      }
     },
     {
       "id": "curel-bb-cream",
@@ -5249,7 +7320,14 @@
       "shades": [
         "自然な肌色",
         "明るい肌色"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/curel/4901301286505/"
+      }
     },
     {
       "id": "alblanc-long-lasting-primer",
@@ -5263,7 +7341,14 @@
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301393616/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/basemake/longlasting-primer/"
+      }
     },
     {
       "id": "alblanc-moisturizing-primer",
@@ -5277,7 +7362,14 @@
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/alblanc/4901301393609/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/basemake/moisturizing-primer/"
+      }
     },
     {
       "id": "alblanc-brightening-primer",
@@ -5296,7 +7388,14 @@
       "shades": [
         "01 ライト",
         "02 ミディアム"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/official/sofina-alblanc/products/basemake/brightning-primer/"
+      }
     },
     {
       "id": "est-geliology-primer-m",
@@ -5312,7 +7411,8 @@
       "amazonAsin": null,
       "spf": 17,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "est-geliology-primer-b",
@@ -5328,7 +7428,8 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "est-geliology-primer-l",
@@ -5344,7 +7445,8 @@
       "amazonAsin": null,
       "spf": 17,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "allie-chrono-beauty-color-tuning-uv-01-ennui-purple",
@@ -5362,7 +7464,14 @@
       "pa": "++++",
       "shades": [
         "01 ENNUI PURPLE"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167034088/"
+      }
     },
     {
       "id": "allie-chrono-beauty-color-tuning-uv-02-sunny-apricot",
@@ -5380,7 +7489,14 @@
       "pa": "++++",
       "shades": [
         "02 SUNNY APRICOT"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167034095/"
+      }
     },
     {
       "id": "allie-chrono-beauty-color-tuning-uv-03-sheer-beige",
@@ -5398,7 +7514,14 @@
       "pa": "++++",
       "shades": [
         "03 SHEER BEIGE"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "40g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167034101/"
+      }
     },
     {
       "id": "allie-chrono-beauty-tone-up-uv-01-bright-shower",
@@ -5416,7 +7539,14 @@
       "pa": "++++",
       "shades": [
         "01 BRIGHT SHOWER"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "60g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167057667/"
+      }
     },
     {
       "id": "allie-chrono-beauty-tone-up-uv-02-rose-chaire",
@@ -5434,7 +7564,14 @@
       "pa": "++++",
       "shades": [
         "02 ROSE CHAIRE"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "60g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167057681/"
+      }
     },
     {
       "id": "allie-chrono-beauty-tone-up-uv-03-sheer-ecru",
@@ -5452,7 +7589,14 @@
       "pa": "++++",
       "shades": [
         "03 SHEER ECRU"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "60g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167057704/"
+      }
     },
     {
       "id": "allie-chrono-beauty-lasting-primer-uv",
@@ -5468,7 +7612,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167521397/"
+      }
     },
     {
       "id": "allie-chrono-beauty-flat-smooth-filter-uv",
@@ -5484,7 +7635,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 2178,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/allie/4973167040973/"
+      }
     },
     {
       "id": "kate-jelly-leap-serum-primer",
@@ -5502,7 +7660,14 @@
       "pa": "++",
       "shades": [
         "パールベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167069738/"
+      }
     },
     {
       "id": "kate-jelly-leap-primer-skin-beige",
@@ -5520,7 +7685,14 @@
       "pa": "++++",
       "shades": [
         "スキンベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167015483/"
+      }
     },
     {
       "id": "kate-jelly-leap-primer-lagoon-pink",
@@ -5538,7 +7710,14 @@
       "pa": "++++",
       "shades": [
         "ラグーンピンク"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167050934/"
+      }
     },
     {
       "id": "kate-jelly-leap-primer-ocean-green",
@@ -5556,7 +7735,14 @@
       "pa": "++++",
       "shades": [
         "オーシャングリーン"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167050941/"
+      }
     },
     {
       "id": "kate-poreless-keeper-for-dry",
@@ -5572,7 +7758,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "25g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167016848/"
+      }
     },
     {
       "id": "kate-poreless-keeper-for-dry-oily",
@@ -5588,7 +7781,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167016855/"
+      }
     },
     {
       "id": "kate-poreless-keeper-for-oily",
@@ -5604,7 +7804,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "25mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167016862/"
+      }
     },
     {
       "id": "kate-snow-skin-base",
@@ -5623,7 +7830,14 @@
       "shades": [
         "クールラベンダー",
         "スノーイエロー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167553299/"
+      }
     },
     {
       "id": "kate-reset-cover-base",
@@ -5641,7 +7855,14 @@
       "pa": "++",
       "shades": [
         "EX-1"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1078,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167911631/"
+      }
     },
     {
       "id": "kate-skin-color-control-base-or",
@@ -5659,7 +7880,14 @@
       "pa": "++",
       "shades": [
         "OR"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1155,
+        "taxIncluded": true,
+        "volume": "24g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167078693/"
+      }
     },
     {
       "id": "kate-skin-color-control-base-gn",
@@ -5677,7 +7905,14 @@
       "pa": "+",
       "shades": [
         "GN"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1155,
+        "taxIncluded": true,
+        "volume": "24g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167819180/"
+      }
     },
     {
       "id": "kate-skin-color-control-base-pk",
@@ -5695,7 +7930,14 @@
       "pa": "++",
       "shades": [
         "PK"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1155,
+        "taxIncluded": true,
+        "volume": "24g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167819173/"
+      }
     },
     {
       "id": "kate-skin-color-control-base-lv",
@@ -5713,7 +7955,14 @@
       "pa": "++",
       "shades": [
         "LV"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1155,
+        "taxIncluded": true,
+        "volume": "24g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/kate/4973167819159/"
+      }
     },
     {
       "id": "media-bb-cream-s",
@@ -5733,7 +7982,14 @@
         "01",
         "02",
         "03"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1210,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/media/4973167698709/"
+      }
     },
     {
       "id": "media-makeup-base-r",
@@ -5752,7 +8008,14 @@
       "shades": [
         "グリーン",
         "オレンジ"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 825,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/media/4973167828021/"
+      }
     },
     {
       "id": "media-uv-protect-base-r",
@@ -5768,7 +8031,14 @@
       "amazonAsin": null,
       "spf": 32,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 825,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/media/4973167827994/"
+      }
     },
     {
       "id": "media-luxe-smooth-beauty-base",
@@ -5787,7 +8057,14 @@
       "shades": [
         "ベージュ",
         "ラベンダー"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 1540,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/media/4973167707258/"
+      }
     },
     {
       "id": "kanebo-illuminating-primer",
@@ -5803,7 +8080,8 @@
       "amazonAsin": null,
       "spf": 22,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "kanebo-even-fit-primer",
@@ -5819,7 +8097,8 @@
       "amazonAsin": null,
       "spf": 28,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "kanebo-the-primer",
@@ -5835,7 +8114,8 @@
       "amazonAsin": null,
       "spf": 10,
       "pa": "+",
-      "shades": []
+      "shades": [],
+      "price": null
     },
     {
       "id": "lunasol-clarity-skin-primer",
@@ -5851,7 +8131,8 @@
       "amazonAsin": null,
       "shades": [
         "01 セレーンピンク"
-      ]
+      ],
+      "price": null
     },
     {
       "id": "lunasol-watery-primer",
@@ -5869,7 +8150,8 @@
       "pa": "+",
       "shades": [
         "01 Lucent"
-      ]
+      ],
+      "price": null
     },
     {
       "id": "milano-collection-dress-up-cream",
@@ -5885,7 +8167,14 @@
       "amazonAsin": null,
       "spf": 20,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 8800,
+        "taxIncluded": true,
+        "volume": "50g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/milano-collection/4973167051986/"
+      }
     },
     {
       "id": "twany-rhythm-lasting-wear",
@@ -5901,7 +8190,14 @@
       "amazonAsin": null,
       "spf": 44,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167525012/"
+      }
     },
     {
       "id": "twany-rhythm-color-wear",
@@ -5921,7 +8217,14 @@
         "01 Charming",
         "02 Healthy",
         "03 Stylish"
-      ]
+      ],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167499108/"
+      }
     },
     {
       "id": "twany-dramatic-memory",
@@ -5935,7 +8238,14 @@
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167072530/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 8800,
+        "taxIncluded": true,
+        "volume": "5.5mL",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167072530/"
+      }
     },
     {
       "id": "twany-flat-fix",
@@ -5949,7 +8259,14 @@
       "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167468708/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 4400,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167468708/"
+      }
     },
     {
       "id": "twany-century-the-primer",
@@ -5965,7 +8282,14 @@
       "amazonAsin": null,
       "spf": 15,
       "pa": "+",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "STORE",
+        "amount": 13200,
+        "taxIncluded": true,
+        "volume": "30g",
+        "sourceUrl": "https://www.kao-kirei.com/ja/item/kbb/twany/4973167465141/"
+      }
     },
     {
       "id": "elixir-day-care-revolution-tone-up-pure-beige",
@@ -5983,7 +8307,14 @@
       "pa": "++++",
       "shades": [
         "ピュアベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H15301"
+      }
     },
     {
       "id": "elixir-day-care-revolution-tone-up-baby-pink",
@@ -6001,7 +8332,14 @@
       "pa": "++++",
       "shades": [
         "ベビーピンク"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H15301"
+      }
     },
     {
       "id": "elixir-day-care-revolution-ba",
@@ -6017,7 +8355,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "35mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H63701"
+      }
     },
     {
       "id": "elixir-day-care-revolution-plus-ba",
@@ -6033,7 +8378,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3410,
+        "taxIncluded": true,
+        "volume": "35mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H63601"
+      }
     },
     {
       "id": "elixir-white-day-care-revolution-brightening-ba",
@@ -6049,7 +8401,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3740,
+        "taxIncluded": true,
+        "volume": "35mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H63901"
+      }
     },
     {
       "id": "elixir-white-day-care-revolution-brightening-plus-ba",
@@ -6065,7 +8424,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3740,
+        "taxIncluded": true,
+        "volume": "35mL",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=H63801"
+      }
     },
     {
       "id": "elixir-reflet-balancing-oshiroi-milk",
@@ -6081,7 +8447,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=843201"
+      }
     },
     {
       "id": "elixir-reflet-balancing-oshiroi-milk-c",
@@ -6097,7 +8470,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "++++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "35g",
+        "sourceUrl": "https://www.shiseido.co.jp/elixir/sw/c/products/SWFD070020.seam?shohin_pl_c_cd=E93901"
+      }
     },
     {
       "id": "dprogram-allerbarrier-essence-bb-n",
@@ -6116,7 +8496,14 @@
       "shades": [
         "ミディアム",
         "ライト"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2860,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/allerbarrier/allerbarrier_essenceBBN/"
+      }
     },
     {
       "id": "dprogram-allerbarrier-essence-n",
@@ -6132,7 +8519,14 @@
       "amazonAsin": null,
       "spf": 50,
       "pa": "+++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 3300,
+        "taxIncluded": true,
+        "volume": "40mL",
+        "sourceUrl": "https://www.shiseido.co.jp/dprogram/product/allerbarrier/allerbarrier_essenceN/"
+      }
     },
     {
       "id": "ihada-face-protect-uv-milk",
@@ -6146,7 +8540,14 @@
       "sourceUrl": "https://www.shiseido.co.jp/ihada/products/toneup-uv.html",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": "30mL",
+        "sourceUrl": "https://www.shiseido.co.jp/ihada/products/toneup-uv.html"
+      }
     },
     {
       "id": "ettusais-tone-up-uv-primer",
@@ -6164,7 +8565,14 @@
       "pa": "++++",
       "shades": [
         "トーンアップベージュ"
-      ]
+      ],
+      "price": {
+        "kind": "SRP",
+        "amount": 2420,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.ettusais.co.jp/face/skinbase/"
+      }
     },
     {
       "id": "ettusais-face-edition-skin-base-for-oily-skin",
@@ -6180,7 +8588,14 @@
       "amazonAsin": null,
       "spf": 35,
       "pa": "++",
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1980,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.ettusais.co.jp/face/skinbase/index2.html"
+      }
     },
     {
       "id": "ettusais-poreless-primer",
@@ -6194,7 +8609,14 @@
       "sourceUrl": "https://www.ettusais.co.jp/face/primer/",
       "verifiedAt": "2026-11-08",
       "amazonAsin": null,
-      "shades": []
+      "shades": [],
+      "price": {
+        "kind": "SRP",
+        "amount": 1650,
+        "taxIncluded": true,
+        "volume": null,
+        "sourceUrl": "https://www.ettusais.co.jp/face/primer/"
+      }
     }
   ]
 }

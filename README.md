@@ -1,6 +1,6 @@
 # skincare_db
 
-Android アプリ「肌ログ最適化」が使う商品カタログ。スキンケア（化粧水・乳液・ジェル・クリーム）と、ファンデーションの代わりに使うベース（化粧下地・BB/CC・トーンアップ下地）。GitHub Pages で配信します。
+Android アプリ「ハダログ」が使う商品カタログ。スキンケア（化粧水・乳液・ジェル・クリーム）と、ファンデーションの代わりに使うベース（化粧下地・BB/CC・トーンアップ下地）。GitHub Pages で配信します。
 
 - 元データ: `data/products.json`（編集するのはこのファイルだけ）
 - `main` にマージすると、検証 → 静的 API の生成（`scripts/build_api.py`）→ GitHub Pages へ公開、が自動で行われます
@@ -28,7 +28,11 @@ Android アプリ「肌ログ最適化」が使う商品カタログ。スキン
 - 成分が別ページにある場合は `ingredientsSourceUrl` も入れる
 - 医薬部外品は `quasiDrug: true`。「有効成分：」「その他の成分：」の区分は改行で残す
 - 分量が公開されている場合（ちふれ等）は `ingredientAmounts` に残す
-- `amazonAsin` は将来のアフィリエイト用。確認できたものだけ入れる
+- `amazonAsin` は Amazon の商品ページに直接リンクするときに使う。確認できたものだけ入れる（無ければ Amazon の検索結果へのリンク）
+- 先頭の `affiliate` にアフィリエイトの ID を入れる（未設定は `null`。null のときアプリは紹介料の付かない普通のリンクを出す）
+  - `amazonTag`: Amazon アソシエイトのトラッキングID（例 `xxxx-22`）
+  - `rakutenAffiliateId`: 楽天アフィリエイトのアフィリエイトID（例 `1a2b3c4d.5e6f7a8b.9c0d1e2f.3a4b5c6d`。楽天アフィリエイトの「サイト・アプリ情報」などで確認）
+  - 変えると products.json のハッシュが変わるので、アプリは次の起動時に取り込む（アプリの更新は不要）
 
 ## 項目
 
@@ -44,6 +48,7 @@ Android アプリ「肌ログ最適化」が使う商品カタログ。スキン
 | `sourceUrl`, `verifiedAt` | ✓ | 出典と確認日 |
 | `spf`, `pa` | | ベースのみ。商品ページに明記されている値だけ（SPF50+ は 50）。不明なら null |
 | `shades` | | 色展開。全色で全成分が同じ場合のみ1商品にまとめる（違う場合は色ごとに別商品） |
+| `price` | | 参考価格。`kind`: `SRP`（メーカー希望小売価格）/ `STORE`（メーカー公式通販の販売価格）/ `OPEN`（オープン価格）。`amount`（円）, `taxIncluded`, `volume`, `sourceUrl`。取得できなければ null |
 | `ingredientsSourceUrl`, `ingredientAmounts`, `amazonAsin` | | 任意 |
 
 `schemaVersion` を上げるとアプリの古い版は読み込まなくなるので、項目の追加は任意項目で行います。
