@@ -1,0 +1,3 @@
+ERR	https://integrate.shiseido.co.jp/robots.txt	<urlopen error [Errno -2] Name or service not known>
+ERR	https://integrate.shiseido.co.jp/sitemap.xml	<urlopen error [Errno -2] Name or service not known>
+ERR	https://integrate.shiseido.co.jp/	<urlopen error [Errno -2] Name or service not known>

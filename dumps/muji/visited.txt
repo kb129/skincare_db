@@ -1,0 +1,3 @@
+ERR	https://www.muji.com/robots.txt	The read operation timed out
+ERR	https://www.muji.com/sitemap.xml	The read operation timed out
+ERR	https://www.muji.com/jp/ja/store	The read operation timed out

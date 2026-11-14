@@ -1,0 +1,14 @@
+ERR	https://tokiwa-corp.co.jp/robots.txt	HTTP Error 404: Not Found
+ERR	https://tokiwa-corp.co.jp/sitemap.xml	HTTP Error 500: Internal Server Error
+200	https://tokiwa-corp.co.jp/
+200	https://tokiwa-corp.co.jp/group/
+200	https://tokiwa-corp.co.jp/company/
+200	https://tokiwa-corp.co.jp/service/
+200	https://tokiwa-corp.co.jp/service/eiga/
+200	https://tokiwa-corp.co.jp/investor/
+200	https://tokiwa-corp.co.jp/recruit/
+200	https://tokiwa-corp.co.jp/contact/
+200	https://tokiwa-corp.co.jp/news/2026070701/
+200	https://tokiwa-corp.co.jp/news/
+200	https://tokiwa-corp.co.jp/privacy/
+200	https://tokiwa-corp.co.jp/form/

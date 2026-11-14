@@ -1,0 +1,1 @@
+ERR	https://www.shiseido.co.jp/aqualabel/	HTTP Error 404: Not Found
