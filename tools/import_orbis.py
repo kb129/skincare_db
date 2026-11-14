@@ -38,6 +38,8 @@ ITEMS = [
     ("11011103", "orbis-clearful-moisture-l", "クリアフル", "モイスチャー L（さっぱりタイプ）", "EMULSION", "L（さっぱりタイプ）", None, None, []),
     ("11011103", "orbis-clearful-moisture-m", "クリアフル", "モイスチャー M（しっとりタイプ）", "EMULSION", "M（しっとりタイプ）", None, None, []),
     ("1156010", "orbis-enrich-cream", "オルビス", "エンリッチ クリーム", "CREAM", None, None, None, []),
+    ("15010202", "orbis-mister-essence-lotion", "オルビス ミスター", "エッセンスローション", "TONER", None, None, None, []),
+    ("15010203", "orbis-mister-moisturizing-cream", "オルビス ミスター", "モイスチャライジングクリーム", "CREAM", None, None, None, []),
     # ベース（下地）
     ("1152040", "orbis-clearful-day-care-base", "クリアフル", "デイケアベース", "BASE", None, 28, "+++", []),
     ("1253050", "orbis-skin-moisture-base", "オルビス", "スキンモイスチャーベース", "BASE", None, 28, "+++", []),
@@ -45,6 +47,11 @@ ITEMS = [
     ("1251201", "orbis-u-treatment-primer", "オルビスユー", "トリートメントプライマー", "BASE", None, 50, "+++", []),
     ("1301010", "orbis-sunscreen-on-face-moist", "オルビス", "サンスクリーン(R) オンフェイス モイスト", "BASE", "モイスト", 34, "+++", []),
     ("1301010", "orbis-sunscreen-on-face-light", "オルビス", "サンスクリーン(R) オンフェイス ライト", "BASE", "ライト", 34, "+++", []),
+    ("1301040", "orbis-sunscreen-freeence", "オルビス", "サンスクリーン(R) フリーエンス", "BASE", None, 30, "+++", []),
+    ("1501017", "orbis-mister-base-color-controller", "オルビス ミスター", "ベースカラー コントローラー", "BB_CC", None, 20, "++", []),
+    # 色で色材が違うので色ごとに分ける
+    ("1501029", "orbis-mister-base-color-controller-h01", "オルビス ミスター", "ベースカラー コントローラー H（ハイカバータイプ） H 01", "BB_CC", "H 01", 25, "++", []),
+    ("1501029", "orbis-mister-base-color-controller-h02", "オルビス ミスター", "ベースカラー コントローラー H（ハイカバータイプ） H 02", "BB_CC", "H 02", 25, "++", []),
     ("1201100", "orbis-melty-moist-bb", "オルビス", "メルティーモイストBB", "BB_CC", None, 30, "+++", ["ライト", "ナチュラル"]),
     # 色で色材（酸化鉄）が違うので色ごとに分ける
     ("1201110", "orbis-whitening-bb-light", "オルビス", "ホワイトニングBB ライト", "BB_CC", "ライト", 40, "+++", []),
