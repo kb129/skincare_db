@@ -81,3 +81,11 @@ python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 | ビオレUV | 花王の通販サイトに掲載がなく、kao.co.jp は未対応 |
 | 無印良品 | 公式サイトに接続できない |
 | dプログラム 薬用スキンケアベース CC N | 公式ページに全成分がない |
+
+## 商品画像（Yahoo!ショッピング）
+
+`data/images.json` は `tools/fetch_yahoo_images.py` が作る（手で編集しない）。Actions の「Product images」が月1回と手動で実行し、更新があればコミットして公開し直す。
+
+- JAN コードがある製品は JAN で、ない製品は「ブランド 名前」で検索し、名前の語がすべて含まれる出品だけを使う。セット・お試し・詰め替え（製品名にないとき）は除外。見つからなければ画像なし（アプリはイラスト）。
+- API キーは Secrets の `YAHOO_APP_ID`。1秒に1回まで。
+- 公開時に `image`（url・thumbUrl・itemUrl）を各製品に、`imageCredit` を全体に混ぜる。画像を出すところには「Webサービス by Yahoo! JAPAN」のクレジットを出す（https://developer.yahoo.co.jp/attribution/）。
