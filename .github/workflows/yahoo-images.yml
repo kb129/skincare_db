@@ -1,0 +1,58 @@
+name: Product images (Yahoo!ショッピング)
+
+# 商品画像を Yahoo!ショッピング 商品検索API で探して data/images.json を更新する。
+# 月1回と手動。PR では保存せず、一致の結果だけをログに出す（照合の確認用）。
+on:
+  schedule:
+    - cron: "17 3 1 * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "この ID を含む製品だけ（正規表現・空なら全件）"
+        required: false
+  pull_request:
+    paths:
+      - tools/fetch_yahoo_images.py
+      - .github/workflows/yahoo-images.yml
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: yahoo-images
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dry run (PR)
+        if: github.event_name == 'pull_request'
+        env:
+          YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
+        run: python3 tools/fetch_yahoo_images.py --dry-run --limit 25
+      - name: Fetch images
+        if: github.event_name != 'pull_request'
+        env:
+          YAHOO_APP_ID: ${{ secrets.YAHOO_APP_ID }}
+          ONLY: ${{ inputs.only }}
+        run: python3 tools/fetch_yahoo_images.py ${ONLY:+--only "$ONLY"}
+      - name: Commit and publish
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/build_api.py data/products.json _site > /dev/null
+          if git diff --quiet -- data/images.json && git ls-files --error-unmatch data/images.json >/dev/null 2>&1; then
+            echo "変更なし"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/images.json
+          git commit -m "商品画像を更新（Yahoo!ショッピング）"
+          git push
+          # GITHUB_TOKEN の push では他のワークフローが動かないので、公開を手動で起動する
+          gh workflow run pages.yml --ref "${GITHUB_REF_NAME}"

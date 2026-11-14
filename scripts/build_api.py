@@ -30,6 +30,16 @@ def main(src: str = "data/products.json", out: str = "_site") -> int:
         shutil.rmtree(site)
     api = site / API_VERSION
     products = catalog["products"]
+    # 商品画像（tools/fetch_yahoo_images.py が作る）。products.json は手で確かめた情報だけにしておき、公開するときに混ぜる
+    images_path = Path(src).with_name("images.json")
+    if images_path.exists():
+        images = json.loads(images_path.read_text(encoding="utf-8"))
+        catalog["imageCredit"] = {"text": images["credit"], "url": images["creditUrl"]}
+        for p in products:
+            img = images["images"].get(p["id"])
+            if img:
+                p["image"] = {"url": img["url"], "thumbUrl": img.get("thumbUrl"), "itemUrl": img.get("itemUrl")}
+        print(f"images: {sum(1 for p in products if 'image' in p)}/{len(products)}")
 
     body = dump(api / "products.json", catalog)
     for p in products:
