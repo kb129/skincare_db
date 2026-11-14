@@ -26,6 +26,14 @@ def main(path: str) -> int:
     rid = aff.get("rakutenAffiliateId")
     if rid is not None and not re.fullmatch(r"[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}", rid):
         errors.append("affiliate.rakutenAffiliateId must look like 1a2b3c4d.5e6f7a8b.9c0d1e2f.3a4b5c6d")
+    # 未収録製品のリクエスト先（Google フォームの事前入力。未設定は null）。fields は brand/name/note → entry.xxx
+    form = catalog.get("requestForm")
+    if form is not None:
+        if not isinstance(form, dict) or not str(form.get("url", "")).startswith("https://docs.google.com/forms/"):
+            errors.append("requestForm.url must be a Google Forms URL (https://docs.google.com/forms/...)")
+        fields = (form or {}).get("fields") or {}
+        if not fields.get("name") or any(not re.fullmatch(r"entry\.\d+", v) for v in fields.values()):
+            errors.append("requestForm.fields must map brand/name/note to entry.<number> (name is required)")
     seen = set()
     jans = set()
     for i, p in enumerate(catalog.get("products", [])):

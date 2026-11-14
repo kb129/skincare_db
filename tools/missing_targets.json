@@ -1,0 +1,69 @@
+{
+  "note": "未収録ブランドの取得先。tools/fetch_missing.py が上から順に取る。match は商品ページのURLの形（正規表現）。分からないものは null（トップから商品らしいリンクを優先して巡回）。",
+  "targets": [
+    {
+      "key": "muji",
+      "brand": "無印良品",
+      "start": "https://www.muji.com/jp/ja/store",
+      "sitemap": "auto",
+      "match": "/store/cmdty/detail/",
+      "maxPages": 1500
+    },
+    {
+      "key": "dhc",
+      "brand": "DHC",
+      "start": "https://www.dhc.co.jp/",
+      "sitemap": "auto",
+      "match": "goods(detail|/)",
+      "maxPages": 1500
+    },
+    {
+      "key": "laroche-posay",
+      "brand": "ラ ロッシュ ポゼ",
+      "start": "https://www.laroche-posay.jp/",
+      "sitemap": "auto",
+      "match": "/(products?|item)/",
+      "maxPages": 800
+    },
+    {
+      "key": "bioreuv",
+      "brand": "ビオレUV",
+      "start": "https://www.kao.com/jp/products/",
+      "sitemap": "auto",
+      "match": "/products/bioreuv/",
+      "maxPages": 300
+    },
+    {
+      "key": "maquillage",
+      "brand": "マキアージュ",
+      "start": "https://maquillage.shiseido.co.jp/",
+      "sitemap": "auto",
+      "match": "/item/",
+      "maxPages": 600
+    },
+    {
+      "key": "integrate",
+      "brand": "インテグレート",
+      "start": "https://integrate.shiseido.co.jp/",
+      "sitemap": "auto",
+      "match": "/(products?|item|lineup)/",
+      "maxPages": 600
+    },
+    {
+      "key": "aqualabel",
+      "brand": "アクアレーベル",
+      "start": "https://www.shiseido.co.jp/aqualabel/",
+      "sitemap": null,
+      "match": "/(products?|item|lineup)/",
+      "maxPages": 400
+    },
+    {
+      "key": "namerakahonpo",
+      "brand": "なめらか本舗",
+      "start": "https://tokiwa-corp.co.jp/",
+      "sitemap": "auto",
+      "match": "namerakahonpo",
+      "maxPages": 600
+    }
+  ]
+}

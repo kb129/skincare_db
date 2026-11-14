@@ -66,6 +66,8 @@ python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 
 未収録（公式サイトから取得できなかったもの）
 
+まとめて取るときは、日本国内の PC で `python3 tools/fetch_missing.py` を実行し、できた `dumps/` を push する（取得先は `tools/missing_targets.json`）。robots.txt を守り、自動アクセスを拒否されたサイトはそこでやめる。
+
 | ブランド | 理由 |
 |---|---|
 | 無印良品 | 公式サイトがメンテナンス中 |
@@ -89,3 +91,16 @@ python3 scripts/build_api.py data/products.json _site   # 生成物の確認
 - JAN コードがある製品は JAN で、ない製品は「ブランド 名前」で検索し、名前の語がすべて含まれる出品だけを使う。セット・お試し・詰め替え（製品名にないとき）は除外。見つからなければ画像なし（アプリはイラスト）。
 - API キーは Secrets の `YAHOO_APP_ID`。1秒に1回まで。
 - 公開時に `image`（url・thumbUrl・itemUrl）を各製品に、`imageCredit` を全体に混ぜる。画像を出すところには「Webサービス by Yahoo! JAPAN」のクレジットを出す（https://developer.yahoo.co.jp/attribution/）。
+
+## 製品の追加リクエスト
+
+アプリの「カタログへの追加をリクエスト」は、`products.json` の `requestForm` に設定した Google フォームを、入力済みで開く（未設定ならボタンを出さない）。
+
+```json
+"requestForm": {
+  "url": "https://docs.google.com/forms/d/e/<フォームID>/viewform",
+  "fields": {"brand": "entry.<番号>", "name": "entry.<番号>", "note": "entry.<番号>"}
+}
+```
+
+entry の番号は、フォームの「︙ → 事前入力したURLを取得」で各項目に適当な値を入れて作ったURLから分かる。
