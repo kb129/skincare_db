@@ -6,6 +6,14 @@
     "amazonTag": "azoshikzai-22",
     "rakutenAffiliateId": "5944b6f3.4e6e2358.5944b6f4.53f5f7c6"
   },
+  "requestForm": {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSe9auoV3edcZvt1WLhORhFzlQwLVKefDHvORZ_w6adaXUbyWQ/viewform",
+    "fields": {
+      "brand": "entry.1856616872",
+      "name": "entry.603872920",
+      "note": "entry.1607805184"
+    }
+  },
   "products": [
     {
       "id": "curel-junshin-lotion-1",
