@@ -69,6 +69,7 @@ def main(src: str = "data/products.json", out: str = "_site") -> int:
 
     shutil.copy("site/index.html", site / "index.html")
     shutil.copy("site/privacy.html", site / "privacy.html")  # アプリのプライバシーポリシー（Google Play に登録する URL）
+    shutil.copy("site/google27a80f8474021811.html", site / "google27a80f8474021811.html")
     (site / ".nojekyll").write_text("")
     print(f"built {len(products)} products into {site}/{API_VERSION} (products.json {len(body)} bytes)")
     return 0
