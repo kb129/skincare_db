@@ -1,5 +1,5 @@
 {
-  "note": "未収録ブランドの取得先。tools/fetch_missing.py が上から順に取る。match は商品ページのURLの形（正規表現）。分からないものは null（トップから商品らしいリンクを優先して巡回）。",
+  "note": "未収録ブランドの取得先。tools/fetch_brand_pages.py が上から順に取る。match は商品ページのURLの形（正規表現）。分からないものは null（トップから商品らしいリンクを優先して巡回）。",
   "targets": [
     {
       "key": "muji",

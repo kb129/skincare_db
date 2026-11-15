@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""未収録ブランドの公式サイトから、全成分が載っている商品ページをまとめて取る（日本国内の PC で実行する）。
+"""ブランドの公式サイトから、全成分が載っている商品ページをまとめて取る（日本国内の PC で実行する）。
 
-  python3 tools/fetch_missing.py              # tools/missing_targets.json の全部
-  python3 tools/fetch_missing.py dhc muji     # 指定したものだけ
-  python3 tools/fetch_missing.py --list       # 一覧
+取得先は tools/brand_targets.json（カタログにまだないブランドの一覧）。
+もう一度実行すると、前回取ったページは飛ばして続きから取る。最初から取り直すときは --refresh。
+
+  python3 tools/fetch_brand_pages.py              # tools/brand_targets.json の全部
+  python3 tools/fetch_brand_pages.py dhc muji     # 指定したものだけ
+  python3 tools/fetch_brand_pages.py --list       # 一覧
 
 取得先ごとに dumps/<key>/pages.jsonl（全成分を含むページ）と visited.txt（巡回の記録）を作る。
 終わったら dumps/ を push すれば、取り込み（全成分の転記）はこちらで行う。
@@ -25,9 +28,10 @@ HERE = Path(__file__).resolve().parent
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("keys", nargs="*", help="取得先の key（空なら全部）")
-    ap.add_argument("--targets", default=str(HERE / "missing_targets.json"))
+    ap.add_argument("--targets", default=str(HERE / "brand_targets.json"))
     ap.add_argument("--out", default="dumps")
     ap.add_argument("--list", action="store_true")
+    ap.add_argument("--refresh", action="store_true", help="前回の結果を捨てて、最初から取り直す")
     a = ap.parse_args()
     targets = json.loads(Path(a.targets).read_text(encoding="utf-8"))["targets"]
     if a.list:
@@ -50,6 +54,8 @@ def main() -> int:
             cmd += ["--match", t["match"]]
         if t.get("skip"):
             cmd += ["--skip", t["skip"]]
+        if a.refresh:
+            cmd.append("--refresh")
         started = time.time()
         rc = subprocess.call(cmd)
         pages = out / "pages.jsonl"

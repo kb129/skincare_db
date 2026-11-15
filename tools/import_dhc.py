@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""dumps/dhc/pages.jsonl（tools/fetch_missing.py dhc で取得）から、DHC の製品を data/products.json に取り込む。
+"""dumps/dhc/pages.jsonl（tools/fetch_brand_pages.py dhc で取得）から、DHC の製品を data/products.json に取り込む。
 
   python3 tools/import_dhc.py            # 取り込む
   python3 tools/import_dhc.py --dry-run  # 一覧だけ
