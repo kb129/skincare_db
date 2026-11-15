@@ -91,6 +91,7 @@ def main():
     ap.add_argument("--sitemap", help="サイトマップのURL。auto なら robots.txt と /sitemap.xml から探す")
     ap.add_argument("--match", help="サイトマップのうち、このパターン（正規表現）に合うURLだけ取る。巡回では優先して回る")
     ap.add_argument("--skip", help="巡回しないURLのパターン（正規表現）。例: '/archives/'")
+    ap.add_argument("--refresh", action="store_true", help="前回の結果を捨てて、最初から取り直す（既定は、取得済みのページを飛ばして続きから）")
     ap.add_argument("--stop-after-blocks", type=int, default=5, help="403/429/503 がこの回数続いたら、そのサイトはやめる（自動アクセスの拒否を回避しない）")
     a = ap.parse_args()
     # robots.txt を守る（巡回してよいページか、待ち時間の指定があるか）
@@ -109,16 +110,41 @@ def main():
     host = urllib.parse.urlparse(a.start_url).netloc
     import os
     os.makedirs(a.out_dir, exist_ok=True)
-    out = open(os.path.join(a.out_dir, "pages.jsonl"), "w", encoding="utf-8")
-    log = open(os.path.join(a.out_dir, "visited.txt"), "w", encoding="utf-8")
+    # 前回の記録（visited.txt）を読み、取得済みのページは飛ばす。失敗（ERR）したページは取り直す
+    log_path = os.path.join(a.out_dir, "visited.txt")
+    done, queued, started_from = set(), [], None
+    if not a.refresh and os.path.exists(log_path):
+        for line in open(log_path, encoding="utf-8"):
+            f = line.rstrip("\n").split("\t")
+            if len(f) >= 2 and (f[0].isdigit() or f[0] == "ROBOTS"):
+                done.add(f[1])
+            elif len(f) >= 3 and f[0] == "Q":
+                queued.append((f[1], f[2]))
+            elif len(f) >= 2 and f[0] == "START":
+                started_from = f[1]
+        if started_from != a.start_url:  # 取得先が変わった（または古い形式の記録）→ 続きにできないので最初から
+            print("前回と取得先が違うので、最初から取り直します", file=sys.stderr)
+            done, queued, a.refresh = set(), [], True
+    mode = "w" if a.refresh or not os.path.exists(log_path) else "a"
+    out = open(os.path.join(a.out_dir, "pages.jsonl"), mode, encoding="utf-8")
+    log = open(log_path, mode, encoding="utf-8")
+    if mode == "w":
+        log.write(f"START\t{a.start_url}\n")
     seen, hi, lo, saved, n = {a.start_url}, deque([a.start_url]), deque(), 0, 0
+    if done:  # 続きから: 前回見つけて、まだ取っていないリンクを待ち行列に戻す
+        seen |= done | {u for _, u in queued}
+        hi = deque(u for pr, u in queued if pr == "H" and u not in done)
+        lo = deque(u for pr, u in queued if pr == "L" and u not in done)
+        if a.start_url not in done:
+            hi.appendleft(a.start_url)
+        print(f"前回の続きから: 取得済み {len(done)} ページを飛ばします（最初から取り直すなら --refresh）", file=sys.stderr)
     crawl = True
     if a.sitemap:
         urls = sitemap_urls(a.start_url, a.sitemap, a.delay, log)
         picked = [u for u in urls if not match or match.search(u)]
         print(f"sitemap: {len(urls)} URLs, {len(picked)} match", file=sys.stderr)
         if picked:
-            hi, seen, crawl = deque(picked), set(picked), False  # 商品ページだけ取る（リンクはたどらない）
+            hi, lo, seen, crawl = deque(u for u in picked if u not in done), deque(), set(picked), False  # 商品ページだけ取る（リンクはたどらない）
     blocked = 0
     while (hi or lo) and n < a.max_pages:
         url = hi.popleft() if hi else lo.popleft()
@@ -153,10 +179,14 @@ def main():
             if skip and skip.search(u):
                 continue
             seen.add(u)
-            (hi if (match.search(u) if match else PRIORITY.search(pu.path)) else lo).append(u)
+            first = bool(match.search(u) if match else PRIORITY.search(pu.path))
+            (hi if first else lo).append(u)
+            log.write(f"Q\t{'H' if first else 'L'}\t{u}\n")
         print(f"\r{n} pages visited, {saved} with ingredients", end="", file=sys.stderr)
         time.sleep(a.delay)
-    print(f"\ndone: {n} visited, {saved} saved -> {a.out_dir}/pages.jsonl", file=sys.stderr)
+    if n == 0 and done:
+        print("新しく取るページはありません（すべて取得済み）", file=sys.stderr)
+    print(f"\ndone: 今回 {n} visited, {saved} saved（取得済み {len(done)} は飛ばした） -> {a.out_dir}/pages.jsonl", file=sys.stderr)
 
 
 def sitemap_urls(start_url, sitemap, delay, log):
