@@ -78,6 +78,7 @@ def main(src: str = "data/products.json", out: str = "_site") -> int:
     shutil.copy(
         "site/privacy.html", site / "privacy.html"
     )  # アプリのプライバシーポリシー（Google Play に登録する URL）
+    shutil.copy("site/terms.html", site / "terms.html")  # 利用規約（Google Play に登録する URL）
     shutil.copy(
         "site/google5005a60a5526527f.html", site / "google5005a60a5526527f.html"
     )
